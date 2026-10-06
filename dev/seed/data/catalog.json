@@ -1,19 +1,19 @@
 {
   "labels": {
-    "Vegetables":     { "color": "#4CAF50", "policy": "AUTO",    "stockUpAllowed": false },
-    "Fruit":          { "color": "#FF9800", "policy": "PREDICT", "stockUpAllowed": false },
-    "Fish":           { "color": "#03A9F4", "policy": "AUTO",    "stockUpAllowed": false },
-    "Meat":           { "color": "#E53935", "policy": "AUTO",    "stockUpAllowed": false },
-    "Dairy & eggs":   { "color": "#FFEB3B", "policy": "PREDICT", "stockUpAllowed": false },
-    "Bread":          { "color": "#A1887F", "policy": "PREDICT", "stockUpAllowed": false },
-    "Pasta & grains": { "color": "#FFC107", "policy": "CHECK",   "stockUpAllowed": true },
-    "Canned & jars":  { "color": "#9C27B0", "policy": "CHECK",   "stockUpAllowed": true },
-    "Pantry":         { "color": "#795548", "policy": "CHECK",   "stockUpAllowed": true },
-    "Frozen":         { "color": "#00BCD4", "policy": "CHECK",   "stockUpAllowed": true },
-    "Drinks":         { "color": "#3F51B5", "policy": "PREDICT", "stockUpAllowed": true },
-    "Snacks":         { "color": "#E91E63", "policy": "PREDICT", "stockUpAllowed": true },
-    "Household":      { "color": "#607D8B", "policy": "PREDICT", "stockUpAllowed": true },
-    "Personal care":  { "color": "#9E9E9E", "policy": "PREDICT", "stockUpAllowed": true }
+    "Vegetables":     { "color": "#4CAF50" },
+    "Fruit":          { "color": "#FF9800" },
+    "Fish":           { "color": "#03A9F4" },
+    "Meat":           { "color": "#E53935" },
+    "Dairy & eggs":   { "color": "#FFEB3B" },
+    "Bread":          { "color": "#A1887F" },
+    "Pasta & grains": { "color": "#FFC107" },
+    "Canned & jars":  { "color": "#9C27B0" },
+    "Pantry":         { "color": "#795548" },
+    "Frozen":         { "color": "#00BCD4" },
+    "Drinks":         { "color": "#3F51B5" },
+    "Snacks":         { "color": "#E91E63" },
+    "Household":      { "color": "#607D8B" },
+    "Personal care":  { "color": "#9E9E9E" }
   },
 
   "units": [

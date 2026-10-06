@@ -1,0 +1,182 @@
+{
+  "runId" : "2026-W42",
+  "slots" : [ {
+    "slot" : {
+      "date" : "2026-10-12",
+      "mealType" : "dinner"
+    },
+    "recipeId" : "db782f16-e747-43ee-ae55-5dbd18b41c74",
+    "fixed" : false,
+    "score" : 1.5,
+    "explanation" : [ {
+      "term" : "rating",
+      "value" : 1.0,
+      "reason" : "rated 4/5"
+    }, {
+      "term" : "ingredient reuse",
+      "value" : 0.5,
+      "reason" : "7 ingredients shared with other meals"
+    }, {
+      "term" : "weekly target",
+      "value" : 0.0,
+      "reason" : "counts towards Vegetarian ≥ 2"
+    } ]
+  }, {
+    "slot" : {
+      "date" : "2026-10-13",
+      "mealType" : "dinner"
+    },
+    "recipeId" : "37a43722-e855-43dd-a175-a068340aae30",
+    "fixed" : false,
+    "score" : 1.5,
+    "explanation" : [ {
+      "term" : "rating",
+      "value" : 1.0,
+      "reason" : "rated 4/5"
+    }, {
+      "term" : "ingredient reuse",
+      "value" : 0.5,
+      "reason" : "6 ingredients shared with other meals"
+    }, {
+      "term" : "weekly target",
+      "value" : 0.0,
+      "reason" : "counts towards Fish ≥ 1"
+    } ]
+  }, {
+    "slot" : {
+      "date" : "2026-10-14",
+      "mealType" : "dinner"
+    },
+    "recipeId" : "e67de29b-23ca-40de-9ce3-28170a553e84",
+    "fixed" : false,
+    "score" : 2.5,
+    "explanation" : [ {
+      "term" : "rating",
+      "value" : 2.0,
+      "reason" : "rated 5/5"
+    }, {
+      "term" : "ingredient reuse",
+      "value" : 0.5,
+      "reason" : "6 ingredients shared with other meals"
+    } ]
+  }, {
+    "slot" : {
+      "date" : "2026-10-15",
+      "mealType" : "dinner"
+    },
+    "recipeId" : "db2b4bde-3cb7-4be7-9c7b-437a1f061c2c",
+    "fixed" : false,
+    "score" : 2.39,
+    "explanation" : [ {
+      "term" : "rating",
+      "value" : 2.0,
+      "reason" : "rated 5/5"
+    }, {
+      "term" : "recency",
+      "value" : -0.1071428571428571,
+      "reason" : "last planned 2026-09-14"
+    }, {
+      "term" : "ingredient reuse",
+      "value" : 0.5,
+      "reason" : "7 ingredients shared with other meals"
+    } ]
+  }, {
+    "slot" : {
+      "date" : "2026-10-16",
+      "mealType" : "dinner"
+    },
+    "recipeId" : "52c96a3e-54a8-4935-b29a-1ffd91b66d5d",
+    "fixed" : false,
+    "score" : 2.29,
+    "explanation" : [ {
+      "term" : "rating",
+      "value" : 2.0,
+      "reason" : "rated 5/5"
+    }, {
+      "term" : "recency",
+      "value" : -0.2142857142857142,
+      "reason" : "last planned 2026-09-15"
+    }, {
+      "term" : "ingredient reuse",
+      "value" : 0.5,
+      "reason" : "5 ingredients shared with other meals"
+    }, {
+      "term" : "weekly target",
+      "value" : 0.0,
+      "reason" : "counts towards Fish ≥ 1"
+    } ]
+  }, {
+    "slot" : {
+      "date" : "2026-10-17",
+      "mealType" : "dinner"
+    },
+    "recipeId" : "98fdb4d1-2b00-486e-8a51-53d1a3355add",
+    "fixed" : false,
+    "score" : 2.4,
+    "explanation" : [ {
+      "term" : "rating",
+      "value" : 2.0,
+      "reason" : "rated 5/5"
+    }, {
+      "term" : "ingredient reuse",
+      "value" : 0.4,
+      "reason" : "4 ingredients shared with other meals"
+    } ]
+  }, {
+    "slot" : {
+      "date" : "2026-10-18",
+      "mealType" : "dinner"
+    },
+    "recipeId" : "d67d42be-40f9-4735-9f3a-da1e96b19787",
+    "fixed" : false,
+    "score" : 2.5,
+    "explanation" : [ {
+      "term" : "rating",
+      "value" : 2.0,
+      "reason" : "rated 5/5"
+    }, {
+      "term" : "ingredient reuse",
+      "value" : 0.5,
+      "reason" : "6 ingredients shared with other meals"
+    }, {
+      "term" : "weekly target",
+      "value" : 0.0,
+      "reason" : "counts towards Vegetarian ≥ 2"
+    } ]
+  } ],
+  "totalScore" : 15.28,
+  "weekTerms" : [ ],
+  "problems" : [ {
+    "type" : "RECIPE_CLASSIFICATION_REQUIRED",
+    "subject" : "Black Bean Tacos",
+    "message" : "Black Bean Tacos has several protein / meal-type tags: Vegetarian, Legumes"
+  }, {
+    "type" : "RECIPE_CLASSIFICATION_REQUIRED",
+    "subject" : "Chili con Carne",
+    "message" : "Chili con Carne has several protein / meal-type tags: Red meat, Legumes"
+  }, {
+    "type" : "RECIPE_CLASSIFICATION_REQUIRED",
+    "subject" : "Red Lentil Dal",
+    "message" : "Red Lentil Dal has several protein / meal-type tags: Vegetarian, Legumes"
+  }, {
+    "type" : "RECIPE_CLASSIFICATION_REQUIRED",
+    "subject" : "Homemade Beef Burgers",
+    "message" : "Homemade Beef Burgers has several carbohydrate tags: Potatoes, Bread"
+  }, {
+    "type" : "RECIPE_CLASSIFICATION_REQUIRED",
+    "subject" : "Chickpea and Spinach Curry",
+    "message" : "Chickpea and Spinach Curry has several protein / meal-type tags: Vegetarian, Legumes"
+  }, {
+    "type" : "RECIPE_CLASSIFICATION_REQUIRED",
+    "subject" : "Moroccan Chicken with Couscous",
+    "message" : "Moroccan Chicken with Couscous has several protein / meal-type tags: Poultry, Legumes"
+  }, {
+    "type" : "RECIPE_CLASSIFICATION_REQUIRED",
+    "subject" : "Sweet Potato and Lentil Curry",
+    "message" : "Sweet Potato and Lentil Curry has several protein / meal-type tags: Vegetarian, Legumes"
+  }, {
+    "type" : "RECIPE_CLASSIFICATION_REQUIRED",
+    "subject" : "Minestrone",
+    "message" : "Minestrone has several protein / meal-type tags: Vegetarian, Legumes"
+  } ]
+}

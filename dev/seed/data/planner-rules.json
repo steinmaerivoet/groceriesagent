@@ -1,0 +1,12 @@
+{
+  "_comment": "Starter planner rules (spec §3.4.4). Mealie's rule editor stores ids, so filters name tags and categories as {tag:Name} / {category:Name}; the seeder swaps in the ids. day and entryType use Mealie's values, 'unset' means any.",
+  "rules": [
+    { "day": "unset",     "entryType": "dinner", "filter": "recipe_category.id IN [\"{category:Dinner}\"]" },
+    { "day": "monday",    "entryType": "dinner", "filter": "tags.id IN [\"{tag:Pasta}\"]" },
+    { "day": "monday",    "entryType": "dinner", "filter": "tags.id NOT IN [\"{tag:Weekend}\"]" },
+    { "day": "tuesday",   "entryType": "dinner", "filter": "tags.id NOT IN [\"{tag:Weekend}\"]" },
+    { "day": "wednesday", "entryType": "dinner", "filter": "tags.id NOT IN [\"{tag:Weekend}\"]" },
+    { "day": "thursday",  "entryType": "dinner", "filter": "tags.id NOT IN [\"{tag:Weekend}\"]" },
+    { "day": "friday",    "entryType": "dinner", "filter": "tags.id IN [\"{tag:Quick}\"]" }
+  ]
+}

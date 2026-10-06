@@ -1,0 +1,768 @@
+{
+  "runId" : "2026-W42",
+  "weekStart" : "2026-10-12",
+  "weekEnd" : "2026-10-18",
+  "capturedAt" : "2026-10-06T17:38:19.247753889Z",
+  "pools" : [ {
+    "slot" : {
+      "date" : "2026-10-12",
+      "mealType" : "dinner"
+    },
+    "ruleIds" : [ "c54d4006-c6ec-4d98-80b4-b177f33e9e6e", "acf29fe2-eff7-49e7-93f2-ac3cade1fe67", "ac2d7e85-d4ad-49f3-a89a-76543028785f" ],
+    "queryFilter" : "(tags.id NOT IN [\"d20ec96b-c897-49dd-bb6b-1a488a7a8ee6\"]) AND (tags.id IN [\"e9139f91-942a-48ce-8814-e3bf4518dbd7\"]) AND (recipe_category.id IN [\"0cbb0912-9cea-4228-a113-7954dcc1dfc3\"])",
+    "recipeIds" : [ "4eee8819-69f2-4b6b-b22e-5469ec2a3853", "662fad4b-666d-4617-a18d-2cf556b1d9a1", "7160fb9b-1616-4477-bc34-d5a7ad324b2c", "7ef7fb4e-b437-4afb-a5aa-79bb87f259f2", "9bdb3504-cf97-47cb-a89b-fa20f4953a35", "d6173b57-9db7-485a-beae-722ff9264ea6", "db2b4bde-3cb7-4be7-9c7b-437a1f061c2c", "db782f16-e747-43ee-ae55-5dbd18b41c74", "e17d4e1d-f0e0-4fb3-82c7-3dd59b52d336", "e2855d23-5857-4d01-b2dc-a124a90c21e0", "e391d895-2fa8-42ef-af34-b856645651a7", "f67cdddd-3841-4984-8664-cb4374c5e19e" ]
+  }, {
+    "slot" : {
+      "date" : "2026-10-13",
+      "mealType" : "dinner"
+    },
+    "ruleIds" : [ "1482c1aa-3cba-46b9-8f57-42d0dcfc8813", "ac2d7e85-d4ad-49f3-a89a-76543028785f" ],
+    "queryFilter" : "(tags.id NOT IN [\"d20ec96b-c897-49dd-bb6b-1a488a7a8ee6\"]) AND (recipe_category.id IN [\"0cbb0912-9cea-4228-a113-7954dcc1dfc3\"])",
+    "recipeIds" : [ "12310aef-7435-4661-b96c-a23e5176937c", "1f6ed655-7130-4cfa-afac-cf5d8869480b", "1fffe316-70e1-4bd1-b9f5-7834157d6300", "20ba89d1-f977-4c74-aa76-95387cc48d76", "2bb95be4-b830-40d9-a8ea-5c57a537e63a", "32e93020-2c50-4794-876d-f69a43c9f17d", "37a43722-e855-43dd-a175-a068340aae30", "3a08b367-5142-4197-8d4c-2b8f4ee9ad73", "3f40ca96-4759-4215-b4d8-3a9d018e3559", "3f7cfad0-7c07-4257-8ccb-1c19414cff18", "4ed580cf-9401-43e6-a408-f3c6fd95d6e5", "4eee8819-69f2-4b6b-b22e-5469ec2a3853", "51bc3854-fffc-4f8e-bfd9-765fd51bb667", "52c96a3e-54a8-4935-b29a-1ffd91b66d5d", "60ef1503-8274-4430-b58c-df6e0d3907d8", "61c551de-15e1-4f70-b9a9-81d7893c11e4", "662fad4b-666d-4617-a18d-2cf556b1d9a1", "67a79cc2-5ac9-4ce9-aece-4011284fd6fa", "7160fb9b-1616-4477-bc34-d5a7ad324b2c", "79d62787-d3dc-40bd-ad08-3e0b5a8b70c0", "7ef7fb4e-b437-4afb-a5aa-79bb87f259f2", "8c4284a1-0b59-43bc-beca-d7b6b8834c1c", "98fdb4d1-2b00-486e-8a51-53d1a3355add", "9ab1e0a4-c24d-4761-bed6-592ec36e1f04", "9bdb3504-cf97-47cb-a89b-fa20f4953a35", "9e9d2cc5-d89e-499f-baf8-9cdb5487db00", "9ea71e38-2cbf-44a3-a385-98bef8654404", "a4a386e5-f17b-43be-90d7-a571c942499f", "ad2c8a4b-d073-41fa-968d-edbcde98a929", "b17d30b9-3798-4221-bce1-e929a8448200", "b527a79d-bfef-49fd-a5d1-1d65079721ae", "cbef4863-7b40-45f4-b77f-4d870ce3fc05", "cd741aa7-b855-4d6b-a10c-1a60b8e393d9", "d13748a7-ae57-48fb-b848-bd8cad0e9517", "d446805d-af6c-4c43-b6b8-8194e08fdbed", "d6173b57-9db7-485a-beae-722ff9264ea6", "d67d42be-40f9-4735-9f3a-da1e96b19787", "db2b4bde-3cb7-4be7-9c7b-437a1f061c2c", "db782f16-e747-43ee-ae55-5dbd18b41c74", "ddb7da6a-abc7-4977-a520-67fc6146225e", "e03b9cb2-7285-474e-bcab-b75df4d109ba", "e17d4e1d-f0e0-4fb3-82c7-3dd59b52d336", "e1face47-7547-49a6-b8fa-597e94e409ab", "e2855d23-5857-4d01-b2dc-a124a90c21e0", "e391d895-2fa8-42ef-af34-b856645651a7", "e4ef58ee-b9c9-4c7e-a020-a24adcfcaa0e", "e67de29b-23ca-40de-9ce3-28170a553e84", "f1cdf1bf-7966-4429-903f-5c2cf3093bf8", "f67cdddd-3841-4984-8664-cb4374c5e19e", "f7a53bc0-910c-4fed-9878-c4b100887bec" ]
+  }, {
+    "slot" : {
+      "date" : "2026-10-14",
+      "mealType" : "dinner"
+    },
+    "ruleIds" : [ "22aadb9a-9ce3-4104-a771-80e7ae970247", "ac2d7e85-d4ad-49f3-a89a-76543028785f" ],
+    "queryFilter" : "(tags.id NOT IN [\"d20ec96b-c897-49dd-bb6b-1a488a7a8ee6\"]) AND (recipe_category.id IN [\"0cbb0912-9cea-4228-a113-7954dcc1dfc3\"])",
+    "recipeIds" : [ "12310aef-7435-4661-b96c-a23e5176937c", "1f6ed655-7130-4cfa-afac-cf5d8869480b", "1fffe316-70e1-4bd1-b9f5-7834157d6300", "20ba89d1-f977-4c74-aa76-95387cc48d76", "2bb95be4-b830-40d9-a8ea-5c57a537e63a", "32e93020-2c50-4794-876d-f69a43c9f17d", "37a43722-e855-43dd-a175-a068340aae30", "3a08b367-5142-4197-8d4c-2b8f4ee9ad73", "3f40ca96-4759-4215-b4d8-3a9d018e3559", "3f7cfad0-7c07-4257-8ccb-1c19414cff18", "4ed580cf-9401-43e6-a408-f3c6fd95d6e5", "4eee8819-69f2-4b6b-b22e-5469ec2a3853", "51bc3854-fffc-4f8e-bfd9-765fd51bb667", "52c96a3e-54a8-4935-b29a-1ffd91b66d5d", "60ef1503-8274-4430-b58c-df6e0d3907d8", "61c551de-15e1-4f70-b9a9-81d7893c11e4", "662fad4b-666d-4617-a18d-2cf556b1d9a1", "67a79cc2-5ac9-4ce9-aece-4011284fd6fa", "7160fb9b-1616-4477-bc34-d5a7ad324b2c", "79d62787-d3dc-40bd-ad08-3e0b5a8b70c0", "7ef7fb4e-b437-4afb-a5aa-79bb87f259f2", "8c4284a1-0b59-43bc-beca-d7b6b8834c1c", "98fdb4d1-2b00-486e-8a51-53d1a3355add", "9ab1e0a4-c24d-4761-bed6-592ec36e1f04", "9bdb3504-cf97-47cb-a89b-fa20f4953a35", "9e9d2cc5-d89e-499f-baf8-9cdb5487db00", "9ea71e38-2cbf-44a3-a385-98bef8654404", "a4a386e5-f17b-43be-90d7-a571c942499f", "ad2c8a4b-d073-41fa-968d-edbcde98a929", "b17d30b9-3798-4221-bce1-e929a8448200", "b527a79d-bfef-49fd-a5d1-1d65079721ae", "cbef4863-7b40-45f4-b77f-4d870ce3fc05", "cd741aa7-b855-4d6b-a10c-1a60b8e393d9", "d13748a7-ae57-48fb-b848-bd8cad0e9517", "d446805d-af6c-4c43-b6b8-8194e08fdbed", "d6173b57-9db7-485a-beae-722ff9264ea6", "d67d42be-40f9-4735-9f3a-da1e96b19787", "db2b4bde-3cb7-4be7-9c7b-437a1f061c2c", "db782f16-e747-43ee-ae55-5dbd18b41c74", "ddb7da6a-abc7-4977-a520-67fc6146225e", "e03b9cb2-7285-474e-bcab-b75df4d109ba", "e17d4e1d-f0e0-4fb3-82c7-3dd59b52d336", "e1face47-7547-49a6-b8fa-597e94e409ab", "e2855d23-5857-4d01-b2dc-a124a90c21e0", "e391d895-2fa8-42ef-af34-b856645651a7", "e4ef58ee-b9c9-4c7e-a020-a24adcfcaa0e", "e67de29b-23ca-40de-9ce3-28170a553e84", "f1cdf1bf-7966-4429-903f-5c2cf3093bf8", "f67cdddd-3841-4984-8664-cb4374c5e19e", "f7a53bc0-910c-4fed-9878-c4b100887bec" ]
+  }, {
+    "slot" : {
+      "date" : "2026-10-15",
+      "mealType" : "dinner"
+    },
+    "ruleIds" : [ "ced0811c-7b06-4a8e-9433-4c8d3237d8c8", "ac2d7e85-d4ad-49f3-a89a-76543028785f" ],
+    "queryFilter" : "(tags.id NOT IN [\"d20ec96b-c897-49dd-bb6b-1a488a7a8ee6\"]) AND (recipe_category.id IN [\"0cbb0912-9cea-4228-a113-7954dcc1dfc3\"])",
+    "recipeIds" : [ "12310aef-7435-4661-b96c-a23e5176937c", "1f6ed655-7130-4cfa-afac-cf5d8869480b", "1fffe316-70e1-4bd1-b9f5-7834157d6300", "20ba89d1-f977-4c74-aa76-95387cc48d76", "2bb95be4-b830-40d9-a8ea-5c57a537e63a", "32e93020-2c50-4794-876d-f69a43c9f17d", "37a43722-e855-43dd-a175-a068340aae30", "3a08b367-5142-4197-8d4c-2b8f4ee9ad73", "3f40ca96-4759-4215-b4d8-3a9d018e3559", "3f7cfad0-7c07-4257-8ccb-1c19414cff18", "4ed580cf-9401-43e6-a408-f3c6fd95d6e5", "4eee8819-69f2-4b6b-b22e-5469ec2a3853", "51bc3854-fffc-4f8e-bfd9-765fd51bb667", "52c96a3e-54a8-4935-b29a-1ffd91b66d5d", "60ef1503-8274-4430-b58c-df6e0d3907d8", "61c551de-15e1-4f70-b9a9-81d7893c11e4", "662fad4b-666d-4617-a18d-2cf556b1d9a1", "67a79cc2-5ac9-4ce9-aece-4011284fd6fa", "7160fb9b-1616-4477-bc34-d5a7ad324b2c", "79d62787-d3dc-40bd-ad08-3e0b5a8b70c0", "7ef7fb4e-b437-4afb-a5aa-79bb87f259f2", "8c4284a1-0b59-43bc-beca-d7b6b8834c1c", "98fdb4d1-2b00-486e-8a51-53d1a3355add", "9ab1e0a4-c24d-4761-bed6-592ec36e1f04", "9bdb3504-cf97-47cb-a89b-fa20f4953a35", "9e9d2cc5-d89e-499f-baf8-9cdb5487db00", "9ea71e38-2cbf-44a3-a385-98bef8654404", "a4a386e5-f17b-43be-90d7-a571c942499f", "ad2c8a4b-d073-41fa-968d-edbcde98a929", "b17d30b9-3798-4221-bce1-e929a8448200", "b527a79d-bfef-49fd-a5d1-1d65079721ae", "cbef4863-7b40-45f4-b77f-4d870ce3fc05", "cd741aa7-b855-4d6b-a10c-1a60b8e393d9", "d13748a7-ae57-48fb-b848-bd8cad0e9517", "d446805d-af6c-4c43-b6b8-8194e08fdbed", "d6173b57-9db7-485a-beae-722ff9264ea6", "d67d42be-40f9-4735-9f3a-da1e96b19787", "db2b4bde-3cb7-4be7-9c7b-437a1f061c2c", "db782f16-e747-43ee-ae55-5dbd18b41c74", "ddb7da6a-abc7-4977-a520-67fc6146225e", "e03b9cb2-7285-474e-bcab-b75df4d109ba", "e17d4e1d-f0e0-4fb3-82c7-3dd59b52d336", "e1face47-7547-49a6-b8fa-597e94e409ab", "e2855d23-5857-4d01-b2dc-a124a90c21e0", "e391d895-2fa8-42ef-af34-b856645651a7", "e4ef58ee-b9c9-4c7e-a020-a24adcfcaa0e", "e67de29b-23ca-40de-9ce3-28170a553e84", "f1cdf1bf-7966-4429-903f-5c2cf3093bf8", "f67cdddd-3841-4984-8664-cb4374c5e19e", "f7a53bc0-910c-4fed-9878-c4b100887bec" ]
+  }, {
+    "slot" : {
+      "date" : "2026-10-16",
+      "mealType" : "dinner"
+    },
+    "ruleIds" : [ "4593c8ae-17bf-4e02-be0f-e66b1d72a790", "ac2d7e85-d4ad-49f3-a89a-76543028785f" ],
+    "queryFilter" : "(tags.id IN [\"0019b75f-e036-4251-a231-14ed0013b830\"]) AND (recipe_category.id IN [\"0cbb0912-9cea-4228-a113-7954dcc1dfc3\"])",
+    "recipeIds" : [ "20ba89d1-f977-4c74-aa76-95387cc48d76", "2bb95be4-b830-40d9-a8ea-5c57a537e63a", "32e93020-2c50-4794-876d-f69a43c9f17d", "35b9ec8e-d03d-4991-8398-2fc55d140219", "37a43722-e855-43dd-a175-a068340aae30", "3a08b367-5142-4197-8d4c-2b8f4ee9ad73", "3f40ca96-4759-4215-b4d8-3a9d018e3559", "3f7cfad0-7c07-4257-8ccb-1c19414cff18", "4ed580cf-9401-43e6-a408-f3c6fd95d6e5", "4eee8819-69f2-4b6b-b22e-5469ec2a3853", "51bc3854-fffc-4f8e-bfd9-765fd51bb667", "52c96a3e-54a8-4935-b29a-1ffd91b66d5d", "60ef1503-8274-4430-b58c-df6e0d3907d8", "61c551de-15e1-4f70-b9a9-81d7893c11e4", "662fad4b-666d-4617-a18d-2cf556b1d9a1", "7160fb9b-1616-4477-bc34-d5a7ad324b2c", "7ef7fb4e-b437-4afb-a5aa-79bb87f259f2", "9e9d2cc5-d89e-499f-baf8-9cdb5487db00", "9ea71e38-2cbf-44a3-a385-98bef8654404", "a4a386e5-f17b-43be-90d7-a571c942499f", "b17d30b9-3798-4221-bce1-e929a8448200", "d13748a7-ae57-48fb-b848-bd8cad0e9517", "d6173b57-9db7-485a-beae-722ff9264ea6", "ddb7da6a-abc7-4977-a520-67fc6146225e", "e2855d23-5857-4d01-b2dc-a124a90c21e0", "f1cdf1bf-7966-4429-903f-5c2cf3093bf8" ]
+  }, {
+    "slot" : {
+      "date" : "2026-10-17",
+      "mealType" : "dinner"
+    },
+    "ruleIds" : [ "ac2d7e85-d4ad-49f3-a89a-76543028785f" ],
+    "queryFilter" : "(recipe_category.id IN [\"0cbb0912-9cea-4228-a113-7954dcc1dfc3\"])",
+    "recipeIds" : [ "0a02863c-365d-46a2-8e1c-b6fe4ef5d4b7", "0cc6b2d7-176c-4a2a-842f-f0f9844da4ec", "12310aef-7435-4661-b96c-a23e5176937c", "1f6ed655-7130-4cfa-afac-cf5d8869480b", "1fffe316-70e1-4bd1-b9f5-7834157d6300", "20ba89d1-f977-4c74-aa76-95387cc48d76", "29ba7cea-278e-4375-99cd-207c6a5d7784", "2bb95be4-b830-40d9-a8ea-5c57a537e63a", "32e93020-2c50-4794-876d-f69a43c9f17d", "35b9ec8e-d03d-4991-8398-2fc55d140219", "37a43722-e855-43dd-a175-a068340aae30", "3a08b367-5142-4197-8d4c-2b8f4ee9ad73", "3f40ca96-4759-4215-b4d8-3a9d018e3559", "3f7cfad0-7c07-4257-8ccb-1c19414cff18", "4ed580cf-9401-43e6-a408-f3c6fd95d6e5", "4eee8819-69f2-4b6b-b22e-5469ec2a3853", "51bc3854-fffc-4f8e-bfd9-765fd51bb667", "52c96a3e-54a8-4935-b29a-1ffd91b66d5d", "60ef1503-8274-4430-b58c-df6e0d3907d8", "61c551de-15e1-4f70-b9a9-81d7893c11e4", "662fad4b-666d-4617-a18d-2cf556b1d9a1", "67a79cc2-5ac9-4ce9-aece-4011284fd6fa", "6c8e026e-96e9-4258-83c0-e697cbd64120", "6f772f05-51b0-49cf-a987-42b24a0867bc", "7160fb9b-1616-4477-bc34-d5a7ad324b2c", "79d62787-d3dc-40bd-ad08-3e0b5a8b70c0", "7ef7fb4e-b437-4afb-a5aa-79bb87f259f2", "8c4284a1-0b59-43bc-beca-d7b6b8834c1c", "92ac72af-0c0d-49dd-8313-7ebdb97c0b65", "98fdb4d1-2b00-486e-8a51-53d1a3355add", "9ab1e0a4-c24d-4761-bed6-592ec36e1f04", "9bdb3504-cf97-47cb-a89b-fa20f4953a35", "9e9d2cc5-d89e-499f-baf8-9cdb5487db00", "9ea71e38-2cbf-44a3-a385-98bef8654404", "a2bee395-af86-4126-b4e3-2288bd8d3810", "a4a386e5-f17b-43be-90d7-a571c942499f", "a6caa6c6-8f0c-41a2-9a0e-5060dbee22b3", "ad2c8a4b-d073-41fa-968d-edbcde98a929", "b0c29644-720e-436d-847f-5a1fbcb221ac", "b17d30b9-3798-4221-bce1-e929a8448200", "b527a79d-bfef-49fd-a5d1-1d65079721ae", "cbef4863-7b40-45f4-b77f-4d870ce3fc05", "cd741aa7-b855-4d6b-a10c-1a60b8e393d9", "cf5d403f-0129-4d9f-8fed-ccb18ce847d7", "d13748a7-ae57-48fb-b848-bd8cad0e9517", "d181a2b6-b359-4b8b-a377-ce2510e87701", "d446805d-af6c-4c43-b6b8-8194e08fdbed", "d6173b57-9db7-485a-beae-722ff9264ea6", "d67d42be-40f9-4735-9f3a-da1e96b19787", "db2b4bde-3cb7-4be7-9c7b-437a1f061c2c", "db782f16-e747-43ee-ae55-5dbd18b41c74", "ddb7da6a-abc7-4977-a520-67fc6146225e", "e03b9cb2-7285-474e-bcab-b75df4d109ba", "e17d4e1d-f0e0-4fb3-82c7-3dd59b52d336", "e1face47-7547-49a6-b8fa-597e94e409ab", "e2855d23-5857-4d01-b2dc-a124a90c21e0", "e391d895-2fa8-42ef-af34-b856645651a7", "e4ef58ee-b9c9-4c7e-a020-a24adcfcaa0e", "e67de29b-23ca-40de-9ce3-28170a553e84", "f1cdf1bf-7966-4429-903f-5c2cf3093bf8", "f3c65441-193d-4d38-932a-f226319f3cef", "f67cdddd-3841-4984-8664-cb4374c5e19e", "f7a53bc0-910c-4fed-9878-c4b100887bec", "f7e8e7d6-7175-4ef2-a389-109c8552e0db" ]
+  }, {
+    "slot" : {
+      "date" : "2026-10-18",
+      "mealType" : "dinner"
+    },
+    "ruleIds" : [ "ac2d7e85-d4ad-49f3-a89a-76543028785f" ],
+    "queryFilter" : "(recipe_category.id IN [\"0cbb0912-9cea-4228-a113-7954dcc1dfc3\"])",
+    "recipeIds" : [ "0a02863c-365d-46a2-8e1c-b6fe4ef5d4b7", "0cc6b2d7-176c-4a2a-842f-f0f9844da4ec", "12310aef-7435-4661-b96c-a23e5176937c", "1f6ed655-7130-4cfa-afac-cf5d8869480b", "1fffe316-70e1-4bd1-b9f5-7834157d6300", "20ba89d1-f977-4c74-aa76-95387cc48d76", "29ba7cea-278e-4375-99cd-207c6a5d7784", "2bb95be4-b830-40d9-a8ea-5c57a537e63a", "32e93020-2c50-4794-876d-f69a43c9f17d", "35b9ec8e-d03d-4991-8398-2fc55d140219", "37a43722-e855-43dd-a175-a068340aae30", "3a08b367-5142-4197-8d4c-2b8f4ee9ad73", "3f40ca96-4759-4215-b4d8-3a9d018e3559", "3f7cfad0-7c07-4257-8ccb-1c19414cff18", "4ed580cf-9401-43e6-a408-f3c6fd95d6e5", "4eee8819-69f2-4b6b-b22e-5469ec2a3853", "51bc3854-fffc-4f8e-bfd9-765fd51bb667", "52c96a3e-54a8-4935-b29a-1ffd91b66d5d", "60ef1503-8274-4430-b58c-df6e0d3907d8", "61c551de-15e1-4f70-b9a9-81d7893c11e4", "662fad4b-666d-4617-a18d-2cf556b1d9a1", "67a79cc2-5ac9-4ce9-aece-4011284fd6fa", "6c8e026e-96e9-4258-83c0-e697cbd64120", "6f772f05-51b0-49cf-a987-42b24a0867bc", "7160fb9b-1616-4477-bc34-d5a7ad324b2c", "79d62787-d3dc-40bd-ad08-3e0b5a8b70c0", "7ef7fb4e-b437-4afb-a5aa-79bb87f259f2", "8c4284a1-0b59-43bc-beca-d7b6b8834c1c", "92ac72af-0c0d-49dd-8313-7ebdb97c0b65", "98fdb4d1-2b00-486e-8a51-53d1a3355add", "9ab1e0a4-c24d-4761-bed6-592ec36e1f04", "9bdb3504-cf97-47cb-a89b-fa20f4953a35", "9e9d2cc5-d89e-499f-baf8-9cdb5487db00", "9ea71e38-2cbf-44a3-a385-98bef8654404", "a2bee395-af86-4126-b4e3-2288bd8d3810", "a4a386e5-f17b-43be-90d7-a571c942499f", "a6caa6c6-8f0c-41a2-9a0e-5060dbee22b3", "ad2c8a4b-d073-41fa-968d-edbcde98a929", "b0c29644-720e-436d-847f-5a1fbcb221ac", "b17d30b9-3798-4221-bce1-e929a8448200", "b527a79d-bfef-49fd-a5d1-1d65079721ae", "cbef4863-7b40-45f4-b77f-4d870ce3fc05", "cd741aa7-b855-4d6b-a10c-1a60b8e393d9", "cf5d403f-0129-4d9f-8fed-ccb18ce847d7", "d13748a7-ae57-48fb-b848-bd8cad0e9517", "d181a2b6-b359-4b8b-a377-ce2510e87701", "d446805d-af6c-4c43-b6b8-8194e08fdbed", "d6173b57-9db7-485a-beae-722ff9264ea6", "d67d42be-40f9-4735-9f3a-da1e96b19787", "db2b4bde-3cb7-4be7-9c7b-437a1f061c2c", "db782f16-e747-43ee-ae55-5dbd18b41c74", "ddb7da6a-abc7-4977-a520-67fc6146225e", "e03b9cb2-7285-474e-bcab-b75df4d109ba", "e17d4e1d-f0e0-4fb3-82c7-3dd59b52d336", "e1face47-7547-49a6-b8fa-597e94e409ab", "e2855d23-5857-4d01-b2dc-a124a90c21e0", "e391d895-2fa8-42ef-af34-b856645651a7", "e4ef58ee-b9c9-4c7e-a020-a24adcfcaa0e", "e67de29b-23ca-40de-9ce3-28170a553e84", "f1cdf1bf-7966-4429-903f-5c2cf3093bf8", "f3c65441-193d-4d38-932a-f226319f3cef", "f67cdddd-3841-4984-8664-cb4374c5e19e", "f7a53bc0-910c-4fed-9878-c4b100887bec", "f7e8e7d6-7175-4ef2-a389-109c8552e0db" ]
+  } ],
+  "fixedEntries" : [ ],
+  "history" : [ {
+    "id" : 21,
+    "date" : "2026-10-04",
+    "mealType" : "dinner",
+    "recipeId" : "e1face47-7547-49a6-b8fa-597e94e409ab",
+    "title" : "Sweet Potato and Lentil Curry"
+  }, {
+    "id" : 20,
+    "date" : "2026-10-03",
+    "mealType" : "dinner",
+    "recipeId" : "f7e8e7d6-7175-4ef2-a389-109c8552e0db",
+    "title" : "Vol-au-Vent"
+  }, {
+    "id" : 19,
+    "date" : "2026-10-02",
+    "mealType" : "dinner",
+    "recipeId" : "35b9ec8e-d03d-4991-8398-2fc55d140219",
+    "title" : "Shakshuka"
+  }, {
+    "id" : 18,
+    "date" : "2026-10-01",
+    "mealType" : "dinner",
+    "recipeId" : "b527a79d-bfef-49fd-a5d1-1d65079721ae",
+    "title" : "Meatballs in Tomato Sauce"
+  }, {
+    "id" : 17,
+    "date" : "2026-09-30",
+    "mealType" : "dinner",
+    "recipeId" : "e4ef58ee-b9c9-4c7e-a020-a24adcfcaa0e",
+    "title" : "Cod with Mustard Sauce and Mash"
+  }, {
+    "id" : 16,
+    "date" : "2026-09-29",
+    "mealType" : "dinner",
+    "recipeId" : "f7a53bc0-910c-4fed-9878-c4b100887bec",
+    "title" : "Mushroom Risotto"
+  }, {
+    "id" : 15,
+    "date" : "2026-09-28",
+    "mealType" : "dinner",
+    "recipeId" : "d6173b57-9db7-485a-beae-722ff9264ea6",
+    "title" : "Spaghetti Carbonara"
+  }, {
+    "id" : 14,
+    "date" : "2026-09-27",
+    "mealType" : "dinner",
+    "recipeId" : "92ac72af-0c0d-49dd-8313-7ebdb97c0b65",
+    "title" : "Lasagne"
+  }, {
+    "id" : 13,
+    "date" : "2026-09-26",
+    "mealType" : "dinner",
+    "recipeId" : "6c8e026e-96e9-4258-83c0-e697cbd64120",
+    "title" : "Ghent Chicken Waterzooi"
+  }, {
+    "id" : 12,
+    "date" : "2026-09-25",
+    "mealType" : "dinner",
+    "recipeId" : "b17d30b9-3798-4221-bce1-e929a8448200",
+    "title" : "Spinach Stoemp with Fried Eggs"
+  }, {
+    "id" : 11,
+    "date" : "2026-09-24",
+    "mealType" : "dinner",
+    "recipeId" : "d13748a7-ae57-48fb-b848-bd8cad0e9517",
+    "title" : "Chickpea and Spinach Curry"
+  }, {
+    "id" : 10,
+    "date" : "2026-09-23",
+    "mealType" : "dinner",
+    "recipeId" : "12310aef-7435-4661-b96c-a23e5176937c",
+    "title" : "Baked Salmon with Lemon Potatoes"
+  }, {
+    "id" : 9,
+    "date" : "2026-09-22",
+    "mealType" : "dinner",
+    "recipeId" : "61c551de-15e1-4f70-b9a9-81d7893c11e4",
+    "title" : "Thai Red Chicken Curry"
+  }, {
+    "id" : 8,
+    "date" : "2026-09-21",
+    "mealType" : "dinner",
+    "recipeId" : "7ef7fb4e-b437-4afb-a5aa-79bb87f259f2",
+    "title" : "Pasta Pesto with Green Beans and Potato"
+  }, {
+    "id" : 7,
+    "date" : "2026-09-20",
+    "mealType" : "dinner",
+    "recipeId" : "d181a2b6-b359-4b8b-a377-ce2510e87701",
+    "title" : "Roast Chicken with Root Vegetables"
+  }, {
+    "id" : 6,
+    "date" : "2026-09-19",
+    "mealType" : "dinner",
+    "recipeId" : "f3c65441-193d-4d38-932a-f226319f3cef",
+    "title" : "Flemish Beef Stew (Stoofvlees)"
+  }, {
+    "id" : 5,
+    "date" : "2026-09-18",
+    "mealType" : "dinner",
+    "recipeId" : "f1cdf1bf-7966-4429-903f-5c2cf3093bf8",
+    "title" : "Chicken Fajitas"
+  }, {
+    "id" : 4,
+    "date" : "2026-09-17",
+    "mealType" : "dinner",
+    "recipeId" : "32e93020-2c50-4794-876d-f69a43c9f17d",
+    "title" : "Carrot Stoemp with Sausages"
+  }, {
+    "id" : 3,
+    "date" : "2026-09-16",
+    "mealType" : "dinner",
+    "recipeId" : "8c4284a1-0b59-43bc-beca-d7b6b8834c1c",
+    "title" : "Red Lentil Dal"
+  }, {
+    "id" : 2,
+    "date" : "2026-09-15",
+    "mealType" : "dinner",
+    "recipeId" : "52c96a3e-54a8-4935-b29a-1ffd91b66d5d",
+    "title" : "Moules-Frites"
+  }, {
+    "id" : 1,
+    "date" : "2026-09-14",
+    "mealType" : "dinner",
+    "recipeId" : "db2b4bde-3cb7-4be7-9c7b-437a1f061c2c",
+    "title" : "Spaghetti Bolognese"
+  } ],
+  "recipes" : [ {
+    "id" : "0a02863c-365d-46a2-8e1c-b6fe4ef5d4b7",
+    "slug" : "chicken-and-leek-pie",
+    "name" : "Chicken and Leek Pie",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Poultry", "Weekend", "Freezer-friendly", "Comfort food" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "a7deb927-da67-45e0-86c5-5be5ed6e7ea1", "571f3d3f-f71c-4ccf-bf7f-604701e0939f", "95ec326a-2a9e-4a29-80ee-52384601a53d", "0b395741-9a65-4110-98db-fd54a3533234", "f23c6d4b-a120-4b9d-9ef0-89e28fec43e0", "65504718-08e2-4736-bcdc-c5727e99b76a", "369c9ca6-3916-48f9-8c17-7ce514d73f7d", "3ddfa0e3-5a83-4fb9-8298-b3893dca5bed", "4b9f848c-11b8-4505-8eb0-3716bac93657", "541deca8-7736-4b6b-992a-fca8aa9c57b6", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "0cc6b2d7-176c-4a2a-842f-f0f9844da4ec",
+    "slug" : "rabbit-with-prunes",
+    "name" : "Rabbit with Prunes",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Red meat", "Weekend", "Comfort food" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "8ea7a5d1-1287-4b6e-8c21-37ba0171b76a", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "0b395741-9a65-4110-98db-fd54a3533234", "f23c6d4b-a120-4b9d-9ef0-89e28fec43e0", "833ee971-a5e6-4378-96ca-0d7139648975", "224ce325-3f8a-4dad-99f5-dc364d14f851", "0876bbd1-b320-4226-a477-afd1dad899ae", "13968bbd-c465-4a75-9366-54eb0c35ea32", "93fc2a11-0f45-46fd-a8c3-d4dd4fd6acef", "c70398c9-bc67-4c34-93fa-c9b19d6c613b", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "12310aef-7435-4661-b96c-a23e5176937c",
+    "slug" : "baked-salmon-with-lemon-potatoes",
+    "name" : "Baked Salmon with Lemon Potatoes",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Fish", "Light meal" ],
+    "rating" : 5,
+    "servings" : 4.0,
+    "foodIds" : [ "af7ef1aa-a370-4d08-bbb3-1d1101ff5438", "b3c7a95b-902a-4154-8525-028e66693c33", "31ad4bb9-ccb2-4f66-8b21-a535d69f3162", "f69b148d-cda9-4e45-8460-49e197bc051c", "f430da19-e469-4495-9ef1-c61a497e50d8", "9683f64b-561b-4d7c-9052-8acaa9ef66af", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "1f6ed655-7130-4cfa-afac-cf5d8869480b",
+    "slug" : "brussels-sprouts-with-bacon-and-mash",
+    "name" : "Brussels Sprouts with Bacon and Mash",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Red meat", "Comfort food" ],
+    "rating" : 3,
+    "servings" : 4.0,
+    "foodIds" : [ "a45c1da3-a3e0-45d6-931a-af97fa92caf1", "3a6a73df-c5a2-43af-a7e4-5ae63fddfa67", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "c70398c9-bc67-4c34-93fa-c9b19d6c613b", "41bdd940-2145-4897-ac2d-b2a7140dcda0", "0b395741-9a65-4110-98db-fd54a3533234", "513daa18-c14f-48ee-a5fb-8364104bdca8", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "1fffe316-70e1-4bd1-b9f5-7834157d6300",
+    "slug" : "fish-pot-with-leek",
+    "name" : "Fish Pot with Leek",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Fish", "Comfort food" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "6ca18b92-2734-45fc-900b-7f8ff876c079", "af7ef1aa-a370-4d08-bbb3-1d1101ff5438", "d095de62-d983-48b9-b7bf-e260aab34bf7", "571f3d3f-f71c-4ccf-bf7f-604701e0939f", "0b395741-9a65-4110-98db-fd54a3533234", "f23c6d4b-a120-4b9d-9ef0-89e28fec43e0", "86c2b6c1-5865-4319-b214-e720aef33243", "ab6ab76d-fc08-4497-bb71-1352f64d2b91", "c70398c9-bc67-4c34-93fa-c9b19d6c613b", "41bdd940-2145-4897-ac2d-b2a7140dcda0", "611123ce-e559-40b3-a3e0-95eaa5e4d7f6", "9683f64b-561b-4d7c-9052-8acaa9ef66af", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "20ba89d1-f977-4c74-aa76-95387cc48d76",
+    "slug" : "black-bean-tacos",
+    "name" : "Black Bean Tacos",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Bread", "Vegetarian", "Legumes", "Quick" ],
+    "rating" : 3,
+    "servings" : 4.0,
+    "foodIds" : [ "96cad365-74a4-4c06-a4c5-3044f6fb4bc9", "415eac26-81a4-4b7f-8e7b-b9741ccc768e", "49ea7954-14f1-4a10-b989-64d267a1cb0e", "b96afb6d-1451-4230-a305-bb6b4c3f0b2b", "919d0569-e3a1-47b3-ad23-8172c083ad31", "49e9e141-e08e-4c84-a3d9-83242d0370cc", "d78d568a-e4e7-4210-8b2e-5927bda5bb59", "67bb6dab-d1bb-453a-a098-39a4a1ee46e4", "37e3c2e6-18d2-4da4-8efd-c0a13ad9c9b8", "26ca4e1e-1c01-4d46-aa02-ac16d83edcb5", "f430da19-e469-4495-9ef1-c61a497e50d8", "976ab6ca-5587-4a03-b25a-e9855e6c4f69" ]
+  }, {
+    "id" : "29ba7cea-278e-4375-99cd-207c6a5d7784",
+    "slug" : "hutsepot",
+    "name" : "Hutsepot",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Red meat", "Weekend", "Freezer-friendly", "Leftovers-friendly", "Comfort food" ],
+    "rating" : 3,
+    "servings" : 6.0,
+    "foodIds" : [ "9cfa66b8-700c-4eda-a2b9-278451c2b763", "1c21dcc6-d5c3-40e6-ac2c-70c5ab9028ae", "3a6a73df-c5a2-43af-a7e4-5ae63fddfa67", "3d6ecc23-5f62-4b60-91dc-982734ba6a5d", "6c1d5133-2c45-4a32-af63-0818c35f0b0c", "87f78c24-35f8-4a16-8c35-ab99a399ab22", "571f3d3f-f71c-4ccf-bf7f-604701e0939f", "db4cb0b7-9ae2-411d-a0bb-3318bc56a3d5", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "c70398c9-bc67-4c34-93fa-c9b19d6c613b", "a44d4479-34f9-4778-b2cc-0d036491fd32", "93fc2a11-0f45-46fd-a8c3-d4dd4fd6acef", "13968bbd-c465-4a75-9366-54eb0c35ea32", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "2bb95be4-b830-40d9-a8ea-5c57a537e63a",
+    "slug" : "vegetable-noodle-stir-fry",
+    "name" : "Vegetable Noodle Stir-Fry",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Other grain", "Vegetarian", "Quick", "Light meal" ],
+    "rating" : 3,
+    "servings" : 4.0,
+    "foodIds" : [ "eb77ae73-4bef-4c26-bf00-6aec4d7f642c", "f5e817b9-36d9-4d34-9e95-88809a0c8cb4", "3d6ecc23-5f62-4b60-91dc-982734ba6a5d", "570addf7-9f15-4192-9c2c-c2bc1d54daaf", "80c3d5e7-a17d-4b2a-a04b-ecf7b0462622", "27c7bf8d-6344-4b41-b310-9e83794da5c0", "47f39086-0479-4f1d-920a-9d12ad181cba", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "cc4741a7-0666-4f69-bb94-0743f0c22046", "4eec925f-2542-4c1b-ba2e-89519278b42f", "4162cf1f-ed21-4e26-bd54-dee079f389aa", "76244b2b-9482-4876-a08d-3c94a93b109b", "21156f38-5def-42d9-b9b2-b7058631951e" ]
+  }, {
+    "id" : "32e93020-2c50-4794-876d-f69a43c9f17d",
+    "slug" : "carrot-stoemp-with-sausages",
+    "name" : "Carrot Stoemp with Sausages",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Red meat", "Quick", "Comfort food" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "c70398c9-bc67-4c34-93fa-c9b19d6c613b", "3d6ecc23-5f62-4b60-91dc-982734ba6a5d", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "1c21dcc6-d5c3-40e6-ac2c-70c5ab9028ae", "0b395741-9a65-4110-98db-fd54a3533234", "41bdd940-2145-4897-ac2d-b2a7140dcda0", "513daa18-c14f-48ee-a5fb-8364104bdca8", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "35b9ec8e-d03d-4991-8398-2fc55d140219",
+    "slug" : "shakshuka",
+    "name" : "Shakshuka",
+    "categories" : [ "Breakfast", "Dinner", "Lunch" ],
+    "tags" : [ "Bread", "Vegetarian", "Quick", "Weekend" ],
+    "rating" : 5,
+    "servings" : 4.0,
+    "foodIds" : [ "541deca8-7736-4b6b-992a-fca8aa9c57b6", "d503e6b1-ea4d-485f-afef-b1a27bf704f3", "f5e817b9-36d9-4d34-9e95-88809a0c8cb4", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "919d0569-e3a1-47b3-ad23-8172c083ad31", "b96afb6d-1451-4230-a305-bb6b4c3f0b2b", "8e3581ba-bfd7-40bf-bdc7-24ffd18c6890", "f430da19-e469-4495-9ef1-c61a497e50d8", "67bb6dab-d1bb-453a-a098-39a4a1ee46e4", "26ca4e1e-1c01-4d46-aa02-ac16d83edcb5", "5277c7b2-586c-435e-b8a5-9da841c947c4", "976ab6ca-5587-4a03-b25a-e9855e6c4f69" ]
+  }, {
+    "id" : "37a43722-e855-43dd-a175-a068340aae30",
+    "slug" : "pad-thai-with-prawns",
+    "name" : "Pad Thai with Prawns",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Other grain", "Fish", "Quick" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "cedbbcbd-e5f5-4055-8092-48c6afc31945", "17202a43-b44c-4720-b672-98ba38f6f831", "541deca8-7736-4b6b-992a-fca8aa9c57b6", "27c7bf8d-6344-4b41-b310-9e83794da5c0", "47f39086-0479-4f1d-920a-9d12ad181cba", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "350fde61-fb2b-4154-9347-647387b0162d", "526433a6-1370-40d7-9a0a-289c2968db13", "4eec925f-2542-4c1b-ba2e-89519278b42f", "37e3c2e6-18d2-4da4-8efd-c0a13ad9c9b8", "416356be-4ab4-45ed-9e97-71e89f92073d", "76244b2b-9482-4876-a08d-3c94a93b109b", "26ca4e1e-1c01-4d46-aa02-ac16d83edcb5" ]
+  }, {
+    "id" : "3a08b367-5142-4197-8d4c-2b8f4ee9ad73",
+    "slug" : "ginger-soy-chicken-with-rice",
+    "name" : "Ginger Soy Chicken with Rice",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Rice", "Poultry", "Quick" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "b162b6d5-a0d2-4e7b-9a4a-9e10fd4fd823", "570addf7-9f15-4192-9c2c-c2bc1d54daaf", "c9baf0d1-5010-4210-9771-193c804ff2e5", "4eec925f-2542-4c1b-ba2e-89519278b42f", "0843d4d8-0b86-47c1-a514-eb2bd6e9746c", "cc4741a7-0666-4f69-bb94-0743f0c22046", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "7b53933d-8b09-4f95-8aff-4ca63222bc1c", "76244b2b-9482-4876-a08d-3c94a93b109b", "47f39086-0479-4f1d-920a-9d12ad181cba", "21156f38-5def-42d9-b9b2-b7058631951e" ]
+  }, {
+    "id" : "3f40ca96-4759-4215-b4d8-3a9d018e3559",
+    "slug" : "pork-tenderloin-with-mustard-cream",
+    "name" : "Pork Tenderloin with Mustard Cream",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Red meat", "Quick" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "bb39f85c-155f-49e6-9b0f-aebafeb7c7dd", "95ec326a-2a9e-4a29-80ee-52384601a53d", "839495fd-2b5d-44d5-9393-5b85b377b0a7", "ab6ab76d-fc08-4497-bb71-1352f64d2b91", "43c2ae9c-e718-408a-9d0d-436c0d61ee65", "0b395741-9a65-4110-98db-fd54a3533234", "b3c7a95b-902a-4154-8525-028e66693c33", "081f0bd7-41e7-4372-9a60-d62c1f582966", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "3f7cfad0-7c07-4257-8ccb-1c19414cff18",
+    "slug" : "egg-fried-rice",
+    "name" : "Egg Fried Rice",
+    "categories" : [ "Dinner", "Lunch" ],
+    "tags" : [ "Rice", "Vegetarian", "Quick", "Leftovers-friendly" ],
+    "rating" : 3,
+    "servings" : 4.0,
+    "foodIds" : [ "b51df8ce-9781-4428-b8f3-6f0ed1f49e26", "541deca8-7736-4b6b-992a-fca8aa9c57b6", "2b046811-03b3-422e-b483-29b125f07f55", "3d6ecc23-5f62-4b60-91dc-982734ba6a5d", "47f39086-0479-4f1d-920a-9d12ad181cba", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "4eec925f-2542-4c1b-ba2e-89519278b42f", "4162cf1f-ed21-4e26-bd54-dee079f389aa", "76244b2b-9482-4876-a08d-3c94a93b109b" ]
+  }, {
+    "id" : "4ed580cf-9401-43e6-a408-f3c6fd95d6e5",
+    "slug" : "sausage-and-vegetable-traybake",
+    "name" : "Sausage and Vegetable Traybake",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Red meat", "Quick", "Comfort food" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "1c21dcc6-d5c3-40e6-ac2c-70c5ab9028ae", "896b67fc-1d36-4585-a78a-cecec311826a", "c70398c9-bc67-4c34-93fa-c9b19d6c613b", "49ea7954-14f1-4a10-b989-64d267a1cb0e", "f5e817b9-36d9-4d34-9e95-88809a0c8cb4", "eac4c531-6096-47c0-b63e-a0be3cfff665", "f430da19-e469-4495-9ef1-c61a497e50d8", "3ddfa0e3-5a83-4fb9-8298-b3893dca5bed", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "4eee8819-69f2-4b6b-b22e-5469ec2a3853",
+    "slug" : "tagliatelle-with-salmon-and-spinach",
+    "name" : "Tagliatelle with Salmon and Spinach",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Pasta", "Fish", "Quick" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "a2c5474a-56ed-4179-b43a-47f93ed5f326", "af7ef1aa-a370-4d08-bbb3-1d1101ff5438", "543f1583-d6bf-440d-9454-f5e710dc8160", "369c9ca6-3916-48f9-8c17-7ce514d73f7d", "f69b148d-cda9-4e45-8460-49e197bc051c", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "f430da19-e469-4495-9ef1-c61a497e50d8", "9683f64b-561b-4d7c-9052-8acaa9ef66af", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "51bc3854-fffc-4f8e-bfd9-765fd51bb667",
+    "slug" : "fish-fingers-with-mashed-peas",
+    "name" : "Fish Fingers with Mashed Peas",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Fish", "Quick" ],
+    "rating" : 3,
+    "servings" : 4.0,
+    "foodIds" : [ "698a9291-7b12-4332-bbeb-66553971132f", "c70398c9-bc67-4c34-93fa-c9b19d6c613b", "2b046811-03b3-422e-b483-29b125f07f55", "0b395741-9a65-4110-98db-fd54a3533234", "b3fa3862-65f0-476d-91ab-66ec828524bd", "76244b2b-9482-4876-a08d-3c94a93b109b", "f69b148d-cda9-4e45-8460-49e197bc051c", "976ab6ca-5587-4a03-b25a-e9855e6c4f69" ]
+  }, {
+    "id" : "52c96a3e-54a8-4935-b29a-1ffd91b66d5d",
+    "slug" : "moules-frites",
+    "name" : "Moules-Frites",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Fish", "Quick" ],
+    "rating" : 5,
+    "servings" : 4.0,
+    "foodIds" : [ "1cf5a231-727e-48e8-acff-61d4bf0fcef1", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "da4cf028-e626-49c5-936e-6caf688ef0f0", "0b395741-9a65-4110-98db-fd54a3533234", "47c03af9-4ced-4c7b-88e1-75b6b6223dcc", "7bb6a35f-5e88-4a4a-a80a-8ab8aab2873f", "350a29c2-7730-42e8-8f30-fa2c181aa2ce", "1842b848-6803-4a41-8fac-0107461d3091", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "60ef1503-8274-4430-b58c-df6e0d3907d8",
+    "slug" : "coconut-prawn-curry",
+    "name" : "Coconut Prawn Curry",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Rice", "Fish", "Quick" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "17202a43-b44c-4720-b672-98ba38f6f831", "097b49e5-d903-428c-bd4c-ad26b67ed34a", "d503e6b1-ea4d-485f-afef-b1a27bf704f3", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "cc4741a7-0666-4f69-bb94-0743f0c22046", "f5eb1f7a-e0ad-4372-ac0a-8ed4be879af1", "d3cc18d1-bcf9-427e-94cb-bede7bf78646", "64e95650-b8d0-470e-8218-d9fd22c1ed11", "76244b2b-9482-4876-a08d-3c94a93b109b", "37e3c2e6-18d2-4da4-8efd-c0a13ad9c9b8", "b51df8ce-9781-4428-b8f3-6f0ed1f49e26", "976ab6ca-5587-4a03-b25a-e9855e6c4f69" ]
+  }, {
+    "id" : "61c551de-15e1-4f70-b9a9-81d7893c11e4",
+    "slug" : "thai-red-chicken-curry",
+    "name" : "Thai Red Chicken Curry",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Rice", "Poultry", "Quick", "Freezer-friendly" ],
+    "rating" : 5,
+    "servings" : 4.0,
+    "foodIds" : [ "a7deb927-da67-45e0-86c5-5be5ed6e7ea1", "20fb5da7-6575-4110-b3d5-ca725a50c4f3", "097b49e5-d903-428c-bd4c-ad26b67ed34a", "f5e817b9-36d9-4d34-9e95-88809a0c8cb4", "081f0bd7-41e7-4372-9a60-d62c1f582966", "350fde61-fb2b-4154-9347-647387b0162d", "526433a6-1370-40d7-9a0a-289c2968db13", "37e3c2e6-18d2-4da4-8efd-c0a13ad9c9b8", "26ca4e1e-1c01-4d46-aa02-ac16d83edcb5", "c9baf0d1-5010-4210-9771-193c804ff2e5", "76244b2b-9482-4876-a08d-3c94a93b109b" ]
+  }, {
+    "id" : "662fad4b-666d-4617-a18d-2cf556b1d9a1",
+    "slug" : "beef-stroganoff",
+    "name" : "Beef Stroganoff",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Pasta", "Red meat", "Quick" ],
+    "rating" : 3,
+    "servings" : 4.0,
+    "foodIds" : [ "de4dfe43-b74c-493f-b329-97c14fb22378", "95ec326a-2a9e-4a29-80ee-52384601a53d", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "af15c505-e437-4915-b704-72e3f9df2e5f", "369c9ca6-3916-48f9-8c17-7ce514d73f7d", "43c2ae9c-e718-408a-9d0d-436c0d61ee65", "0b395741-9a65-4110-98db-fd54a3533234", "a2c5474a-56ed-4179-b43a-47f93ed5f326", "7bb6a35f-5e88-4a4a-a80a-8ab8aab2873f", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "67a79cc2-5ac9-4ce9-aece-4011284fd6fa",
+    "slug" : "chili-con-carne",
+    "name" : "Chili con Carne",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Rice", "Red meat", "Legumes", "Freezer-friendly", "Leftovers-friendly", "Comfort food" ],
+    "rating" : 4,
+    "servings" : 6.0,
+    "foodIds" : [ "40451116-fd81-4c1d-ba8a-875bb98b059d", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "f5e817b9-36d9-4d34-9e95-88809a0c8cb4", "d503e6b1-ea4d-485f-afef-b1a27bf704f3", "a47c28dd-12b3-4a67-8528-7fad39640d90", "ca371862-5c4c-46f8-84ed-3d0f781bf7cb", "919d0569-e3a1-47b3-ad23-8172c083ad31", "b96afb6d-1451-4230-a305-bb6b4c3f0b2b", "8e3581ba-bfd7-40bf-bdc7-24ffd18c6890", "a44d4479-34f9-4778-b2cc-0d036491fd32", "f430da19-e469-4495-9ef1-c61a497e50d8", "b51df8ce-9781-4428-b8f3-6f0ed1f49e26", "369c9ca6-3916-48f9-8c17-7ce514d73f7d", "976ab6ca-5587-4a03-b25a-e9855e6c4f69" ]
+  }, {
+    "id" : "6c8e026e-96e9-4258-83c0-e697cbd64120",
+    "slug" : "ghent-chicken-waterzooi",
+    "name" : "Ghent Chicken Waterzooi",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Poultry", "Weekend", "Comfort food" ],
+    "rating" : 5,
+    "servings" : 4.0,
+    "foodIds" : [ "a7deb927-da67-45e0-86c5-5be5ed6e7ea1", "571f3d3f-f71c-4ccf-bf7f-604701e0939f", "3d6ecc23-5f62-4b60-91dc-982734ba6a5d", "da4cf028-e626-49c5-936e-6caf688ef0f0", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "b3c7a95b-902a-4154-8525-028e66693c33", "65504718-08e2-4736-bcdc-c5727e99b76a", "ab6ab76d-fc08-4497-bb71-1352f64d2b91", "541deca8-7736-4b6b-992a-fca8aa9c57b6", "0b395741-9a65-4110-98db-fd54a3533234", "7bb6a35f-5e88-4a4a-a80a-8ab8aab2873f", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "6f772f05-51b0-49cf-a987-42b24a0867bc",
+    "slug" : "slow-cooked-lamb-tagine",
+    "name" : "Slow-Cooked Lamb Tagine",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Other grain", "Red meat", "Weekend", "Freezer-friendly" ],
+    "rating" : 4,
+    "servings" : 6.0,
+    "foodIds" : [ "cf3f12e1-6406-48a7-b30e-acc69b39dc78", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "919d0569-e3a1-47b3-ad23-8172c083ad31", "a45a18ae-13af-4e0e-9585-dbafdab72838", "b631f28e-60be-4a3e-9d20-051fb04d1a9b", "d503e6b1-ea4d-485f-afef-b1a27bf704f3", "224ce325-3f8a-4dad-99f5-dc364d14f851", "e2b73338-fb9f-4165-ad64-1e703d1093d7", "0843d4d8-0b86-47c1-a514-eb2bd6e9746c", "a44d4479-34f9-4778-b2cc-0d036491fd32", "f430da19-e469-4495-9ef1-c61a497e50d8", "b6439c95-244c-4a0f-a8fd-ff0da0499204", "26ca4e1e-1c01-4d46-aa02-ac16d83edcb5", "976ab6ca-5587-4a03-b25a-e9855e6c4f69" ]
+  }, {
+    "id" : "7160fb9b-1616-4477-bc34-d5a7ad324b2c",
+    "slug" : "orzo-with-prawns-tomato-and-feta",
+    "name" : "Orzo with Prawns, Tomato and Feta",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Pasta", "Fish", "Quick" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "0296abce-123d-4ae5-9e92-61c91d867f7e", "17202a43-b44c-4720-b672-98ba38f6f831", "365aae68-4d82-4a48-94ed-5d85ed840c9c", "2802bc53-8fde-42ed-b571-7e43e4b2362e", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "3cfea909-44e6-4d34-9643-97207b0d65ed", "67bb6dab-d1bb-453a-a098-39a4a1ee46e4", "f430da19-e469-4495-9ef1-c61a497e50d8", "7bb6a35f-5e88-4a4a-a80a-8ab8aab2873f", "f69b148d-cda9-4e45-8460-49e197bc051c", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "79d62787-d3dc-40bd-ad08-3e0b5a8b70c0",
+    "slug" : "sea-bass-with-fennel-and-orange",
+    "name" : "Sea Bass with Fennel and Orange",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Other grain", "Fish", "Light meal" ],
+    "rating" : 4,
+    "servings" : 2.0,
+    "foodIds" : [ "98963db4-a882-46f8-96c0-42e51371c4cd", "97bc04b6-48f9-49cc-86e6-5ea48a5712c9", "d11d6309-d628-4369-9748-471bef1c386e", "75073954-a108-40b8-be82-3684ef2018d9", "f430da19-e469-4495-9ef1-c61a497e50d8", "b6439c95-244c-4a0f-a8fd-ff0da0499204", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "7ef7fb4e-b437-4afb-a5aa-79bb87f259f2",
+    "slug" : "pasta-pesto-with-green-beans-and-potato",
+    "name" : "Pasta Pesto with Green Beans and Potato",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Pasta", "Vegetarian", "Quick" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "aff0f67d-9eba-4f1e-a538-1be7f4e68c55", "081f0bd7-41e7-4372-9a60-d62c1f582966", "b3c7a95b-902a-4154-8525-028e66693c33", "217d4b83-a1ab-45d3-abc9-f335ed56a4d7", "58e2b697-2d7c-4a2d-9341-03db7e93b18a", "4c33ed84-1030-497a-8bfe-ac94fb4f2281", "976ab6ca-5587-4a03-b25a-e9855e6c4f69" ]
+  }, {
+    "id" : "8c4284a1-0b59-43bc-beca-d7b6b8834c1c",
+    "slug" : "red-lentil-dal",
+    "name" : "Red Lentil Dal",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Rice", "Vegetarian", "Legumes", "Freezer-friendly", "Leftovers-friendly" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "3d0ceb77-d9fd-4d74-a73f-90605a3eabd8", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "cc4741a7-0666-4f69-bb94-0743f0c22046", "d503e6b1-ea4d-485f-afef-b1a27bf704f3", "d3cc18d1-bcf9-427e-94cb-bede7bf78646", "919d0569-e3a1-47b3-ad23-8172c083ad31", "6f6de0dc-afd6-47de-bffc-4af33ae758e6", "0b395741-9a65-4110-98db-fd54a3533234", "b51df8ce-9781-4428-b8f3-6f0ed1f49e26", "26ca4e1e-1c01-4d46-aa02-ac16d83edcb5", "976ab6ca-5587-4a03-b25a-e9855e6c4f69" ]
+  }, {
+    "id" : "92ac72af-0c0d-49dd-8313-7ebdb97c0b65",
+    "slug" : "lasagne",
+    "name" : "Lasagne",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Pasta", "Red meat", "Weekend", "Freezer-friendly", "Leftovers-friendly", "Comfort food" ],
+    "rating" : 5,
+    "servings" : 6.0,
+    "foodIds" : [ "9128f5f8-941a-4db1-9e42-a9e145b563ca", "25299685-c09e-4149-b018-879fcfb2d1d2", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "3d6ecc23-5f62-4b60-91dc-982734ba6a5d", "2802bc53-8fde-42ed-b571-7e43e4b2362e", "ca371862-5c4c-46f8-84ed-3d0f781bf7cb", "fd4efd46-edde-43b6-b6df-d55905a0a7e5", "0b395741-9a65-4110-98db-fd54a3533234", "f23c6d4b-a120-4b9d-9ef0-89e28fec43e0", "41bdd940-2145-4897-ac2d-b2a7140dcda0", "513daa18-c14f-48ee-a5fb-8364104bdca8", "611123ce-e559-40b3-a3e0-95eaa5e4d7f6", "f430da19-e469-4495-9ef1-c61a497e50d8", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "98fdb4d1-2b00-486e-8a51-53d1a3355add",
+    "slug" : "chicken-satay-with-peanut-sauce",
+    "name" : "Chicken Satay with Peanut Sauce",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Rice", "Poultry" ],
+    "rating" : 5,
+    "servings" : 4.0,
+    "foodIds" : [ "a7deb927-da67-45e0-86c5-5be5ed6e7ea1", "4eec925f-2542-4c1b-ba2e-89519278b42f", "64e95650-b8d0-470e-8218-d9fd22c1ed11", "0843d4d8-0b86-47c1-a514-eb2bd6e9746c", "416356be-4ab4-45ed-9e97-71e89f92073d", "097b49e5-d903-428c-bd4c-ad26b67ed34a", "37e3c2e6-18d2-4da4-8efd-c0a13ad9c9b8", "a0654e7a-0050-473b-84f5-d473769a7f9f", "eef6c1d8-22fa-4f21-93e7-9f8378c1c537", "7333f5d0-f7a9-4560-9dce-534acb629a31", "c9baf0d1-5010-4210-9771-193c804ff2e5" ]
+  }, {
+    "id" : "9ab1e0a4-c24d-4761-bed6-592ec36e1f04",
+    "slug" : "quiche-lorraine",
+    "name" : "Quiche Lorraine",
+    "categories" : [ "Lunch", "Dinner" ],
+    "tags" : [ "Red meat", "Freezer-friendly", "Leftovers-friendly" ],
+    "rating" : 4,
+    "servings" : 6.0,
+    "foodIds" : [ "182a5834-37b5-4563-821e-73e6adfe097e", "3a6a73df-c5a2-43af-a7e4-5ae63fddfa67", "541deca8-7736-4b6b-992a-fca8aa9c57b6", "ab6ab76d-fc08-4497-bb71-1352f64d2b91", "41bdd940-2145-4897-ac2d-b2a7140dcda0", "d1831f44-5d68-4915-89f5-e1cab8c82ef5", "513daa18-c14f-48ee-a5fb-8364104bdca8", "9641e1be-c769-41bc-b113-217ccb6ab165", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "9bdb3504-cf97-47cb-a89b-fa20f4953a35",
+    "slug" : "tuna-pasta-bake",
+    "name" : "Tuna Pasta Bake",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Pasta", "Fish", "Leftovers-friendly", "Comfort food" ],
+    "rating" : 3,
+    "servings" : 4.0,
+    "foodIds" : [ "59193d13-512e-4de5-84fc-720bd571084e", "6b1b6a2d-5366-4d36-8953-5ef083620dd4", "415eac26-81a4-4b7f-8e7b-b9741ccc768e", "2802bc53-8fde-42ed-b571-7e43e4b2362e", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "fd4efd46-edde-43b6-b6df-d55905a0a7e5", "611123ce-e559-40b3-a3e0-95eaa5e4d7f6", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "9e9d2cc5-d89e-499f-baf8-9cdb5487db00",
+    "slug" : "endive-stoemp-with-pork-chops",
+    "name" : "Endive Stoemp with Pork Chops",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Red meat", "Quick" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "c70398c9-bc67-4c34-93fa-c9b19d6c613b", "ce7788ba-953c-4d89-b3b8-f0d892ce0c35", "577ff150-8bba-4d23-b9c8-c742936ba2f5", "3a6a73df-c5a2-43af-a7e4-5ae63fddfa67", "41bdd940-2145-4897-ac2d-b2a7140dcda0", "0b395741-9a65-4110-98db-fd54a3533234", "513daa18-c14f-48ee-a5fb-8364104bdca8", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "9ea71e38-2cbf-44a3-a385-98bef8654404",
+    "slug" : "teriyaki-salmon-rice-bowl",
+    "name" : "Teriyaki Salmon Rice Bowl",
+    "categories" : [ "Dinner", "Lunch" ],
+    "tags" : [ "Rice", "Fish", "Quick", "Light meal" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "af7ef1aa-a370-4d08-bbb3-1d1101ff5438", "c9baf0d1-5010-4210-9771-193c804ff2e5", "ce426c92-6571-4798-90b9-898f8e4e7e92", "eef6c1d8-22fa-4f21-93e7-9f8378c1c537", "d78d568a-e4e7-4210-8b2e-5927bda5bb59", "4eec925f-2542-4c1b-ba2e-89519278b42f", "0843d4d8-0b86-47c1-a514-eb2bd6e9746c", "7333f5d0-f7a9-4560-9dce-534acb629a31", "cc4741a7-0666-4f69-bb94-0743f0c22046", "21156f38-5def-42d9-b9b2-b7058631951e", "47f39086-0479-4f1d-920a-9d12ad181cba" ]
+  }, {
+    "id" : "a2bee395-af86-4126-b4e3-2288bd8d3810",
+    "slug" : "homemade-beef-burgers",
+    "name" : "Homemade Beef Burgers",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Bread", "Red meat", "Weekend" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "40451116-fd81-4c1d-ba8a-875bb98b059d", "9e8ebf67-2a86-47b5-8177-09e9c72abac9", "bfaf76c3-adb1-4038-97db-ce5c92ad523a", "9641e1be-c769-41bc-b113-217ccb6ab165", "64fb5f34-9962-4cbf-8b66-b745aae21037", "49ea7954-14f1-4a10-b989-64d267a1cb0e", "a4677c42-daca-46e9-8381-07e2c954dbe1", "350a29c2-7730-42e8-8f30-fa2c181aa2ce", "cf0f08d9-91b1-41e3-99b2-2130e7a4a7e0", "1842b848-6803-4a41-8fac-0107461d3091", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "a4a386e5-f17b-43be-90d7-a571c942499f",
+    "slug" : "liege-salad",
+    "name" : "Liège Salad",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Red meat", "Quick" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "b3c7a95b-902a-4154-8525-028e66693c33", "081f0bd7-41e7-4372-9a60-d62c1f582966", "3a6a73df-c5a2-43af-a7e4-5ae63fddfa67", "839495fd-2b5d-44d5-9393-5b85b377b0a7", "0213850a-205c-478a-8605-33f33692bdab", "7bb6a35f-5e88-4a4a-a80a-8ab8aab2873f", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "a6caa6c6-8f0c-41a2-9a0e-5060dbee22b3",
+    "slug" : "belgian-endive-gratin-with-ham",
+    "name" : "Belgian Endive Gratin with Ham",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Red meat", "Weekend", "Comfort food" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "ce7788ba-953c-4d89-b3b8-f0d892ce0c35", "fc2c2d07-b3e6-472e-b562-fc11a56fa85f", "0b395741-9a65-4110-98db-fd54a3533234", "f23c6d4b-a120-4b9d-9ef0-89e28fec43e0", "41bdd940-2145-4897-ac2d-b2a7140dcda0", "d1831f44-5d68-4915-89f5-e1cab8c82ef5", "513daa18-c14f-48ee-a5fb-8364104bdca8", "c70398c9-bc67-4c34-93fa-c9b19d6c613b", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "ad2c8a4b-d073-41fa-968d-edbcde98a929",
+    "slug" : "ratatouille",
+    "name" : "Ratatouille",
+    "categories" : [ "Dinner", "Side" ],
+    "tags" : [ "Vegetarian", "Freezer-friendly", "Leftovers-friendly", "Light meal" ],
+    "rating" : 3,
+    "servings" : 4.0,
+    "foodIds" : [ "2ab289ab-ba86-4ca5-b44e-a4142059da1e", "c4845fdd-ff2b-4860-875e-a9cb52b58568", "f5e817b9-36d9-4d34-9e95-88809a0c8cb4", "576811b7-7c89-478e-8603-3ca65cb0ac9b", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "d503e6b1-ea4d-485f-afef-b1a27bf704f3", "f430da19-e469-4495-9ef1-c61a497e50d8", "f1ce5d39-f656-4fc3-ad1e-26366d664706", "1247c45c-b505-4b06-aa61-b08195321df1", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "b0c29644-720e-436d-847f-5a1fbcb221ac",
+    "slug" : "steak-with-pepper-sauce-and-fries",
+    "name" : "Steak with Pepper Sauce and Fries",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Red meat", "Weekend" ],
+    "rating" : 5,
+    "servings" : 2.0,
+    "foodIds" : [ "de4dfe43-b74c-493f-b329-97c14fb22378", "350a29c2-7730-42e8-8f30-fa2c181aa2ce", "ab6ab76d-fc08-4497-bb71-1352f64d2b91", "839495fd-2b5d-44d5-9393-5b85b377b0a7", "11af235f-a2a7-4fb4-b335-eae0b10c6b13", "0b395741-9a65-4110-98db-fd54a3533234", "a44d4479-34f9-4778-b2cc-0d036491fd32", "9641e1be-c769-41bc-b113-217ccb6ab165", "64fb5f34-9962-4cbf-8b66-b745aae21037", "976ab6ca-5587-4a03-b25a-e9855e6c4f69" ]
+  }, {
+    "id" : "b17d30b9-3798-4221-bce1-e929a8448200",
+    "slug" : "spinach-stoemp-with-fried-eggs",
+    "name" : "Spinach Stoemp with Fried Eggs",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Vegetarian", "Quick", "Comfort food" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "c70398c9-bc67-4c34-93fa-c9b19d6c613b", "543f1583-d6bf-440d-9454-f5e710dc8160", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "0b395741-9a65-4110-98db-fd54a3533234", "41bdd940-2145-4897-ac2d-b2a7140dcda0", "541deca8-7736-4b6b-992a-fca8aa9c57b6", "513daa18-c14f-48ee-a5fb-8364104bdca8", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "b527a79d-bfef-49fd-a5d1-1d65079721ae",
+    "slug" : "meatballs-in-tomato-sauce",
+    "name" : "Meatballs in Tomato Sauce",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Red meat", "Freezer-friendly", "Leftovers-friendly", "Comfort food" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "9128f5f8-941a-4db1-9e42-a9e145b563ca", "541deca8-7736-4b6b-992a-fca8aa9c57b6", "997f644f-bfc9-4024-afab-80dcb43ed659", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "d503e6b1-ea4d-485f-afef-b1a27bf704f3", "ca371862-5c4c-46f8-84ed-3d0f781bf7cb", "f1ce5d39-f656-4fc3-ad1e-26366d664706", "93fc2a11-0f45-46fd-a8c3-d4dd4fd6acef", "f430da19-e469-4495-9ef1-c61a497e50d8", "350a29c2-7730-42e8-8f30-fa2c181aa2ce", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "cbef4863-7b40-45f4-b77f-4d870ce3fc05",
+    "slug" : "stuffed-bell-peppers",
+    "name" : "Stuffed Bell Peppers",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Rice", "Red meat", "Freezer-friendly" ],
+    "rating" : 3,
+    "servings" : 4.0,
+    "foodIds" : [ "f5e817b9-36d9-4d34-9e95-88809a0c8cb4", "9128f5f8-941a-4db1-9e42-a9e145b563ca", "b51df8ce-9781-4428-b8f3-6f0ed1f49e26", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "2802bc53-8fde-42ed-b571-7e43e4b2362e", "af15c505-e437-4915-b704-72e3f9df2e5f", "fd4efd46-edde-43b6-b6df-d55905a0a7e5", "611123ce-e559-40b3-a3e0-95eaa5e4d7f6", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "cd741aa7-b855-4d6b-a10c-1a60b8e393d9",
+    "slug" : "salade-nicoise",
+    "name" : "Salade Niçoise",
+    "categories" : [ "Dinner", "Lunch" ],
+    "tags" : [ "Potatoes", "Fish", "Light meal" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "b3c7a95b-902a-4154-8525-028e66693c33", "081f0bd7-41e7-4372-9a60-d62c1f582966", "541deca8-7736-4b6b-992a-fca8aa9c57b6", "6b1b6a2d-5366-4d36-8953-5ef083620dd4", "365aae68-4d82-4a48-94ed-5d85ed840c9c", "75073954-a108-40b8-be82-3684ef2018d9", "9641e1be-c769-41bc-b113-217ccb6ab165", "43c2ae9c-e718-408a-9d0d-436c0d61ee65", "0213850a-205c-478a-8605-33f33692bdab", "f430da19-e469-4495-9ef1-c61a497e50d8", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "cf5d403f-0129-4d9f-8fed-ccb18ce847d7",
+    "slug" : "shepherd-s-pie",
+    "name" : "Shepherd's Pie",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Red meat", "Weekend", "Freezer-friendly", "Comfort food" ],
+    "rating" : 4,
+    "servings" : 6.0,
+    "foodIds" : [ "cf3f12e1-6406-48a7-b30e-acc69b39dc78", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "3d6ecc23-5f62-4b60-91dc-982734ba6a5d", "2b046811-03b3-422e-b483-29b125f07f55", "ca371862-5c4c-46f8-84ed-3d0f781bf7cb", "c006b440-c0f4-4266-9afd-3e5964ecace7", "a44d4479-34f9-4778-b2cc-0d036491fd32", "f23c6d4b-a120-4b9d-9ef0-89e28fec43e0", "c70398c9-bc67-4c34-93fa-c9b19d6c613b", "41bdd940-2145-4897-ac2d-b2a7140dcda0", "0b395741-9a65-4110-98db-fd54a3533234", "bfaf76c3-adb1-4038-97db-ce5c92ad523a", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "d13748a7-ae57-48fb-b848-bd8cad0e9517",
+    "slug" : "chickpea-and-spinach-curry",
+    "name" : "Chickpea and Spinach Curry",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Rice", "Vegetarian", "Legumes", "Quick", "Freezer-friendly" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "df66e44f-bb49-493d-91d1-84c21834d091", "d503e6b1-ea4d-485f-afef-b1a27bf704f3", "097b49e5-d903-428c-bd4c-ad26b67ed34a", "543f1583-d6bf-440d-9454-f5e710dc8160", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "cc4741a7-0666-4f69-bb94-0743f0c22046", "64e95650-b8d0-470e-8218-d9fd22c1ed11", "76244b2b-9482-4876-a08d-3c94a93b109b", "b51df8ce-9781-4428-b8f3-6f0ed1f49e26", "37e3c2e6-18d2-4da4-8efd-c0a13ad9c9b8", "976ab6ca-5587-4a03-b25a-e9855e6c4f69" ]
+  }, {
+    "id" : "d181a2b6-b359-4b8b-a377-ce2510e87701",
+    "slug" : "roast-chicken-with-root-vegetables",
+    "name" : "Roast Chicken with Root Vegetables",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Poultry", "Weekend", "Leftovers-friendly" ],
+    "rating" : 5,
+    "servings" : 4.0,
+    "foodIds" : [ "bdbf51bb-eade-4cf4-8297-08dc0c48575c", "c70398c9-bc67-4c34-93fa-c9b19d6c613b", "3d6ecc23-5f62-4b60-91dc-982734ba6a5d", "49ea7954-14f1-4a10-b989-64d267a1cb0e", "f69b148d-cda9-4e45-8460-49e197bc051c", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "13968bbd-c465-4a75-9366-54eb0c35ea32", "0b395741-9a65-4110-98db-fd54a3533234", "f430da19-e469-4495-9ef1-c61a497e50d8", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "d446805d-af6c-4c43-b6b8-8194e08fdbed",
+    "slug" : "moroccan-chicken-with-couscous",
+    "name" : "Moroccan Chicken with Couscous",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Other grain", "Poultry", "Legumes", "Freezer-friendly" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "a7deb927-da67-45e0-86c5-5be5ed6e7ea1", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "919d0569-e3a1-47b3-ad23-8172c083ad31", "a45a18ae-13af-4e0e-9585-dbafdab72838", "b631f28e-60be-4a3e-9d20-051fb04d1a9b", "d503e6b1-ea4d-485f-afef-b1a27bf704f3", "df66e44f-bb49-493d-91d1-84c21834d091", "f49b3b2d-f06a-43b6-8093-2d732f22e2a4", "65504718-08e2-4736-bcdc-c5727e99b76a", "b6439c95-244c-4a0f-a8fd-ff0da0499204", "f430da19-e469-4495-9ef1-c61a497e50d8", "26ca4e1e-1c01-4d46-aa02-ac16d83edcb5", "976ab6ca-5587-4a03-b25a-e9855e6c4f69" ]
+  }, {
+    "id" : "d6173b57-9db7-485a-beae-722ff9264ea6",
+    "slug" : "spaghetti-carbonara",
+    "name" : "Spaghetti Carbonara",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Pasta", "Red meat", "Quick" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "09f04361-e2fa-4a46-83a0-67b83a730dbd", "3a6a73df-c5a2-43af-a7e4-5ae63fddfa67", "541deca8-7736-4b6b-992a-fca8aa9c57b6", "4c33ed84-1030-497a-8bfe-ac94fb4f2281", "11af235f-a2a7-4fb4-b335-eae0b10c6b13", "976ab6ca-5587-4a03-b25a-e9855e6c4f69" ]
+  }, {
+    "id" : "d67d42be-40f9-4735-9f3a-da1e96b19787",
+    "slug" : "flemish-style-asparagus",
+    "name" : "Flemish-Style Asparagus",
+    "categories" : [ "Dinner", "Lunch" ],
+    "tags" : [ "Potatoes", "Vegetarian", "Light meal" ],
+    "rating" : 5,
+    "servings" : 4.0,
+    "foodIds" : [ "ffb69589-691f-4541-9bc8-4e028059db99", "b3c7a95b-902a-4154-8525-028e66693c33", "541deca8-7736-4b6b-992a-fca8aa9c57b6", "0b395741-9a65-4110-98db-fd54a3533234", "7bb6a35f-5e88-4a4a-a80a-8ab8aab2873f", "f69b148d-cda9-4e45-8460-49e197bc051c", "513daa18-c14f-48ee-a5fb-8364104bdca8", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "db2b4bde-3cb7-4be7-9c7b-437a1f061c2c",
+    "slug" : "spaghetti-bolognese",
+    "name" : "Spaghetti Bolognese",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Pasta", "Red meat", "Freezer-friendly", "Leftovers-friendly", "Comfort food" ],
+    "rating" : 5,
+    "servings" : 4.0,
+    "foodIds" : [ "40451116-fd81-4c1d-ba8a-875bb98b059d", "09f04361-e2fa-4a46-83a0-67b83a730dbd", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "3d6ecc23-5f62-4b60-91dc-982734ba6a5d", "da4cf028-e626-49c5-936e-6caf688ef0f0", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "d503e6b1-ea4d-485f-afef-b1a27bf704f3", "ca371862-5c4c-46f8-84ed-3d0f781bf7cb", "fd4efd46-edde-43b6-b6df-d55905a0a7e5", "f430da19-e469-4495-9ef1-c61a497e50d8", "4c33ed84-1030-497a-8bfe-ac94fb4f2281", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "db782f16-e747-43ee-ae55-5dbd18b41c74",
+    "slug" : "pumpkin-pasta-with-sage-butter",
+    "name" : "Pumpkin Pasta with Sage Butter",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Pasta", "Vegetarian", "Comfort food" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "919bc5bd-d9a7-405a-9b5d-89f6db2712bd", "59193d13-512e-4de5-84fc-720bd571084e", "0b395741-9a65-4110-98db-fd54a3533234", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "13968bbd-c465-4a75-9366-54eb0c35ea32", "4c33ed84-1030-497a-8bfe-ac94fb4f2281", "48d5b5b5-a9c9-4d50-9311-72314844d44f", "f430da19-e469-4495-9ef1-c61a497e50d8", "513daa18-c14f-48ee-a5fb-8364104bdca8", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "ddb7da6a-abc7-4977-a520-67fc6146225e",
+    "slug" : "chicken-caesar-salad",
+    "name" : "Chicken Caesar Salad",
+    "categories" : [ "Dinner", "Lunch" ],
+    "tags" : [ "Poultry", "Quick", "Light meal" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "b162b6d5-a0d2-4e7b-9a4a-9e10fd4fd823", "9641e1be-c769-41bc-b113-217ccb6ab165", "ee68713f-b9c2-4f50-9eb0-a8d6faf90e76", "4c33ed84-1030-497a-8bfe-ac94fb4f2281", "1842b848-6803-4a41-8fac-0107461d3091", "f69b148d-cda9-4e45-8460-49e197bc051c", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "43c2ae9c-e718-408a-9d0d-436c0d61ee65", "c006b440-c0f4-4266-9afd-3e5964ecace7", "f430da19-e469-4495-9ef1-c61a497e50d8", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "e03b9cb2-7285-474e-bcab-b75df4d109ba",
+    "slug" : "turkey-schnitzel-with-potato-salad",
+    "name" : "Turkey Schnitzel with Potato Salad",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Poultry", "Potatoes" ],
+    "rating" : 3,
+    "servings" : 4.0,
+    "foodIds" : [ "2f264c75-0512-4c33-a726-6aa3e1e4ea65", "541deca8-7736-4b6b-992a-fca8aa9c57b6", "f23c6d4b-a120-4b9d-9ef0-89e28fec43e0", "997f644f-bfc9-4024-afab-80dcb43ed659", "b3c7a95b-902a-4154-8525-028e66693c33", "49ea7954-14f1-4a10-b989-64d267a1cb0e", "3ddfa0e3-5a83-4fb9-8298-b3893dca5bed", "1842b848-6803-4a41-8fac-0107461d3091", "a4677c42-daca-46e9-8381-07e2c954dbe1", "f69b148d-cda9-4e45-8460-49e197bc051c", "76244b2b-9482-4876-a08d-3c94a93b109b", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "e17d4e1d-f0e0-4fb3-82c7-3dd59b52d336",
+    "slug" : "macaroni-with-ham-and-cheese",
+    "name" : "Macaroni with Ham and Cheese",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Pasta", "Red meat", "Freezer-friendly", "Comfort food" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "6aca58d7-439f-4bc4-8cea-35ea73876f89", "fc2c2d07-b3e6-472e-b562-fc11a56fa85f", "0b395741-9a65-4110-98db-fd54a3533234", "f23c6d4b-a120-4b9d-9ef0-89e28fec43e0", "41bdd940-2145-4897-ac2d-b2a7140dcda0", "611123ce-e559-40b3-a3e0-95eaa5e4d7f6", "513daa18-c14f-48ee-a5fb-8364104bdca8", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "e1face47-7547-49a6-b8fa-597e94e409ab",
+    "slug" : "sweet-potato-and-lentil-curry",
+    "name" : "Sweet Potato and Lentil Curry",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Rice", "Vegetarian", "Legumes", "Freezer-friendly", "Leftovers-friendly" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "896b67fc-1d36-4585-a78a-cecec311826a", "34c7b10c-fe75-4e53-acc9-6cce40549059", "097b49e5-d903-428c-bd4c-ad26b67ed34a", "d503e6b1-ea4d-485f-afef-b1a27bf704f3", "543f1583-d6bf-440d-9454-f5e710dc8160", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "64e95650-b8d0-470e-8218-d9fd22c1ed11", "76244b2b-9482-4876-a08d-3c94a93b109b", "3cfea909-44e6-4d34-9643-97207b0d65ed", "bbdd4e07-3f4b-4969-8012-2460924d6cbd", "976ab6ca-5587-4a03-b25a-e9855e6c4f69" ]
+  }, {
+    "id" : "e2855d23-5857-4d01-b2dc-a124a90c21e0",
+    "slug" : "penne-arrabbiata",
+    "name" : "Penne Arrabbiata",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Pasta", "Vegetarian", "Quick" ],
+    "rating" : 3,
+    "servings" : 4.0,
+    "foodIds" : [ "59193d13-512e-4de5-84fc-720bd571084e", "d503e6b1-ea4d-485f-afef-b1a27bf704f3", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "8e3581ba-bfd7-40bf-bdc7-24ffd18c6890", "f430da19-e469-4495-9ef1-c61a497e50d8", "7bb6a35f-5e88-4a4a-a80a-8ab8aab2873f", "4c33ed84-1030-497a-8bfe-ac94fb4f2281", "976ab6ca-5587-4a03-b25a-e9855e6c4f69" ]
+  }, {
+    "id" : "e391d895-2fa8-42ef-af34-b856645651a7",
+    "slug" : "spaghetti-with-meatballs",
+    "name" : "Spaghetti with Meatballs",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Pasta", "Red meat", "Freezer-friendly", "Comfort food" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "40451116-fd81-4c1d-ba8a-875bb98b059d", "541deca8-7736-4b6b-992a-fca8aa9c57b6", "997f644f-bfc9-4024-afab-80dcb43ed659", "4c33ed84-1030-497a-8bfe-ac94fb4f2281", "09f04361-e2fa-4a46-83a0-67b83a730dbd", "2802bc53-8fde-42ed-b571-7e43e4b2362e", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "fd4efd46-edde-43b6-b6df-d55905a0a7e5", "f430da19-e469-4495-9ef1-c61a497e50d8", "1247c45c-b505-4b06-aa61-b08195321df1", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "e4ef58ee-b9c9-4c7e-a020-a24adcfcaa0e",
+    "slug" : "cod-with-mustard-sauce-and-mash",
+    "name" : "Cod with Mustard Sauce and Mash",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Fish", "Light meal" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "6ca18b92-2734-45fc-900b-7f8ff876c079", "c70398c9-bc67-4c34-93fa-c9b19d6c613b", "543f1583-d6bf-440d-9454-f5e710dc8160", "ab6ab76d-fc08-4497-bb71-1352f64d2b91", "3ddfa0e3-5a83-4fb9-8298-b3893dca5bed", "839495fd-2b5d-44d5-9393-5b85b377b0a7", "0b395741-9a65-4110-98db-fd54a3533234", "41bdd940-2145-4897-ac2d-b2a7140dcda0", "86c2b6c1-5865-4319-b214-e720aef33243", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "e67de29b-23ca-40de-9ce3-28170a553e84",
+    "slug" : "butter-chicken",
+    "name" : "Butter Chicken",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Rice", "Poultry", "Freezer-friendly", "Comfort food" ],
+    "rating" : 5,
+    "servings" : 4.0,
+    "foodIds" : [ "a7deb927-da67-45e0-86c5-5be5ed6e7ea1", "b1b0179f-43b8-40c1-9f27-4397b843ea22", "6f6de0dc-afd6-47de-bffc-4af33ae758e6", "d3cc18d1-bcf9-427e-94cb-bede7bf78646", "919d0569-e3a1-47b3-ad23-8172c083ad31", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "cc4741a7-0666-4f69-bb94-0743f0c22046", "2802bc53-8fde-42ed-b571-7e43e4b2362e", "0b395741-9a65-4110-98db-fd54a3533234", "ab6ab76d-fc08-4497-bb71-1352f64d2b91", "b51df8ce-9781-4428-b8f3-6f0ed1f49e26", "26ca4e1e-1c01-4d46-aa02-ac16d83edcb5", "976ab6ca-5587-4a03-b25a-e9855e6c4f69" ]
+  }, {
+    "id" : "f1cdf1bf-7966-4429-903f-5c2cf3093bf8",
+    "slug" : "chicken-fajitas",
+    "name" : "Chicken Fajitas",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Bread", "Poultry", "Quick" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "b162b6d5-a0d2-4e7b-9a4a-9e10fd4fd823", "f5e817b9-36d9-4d34-9e95-88809a0c8cb4", "576811b7-7c89-478e-8603-3ca65cb0ac9b", "49ea7954-14f1-4a10-b989-64d267a1cb0e", "b96afb6d-1451-4230-a305-bb6b4c3f0b2b", "919d0569-e3a1-47b3-ad23-8172c083ad31", "49e9e141-e08e-4c84-a3d9-83242d0370cc", "d78d568a-e4e7-4210-8b2e-5927bda5bb59", "37e3c2e6-18d2-4da4-8efd-c0a13ad9c9b8", "f587acbf-8292-4c7d-8e12-b492d2cbd357", "611123ce-e559-40b3-a3e0-95eaa5e4d7f6", "76244b2b-9482-4876-a08d-3c94a93b109b", "976ab6ca-5587-4a03-b25a-e9855e6c4f69" ]
+  }, {
+    "id" : "f3c65441-193d-4d38-932a-f226319f3cef",
+    "slug" : "flemish-beef-stew-stoofvlees",
+    "name" : "Flemish Beef Stew (Stoofvlees)",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Potatoes", "Red meat", "Weekend", "Freezer-friendly", "Leftovers-friendly", "Comfort food" ],
+    "rating" : 5,
+    "servings" : 4.0,
+    "foodIds" : [ "9cfa66b8-700c-4eda-a2b9-278451c2b763", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "0b395741-9a65-4110-98db-fd54a3533234", "f23c6d4b-a120-4b9d-9ef0-89e28fec43e0", "833ee971-a5e6-4378-96ca-0d7139648975", "05b7ce0f-ba81-4b27-af7e-7cfc4901f788", "43c2ae9c-e718-408a-9d0d-436c0d61ee65", "526433a6-1370-40d7-9a0a-289c2968db13", "0213850a-205c-478a-8605-33f33692bdab", "93fc2a11-0f45-46fd-a8c3-d4dd4fd6acef", "13968bbd-c465-4a75-9366-54eb0c35ea32", "a44d4479-34f9-4778-b2cc-0d036491fd32", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "f67cdddd-3841-4984-8664-cb4374c5e19e",
+    "slug" : "minestrone",
+    "name" : "Minestrone",
+    "categories" : [ "Lunch", "Dinner" ],
+    "tags" : [ "Pasta", "Vegetarian", "Legumes", "Freezer-friendly", "Leftovers-friendly" ],
+    "rating" : 3,
+    "servings" : 6.0,
+    "foodIds" : [ "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "3d6ecc23-5f62-4b60-91dc-982734ba6a5d", "da4cf028-e626-49c5-936e-6caf688ef0f0", "c4845fdd-ff2b-4860-875e-a9cb52b58568", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "d503e6b1-ea4d-485f-afef-b1a27bf704f3", "cd9475e6-15cd-4029-96a1-229ce18f4933", "0296abce-123d-4ae5-9e92-61c91d867f7e", "db4cb0b7-9ae2-411d-a0bb-3318bc56a3d5", "3cfea909-44e6-4d34-9643-97207b0d65ed", "f430da19-e469-4495-9ef1-c61a497e50d8", "217d4b83-a1ab-45d3-abc9-f335ed56a4d7", "4c33ed84-1030-497a-8bfe-ac94fb4f2281", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "f7a53bc0-910c-4fed-9878-c4b100887bec",
+    "slug" : "mushroom-risotto",
+    "name" : "Mushroom Risotto",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Rice", "Vegetarian", "Comfort food" ],
+    "rating" : 4,
+    "servings" : 4.0,
+    "foodIds" : [ "205d0d09-1662-48e4-af8a-8d6ba3949e62", "95ec326a-2a9e-4a29-80ee-52384601a53d", "839495fd-2b5d-44d5-9393-5b85b377b0a7", "8a225ac2-73d2-4cb9-b985-b1f161f8e9d9", "47c03af9-4ced-4c7b-88e1-75b6b6223dcc", "3cfea909-44e6-4d34-9643-97207b0d65ed", "0b395741-9a65-4110-98db-fd54a3533234", "4c33ed84-1030-497a-8bfe-ac94fb4f2281", "13968bbd-c465-4a75-9366-54eb0c35ea32", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  }, {
+    "id" : "f7e8e7d6-7175-4ef2-a389-109c8552e0db",
+    "slug" : "vol-au-vent",
+    "name" : "Vol-au-Vent",
+    "categories" : [ "Dinner" ],
+    "tags" : [ "Poultry", "Weekend", "Freezer-friendly", "Comfort food" ],
+    "rating" : 5,
+    "servings" : 4.0,
+    "foodIds" : [ "bdbf51bb-eade-4cf4-8297-08dc0c48575c", "3d6ecc23-5f62-4b60-91dc-982734ba6a5d", "3b06f48d-f837-4cc3-a3d8-5c30b2ef1ab7", "da4cf028-e626-49c5-936e-6caf688ef0f0", "6223888a-9946-4285-a258-bfd8ed3ef9c8", "95ec326a-2a9e-4a29-80ee-52384601a53d", "0b395741-9a65-4110-98db-fd54a3533234", "f23c6d4b-a120-4b9d-9ef0-89e28fec43e0", "ab6ab76d-fc08-4497-bb71-1352f64d2b91", "f69b148d-cda9-4e45-8460-49e197bc051c", "65504718-08e2-4736-bcdc-c5727e99b76a", "23233c79-321b-47ce-a65c-57f3f9d3f74a", "976ab6ca-5587-4a03-b25a-e9855e6c4f69", "11af235f-a2a7-4fb4-b335-eae0b10c6b13" ]
+  } ]
+}
