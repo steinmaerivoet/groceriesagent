@@ -9,11 +9,13 @@ import grocery.contracts.SlotPool;
 import java.util.List;
 import java.util.Objects;
 import java.util.Set;
+import java.util.TreeMap;
 import java.util.TreeSet;
 
 /**
- * Spec §3.3 completeness: a plannable recipe has at most one carbohydrate tag and exactly one
- * protein / meal-type tag. Missing or conflicting tags are reported, never guessed.
+ * Spec §3.3 completeness: a plannable recipe has at least one protein / meal-type tag and no
+ * contradicting tags (Vegetarian with Fish, say). A recipe may carry several planning tags and
+ * counts towards each of them. Missing or contradicting tags are reported, never guessed.
  */
 final class RecipeClassification {
 
@@ -31,15 +33,17 @@ final class RecipeClassification {
     }
 
     private static Problem issue(RecipeSummary recipe, PlannerSettings settings) {
-        List<String> protein = recipe.tags().stream().filter(settings.proteinTags()::contains).toList();
-        List<String> carbs = recipe.tags().stream().filter(settings.carbohydrateTags()::contains).toList();
         String message = null;
-        if (protein.isEmpty()) {
+        if (recipe.tags().stream().noneMatch(settings.proteinTags()::contains)) {
             message = "has no protein / meal-type tag";
-        } else if (protein.size() > 1) {
-            message = "has several protein / meal-type tags: " + String.join(", ", protein);
-        } else if (carbs.size() > 1) {
-            message = "has several carbohydrate tags: " + String.join(", ", carbs);
+        } else {
+            for (var rule : new TreeMap<>(settings.contradictingTags()).entrySet()) {
+                List<String> clashes = rule.getValue().stream().filter(recipe::hasTag).toList();
+                if (recipe.hasTag(rule.getKey()) && !clashes.isEmpty()) {
+                    message = "has contradicting tags: " + rule.getKey() + " and " + String.join(", ", clashes);
+                    break;
+                }
+            }
         }
         return message == null ? null
                 : new Problem(ProblemType.RECIPE_CLASSIFICATION_REQUIRED, recipe.name(), recipe.name() + " " + message);

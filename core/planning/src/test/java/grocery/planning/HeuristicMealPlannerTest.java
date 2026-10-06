@@ -127,9 +127,11 @@ class HeuristicMealPlannerTest {
     }
 
     @Test
-    void reportsRecipesWithMissingOrConflictingPlanningTags() {
+    void reportsRecipesWithMissingOrContradictingPlanningTags() {
         PlanningSnapshot snapshot = typicalWeek()
                 .recipe("tacos", 3, "Bread", "Vegetarian", "Legumes")
+                .recipe("burger", 3, "Potatoes", "Bread", "Red meat")
+                .recipe("fishy curry", 3, "Rice", "Vegetarian", "Fish")
                 .recipe("pie", 4, "Comfort food")
                 .everyDayAllRecipes()
                 .build();
@@ -138,7 +140,7 @@ class HeuristicMealPlannerTest {
 
         assertThat(problems).filteredOn(p -> p.type() == ProblemType.RECIPE_CLASSIFICATION_REQUIRED)
                 .extracting(p -> p.subject())
-                .containsExactlyInAnyOrder("tacos", "pie");
+                .containsExactlyInAnyOrder("fishy curry", "pie");
     }
 
     @Test

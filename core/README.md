@@ -68,9 +68,10 @@ Demos run from the repository root, so paths like `fixtures/…` are relative to
 
 **POC 2: planner.** The seeded week meets every target (Monday pasta from the rules, ≥1 fish,
 ≥2 vegetarian, no repeats, at most 2 per carbohydrate) with recently planned recipes penalized,
-and the same run id always gives the same plan. It raises one data finding: 8 seeded recipes
-have two protein tags (mostly *Vegetarian* + *Legumes*), which spec §3.3 reports as
-`RECIPE_CLASSIFICATION_REQUIRED`.
+and the same run id always gives the same plan. A recipe may carry several planning tags
+(*Vegetarian* + *Legumes*, *Potatoes* + *Bread*) and counts towards each of them; only a missing
+protein tag or a contradiction such as *Vegetarian* + *Fish* is reported as
+`RECIPE_CLASSIFICATION_REQUIRED`. The seeded data has none.
 
 **POC 3: shopping list.** Scaling, unit conversion, policies and re-runs work against Mealie: a
 second run changes nothing, a hand-edited item is left alone, and an item the household removed

@@ -146,37 +146,5 @@
   } ],
   "totalScore" : 15.28,
   "weekTerms" : [ ],
-  "problems" : [ {
-    "type" : "RECIPE_CLASSIFICATION_REQUIRED",
-    "subject" : "Black Bean Tacos",
-    "message" : "Black Bean Tacos has several protein / meal-type tags: Vegetarian, Legumes"
-  }, {
-    "type" : "RECIPE_CLASSIFICATION_REQUIRED",
-    "subject" : "Homemade Beef Burgers",
-    "message" : "Homemade Beef Burgers has several carbohydrate tags: Potatoes, Bread"
-  }, {
-    "type" : "RECIPE_CLASSIFICATION_REQUIRED",
-    "subject" : "Minestrone",
-    "message" : "Minestrone has several protein / meal-type tags: Vegetarian, Legumes"
-  }, {
-    "type" : "RECIPE_CLASSIFICATION_REQUIRED",
-    "subject" : "Red Lentil Dal",
-    "message" : "Red Lentil Dal has several protein / meal-type tags: Vegetarian, Legumes"
-  }, {
-    "type" : "RECIPE_CLASSIFICATION_REQUIRED",
-    "subject" : "Chili con Carne",
-    "message" : "Chili con Carne has several protein / meal-type tags: Red meat, Legumes"
-  }, {
-    "type" : "RECIPE_CLASSIFICATION_REQUIRED",
-    "subject" : "Moroccan Chicken with Couscous",
-    "message" : "Moroccan Chicken with Couscous has several protein / meal-type tags: Poultry, Legumes"
-  }, {
-    "type" : "RECIPE_CLASSIFICATION_REQUIRED",
-    "subject" : "Sweet Potato and Lentil Curry",
-    "message" : "Sweet Potato and Lentil Curry has several protein / meal-type tags: Vegetarian, Legumes"
-  }, {
-    "type" : "RECIPE_CLASSIFICATION_REQUIRED",
-    "subject" : "Chickpea and Spinach Curry",
-    "message" : "Chickpea and Spinach Curry has several protein / meal-type tags: Vegetarian, Legumes"
-  } ]
+  "problems" : [ ]
 }

@@ -9,8 +9,9 @@ import java.util.Map;
  *
  * @param weeklyMinimums      at least this many meals per week with the tag, e.g. Fish ≥ 1
  * @param maxPerCarbohydrate  at most this many meals per week with the same carbohydrate tag
- * @param carbohydrateTags    tags that classify a recipe's carbohydrate (zero or one per recipe)
- * @param proteinTags         tags that classify a recipe's protein / meal type (exactly one)
+ * @param carbohydrateTags    tags that classify a recipe's carbohydrate (any number per recipe)
+ * @param proteinTags         tags that classify a recipe's protein / meal type (at least one)
+ * @param contradictingTags   tag → tags that cannot appear on the same recipe, e.g. Vegetarian → Fish
  * @param lookbackDays        how far back a planned recipe still counts as recent
  * @param improvementRounds   upper bound on local-improvement passes
  */
@@ -19,6 +20,7 @@ public record PlannerSettings(
         int maxPerCarbohydrate,
         List<String> carbohydrateTags,
         List<String> proteinTags,
+        Map<String, List<String>> contradictingTags,
         int lookbackDays,
         Weights weights,
         int improvementRounds) {
@@ -54,6 +56,7 @@ public record PlannerSettings(
                 2,
                 List.of("Pasta", "Rice", "Potatoes", "Other grain", "Bread"),
                 List.of("Fish", "Poultry", "Red meat", "Vegetarian", "Legumes"),
+                Map.of("Vegetarian", List.of("Fish", "Poultry", "Red meat")),
                 28,
                 new Weights(1.0, 3.0, 1.0, 0.5, 0.1, 0.5, 20.0, 8.0, 8.0, 0.05),
                 50);

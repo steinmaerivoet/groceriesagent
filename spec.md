@@ -207,7 +207,7 @@ Grocery Core **SHALL NOT** create an alternative source of truth for, or persist
 | Food labels    | Shopping-oriented; every Food **SHALL** have one.             | Vegetables, Fruit, Fish, Meat, Dairy & eggs, Bread, Pasta & grains, Canned & jars, Frozen, Drinks, Snacks, Spices & condiments, Household, Personal care                                                       |
 
 - Tags and labels **SHALL NOT** encode market state or purchasing behaviour (e.g. `On promotion`, `In season`, `Fresh`, `Weekly`, `Cheap`, `Always-buy`). Labels **MAY** define default purchase policies (§4.2.2).
-- **Completeness.** Every plannable recipe **SHOULD** have exactly one carbohydrate tag (or none, if not applicable) and exactly one protein / meal-type tag. Missing or conflicting planning tags **SHALL** be reported as `RECIPE_CLASSIFICATION_REQUIRED`, never guessed. Ingredients **SHOULD** be parsed (linked to a Food and Unit) with Mealie's ingredient parser.
+- **Completeness.** Every plannable recipe **SHOULD** have at least one protein / meal-type tag and **MAY** have any number of carbohydrate tags. A recipe with several planning tags counts towards each of them (Red Lentil Dal counts as `Vegetarian` and as `Legumes`). Missing or contradicting planning tags (`Vegetarian` with `Fish`, `Poultry` or `Red meat`) **SHALL** be reported as `RECIPE_CLASSIFICATION_REQUIRED`, never guessed. Ingredients **SHOULD** be parsed (linked to a Food and Unit) with Mealie's ingredient parser.
 - **Extras.** Integration metadata **SHOULD** be stored in Mealie extras under the single namespace `groceries`; no other root-level keys **SHALL** be written.
 
 | Extras key (under `groceries`)            | On                 | Purpose                    |
