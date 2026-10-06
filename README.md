@@ -9,36 +9,24 @@ and the shopping list in [Mealie](https://mealie.io).
 The full product specification is [spec.md](spec.md). This README explains the idea, how the
 repository is set up and how to run what exists today.
 
-## The idea: a HelloFresh you own
+## The idea
 
-The end result should feel like a meal-kit service such as HelloFresh, without its limits.
+Think of a meal-kit service like HelloFresh, but built on your own recipes and your own
+supermarket:
 
-**How HelloFresh works.** Every week you pick 3 to 5 meals for 1 to 6 people from a menu of
-40-odd recipes chosen by HelloFresh. A refrigerated box arrives with exactly the portioned
-ingredients and a recipe card per meal. You can skip or pause any week. It is convenient, but a
-portion costs about €8 to €10, you only cook what is on their menu, the same dishes keep coming
-back, and you still need a separate trip to the supermarket for everything else (milk, fruit,
-toilet paper). Promotions in your own supermarket play no role.
-
-**What this project keeps from that model:**
-
-- A weekly menu is proposed for you, so nobody has to think about *what are we eating*.
-- You approve or swap meals with a tap, in a few minutes a week.
-- Quantities are scaled to the household, so you buy what the recipes need.
-- The groceries are delivered or ready for pickup (from Phase 3).
-
-**What it does better:**
-
-| | HelloFresh | Grocery Orchestrator |
-| --- | --- | --- |
-| Recipes | Their weekly menu | **Your own collection** in Mealie: family favourites, Belgian classics, anything you import |
-| Variety | You pick from what is on offer; favourites rotate out | **Planned variety**: weekly targets for fish and vegetarian meals, at most two meals per carbohydrate (pasta, rice, potatoes…), no repeats and recently eaten recipes pushed back, seasonal ingredients preferred (Phase 2) |
-| Rules | None | **Household rules** in Mealie, e.g. pasta on Monday, something quick on Friday, elaborate dishes only at the weekend |
-| The rest of the shopping | Separate supermarket trip | **One list**: recipe ingredients plus anything you add by hand or by chat, and recurring products (milk, coffee, dishwasher tablets) suggested when they are probably running out (Phase 2) |
-| Pantry | Everything comes in the box, even what you have | **Asks only about doubtful items** (*still have rice?*) and assumes staples like salt and oil are in stock |
-| Price | ~€8–10 per portion plus a fixed box | **Supermarket prices with promotions**: meals whose ingredients are on promotion score higher, packs are chosen for the best effective price, and the basket can be split across Albert Heijn and Colruyt when that clearly saves money (Phases 3–4) |
-| Packaging | A box of small plastic bags | Normal supermarket packaging, no portioned sachets |
-| Ordering | Automatic subscription | **Nothing is bought without explicit approval** |
+- **Your own recipe collection** in Mealie: family favourites, Belgian classics, anything you import.
+- **Better-varied meals**: weekly targets for fish and vegetarian dinners, at most two meals per
+  carbohydrate (pasta, rice, potatoes…), no repeats, recently eaten recipes pushed back and
+  seasonal ingredients preferred (Phase 2). Household rules such as *pasta on Monday* or
+  *something quick on Friday* live in Mealie.
+- **One shopping list for everything**: recipe ingredients plus anything you add by hand or by
+  chat, and recurring products (milk, coffee, dishwasher tablets) suggested when they are probably
+  running out (Phase 2). It only asks about doubtful items (*still have rice?*) and assumes staples
+  like salt and oil are in stock.
+- **A lower total price**: meals whose ingredients are on promotion score higher, packs are chosen
+  for the best effective price, and the basket can be split across Albert Heijn and Colruyt when
+  that clearly saves money (Phases 3–4).
+- **Nothing is bought without explicit approval.**
 
 ## How a week works
 
