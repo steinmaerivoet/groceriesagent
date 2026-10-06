@@ -101,6 +101,8 @@ public final class Demo {
         r.autoItems().forEach(i -> System.out.println("    " + line(i)));
         System.out.printf("%nStock check (CHECK, asked in one checklist): %d questions%n", r.checkQuestions().size());
         r.checkQuestions().forEach(i -> System.out.println("    [ ] " + line(i)));
+        System.out.printf("%nAssumed in stock (STOCKED, not asked): %s%n",
+                r.assumedInStock().stream().map(RequiredItem::foodName).collect(Collectors.joining(", ")));
         if (!r.noteItems().isEmpty()) {
             System.out.println("\nNotes (ingredients without a food):");
             r.noteItems().forEach(n -> System.out.println("    " + n.text() + "  (" + n.recipe() + ")"));

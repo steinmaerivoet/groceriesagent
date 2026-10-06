@@ -361,11 +361,12 @@ Every relevant Food **SHALL** have an effective `PurchasePolicy`:
 | `AUTO`    | Add the required quantity automatically.                          | Fresh vegetables, meat and fish; recipe-specific fresh ingredients        | P1    |
 | `CHECK`   | Ask whether it needs to be bought; all questions in one interaction. | Pasta, rice, flour, olive oil, passata, spices                          | P1    |
 | `PREDICT` | Decide from historical behaviour whether it is likely needed.     | Yoghurt, milk, fruit, Coca-Cola, dishwasher tablets, detergent, toilet paper | P2 |
+| `STOCKED` | Assume it is in stock: never asked, never added; the household adds it by hand when it runs out. | Salt, pepper, cooking oil, spices, flour, sugar, stock cubes          | P1    |
 
 #### 4.2.2 Policy resolution
 
 1. The Food's own `groceries.purchasePolicy` extra **SHALL** take precedence;
-2. otherwise the configured default for the Food's label (e.g. `Pasta & grains`, `Canned & jars`, `Spices & condiments` → `CHECK`);
+2. otherwise the configured default for the Food's label (e.g. `Pasta & grains`, `Canned & jars` → `CHECK`; `Pantry` staples → `STOCKED`);
 3. otherwise `AUTO`.
 
 Before Phase 2, a `PREDICT` Food occurring in a recipe **SHALL** be treated as `CHECK`. Where policies are stored is OQ-02.

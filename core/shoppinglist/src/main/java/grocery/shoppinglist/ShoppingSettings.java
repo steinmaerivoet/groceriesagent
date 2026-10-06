@@ -7,7 +7,8 @@ import java.util.Set;
 
 /**
  * Shopping-list configuration (spec §7.1). The label defaults are the single home of the
- * per-label purchase policy (OQ-02): Mealie Food extras hold only per-food overrides.
+ * per-label purchase policy (OQ-02): Mealie Food extras hold only per-food overrides. Pantry
+ * staples are assumed in stock; pantry foods that aren't staples override that with CHECK.
  *
  * @param householdServings  quantities are scaled to this many servings
  * @param labelPolicies      default purchase policy per Food label
@@ -30,7 +31,7 @@ public record ShoppingSettings(
                 Map.entry("Bread", PurchasePolicy.PREDICT),
                 Map.entry("Pasta & grains", PurchasePolicy.CHECK),
                 Map.entry("Canned & jars", PurchasePolicy.CHECK),
-                Map.entry("Pantry", PurchasePolicy.CHECK),
+                Map.entry("Pantry", PurchasePolicy.STOCKED),
                 Map.entry("Frozen", PurchasePolicy.CHECK),
                 Map.entry("Drinks", PurchasePolicy.PREDICT),
                 Map.entry("Snacks", PurchasePolicy.PREDICT),

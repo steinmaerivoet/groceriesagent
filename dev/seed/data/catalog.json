@@ -199,9 +199,19 @@
       "fish stock cube", "plain flour", "self-raising flour", "cornflour", "caster sugar",
       "brown sugar", "vanilla sugar", "baking powder", "dried yeast", "soy sauce", "fish sauce",
       "white wine vinegar", "balsamic vinegar", "red wine vinegar", "Worcestershire sauce",
-      "sriracha", "red curry paste", "tahini", "breadcrumbs", "walnuts", "almonds", "pine nuts",
-      "sesame seeds", "raisins", "dark chocolate", "cocoa powder", "maple syrup", "sunflower seeds",
-      "chia seeds", "dried apricots"
+      "sriracha", "breadcrumbs", "cocoa powder",
+      { "name": "red curry paste", "policy": "CHECK" },
+      { "name": "tahini", "policy": "CHECK" },
+      { "name": "walnuts", "policy": "CHECK" },
+      { "name": "almonds", "policy": "CHECK" },
+      { "name": "pine nuts", "policy": "CHECK" },
+      { "name": "sesame seeds", "policy": "CHECK" },
+      { "name": "raisins", "policy": "CHECK" },
+      { "name": "dark chocolate", "policy": "CHECK" },
+      { "name": "maple syrup", "policy": "CHECK" },
+      { "name": "sunflower seeds", "policy": "CHECK" },
+      { "name": "chia seeds", "policy": "CHECK" },
+      { "name": "dried apricots", "policy": "CHECK" }
     ],
     "Frozen": [
       "frozen peas", "frozen spinach", "frozen mixed vegetables", "frozen raspberries", "frozen fries",

@@ -61,12 +61,15 @@ class RequirementsBuilderTest {
                 food("rice", "Pasta & grains", 100.0, "gram"),                            // label default CHECK
                 override(food("onion", "Vegetables", 1.0, null), PurchasePolicy.CHECK),   // food override
                 food("yoghurt", "Dairy & eggs", 100.0, "gram"),                           // PREDICT → CHECK in Phase 1
-                food("mystery", "Unknown label", 1.0, null)));                            // no default → AUTO
+                food("mystery", "Unknown label", 1.0, null),                              // no default → AUTO
+                food("salt", "Pantry", null, null),                                       // label default STOCKED
+                override(food("tahini", "Pantry", 2.0, "tablespoon"), PurchasePolicy.CHECK)));  // non-staple in the pantry
 
         ShoppingRequirements r = builder.build("run", List.of(recipe));
 
         assertThat(r.autoItems()).extracting(RequiredItem::foodName).containsExactlyInAnyOrder("carrot", "mystery");
-        assertThat(r.checkQuestions()).extracting(RequiredItem::foodName).containsExactlyInAnyOrder("rice", "onion", "yoghurt");
+        assertThat(r.checkQuestions()).extracting(RequiredItem::foodName).containsExactlyInAnyOrder("rice", "onion", "yoghurt", "tahini");
+        assertThat(r.assumedInStock()).extracting(RequiredItem::foodName).containsExactly("salt");
         assertThat(r.checkQuestions()).allMatch(i -> i.policy() == PurchasePolicy.CHECK);
     }
 

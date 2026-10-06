@@ -74,8 +74,10 @@ have two protein tags (mostly *Vegetarian* + *Legumes*), which spec §3.3 report
 
 **POC 3: shopping list.** Scaling, unit conversion, policies and re-runs work against Mealie: a
 second run changes nothing, a hand-edited item is left alone, and an item the household removed
-is not added back. Finding: with the current label defaults, the seeded week asks **38 stock-check
-questions**, mostly pantry staples (salt, pepper, oil, spices). Appendix A expects a handful.
+is not added back. The first run asked **38 stock-check questions**, mostly salt, pepper, oil and
+spices. Pantry staples are now `STOCKED` (assumed in stock, never asked), which brings the seeded
+week to 22 questions: canned goods, pasta and rice, dairy (which Phase 2 will predict instead)
+and a few non-staple pantry items such as nuts.
 
 **POC 4: chat.** Button handling, the shared checklist, the allowlist, outdated and simultaneous
 presses work and are covered by tests. The demo was run in console mode only: this sandbox can't

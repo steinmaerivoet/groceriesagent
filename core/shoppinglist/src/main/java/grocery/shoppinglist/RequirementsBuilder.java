@@ -16,8 +16,8 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Spec §4.3.1: recipe ingredients → scale → aggregate per Food → purchase policy → AUTO items and
- * CHECK questions. Pure: no Mealie calls.
+ * Spec §4.3.1: recipe ingredients → scale → aggregate per Food → purchase policy → AUTO items,
+ * CHECK questions and STOCKED items assumed in stock. Pure: no Mealie calls.
  */
 public final class RequirementsBuilder {
 
@@ -78,11 +78,16 @@ public final class RequirementsBuilder {
 
         List<RequiredItem> auto = new ArrayList<>();
         List<RequiredItem> check = new ArrayList<>();
+        List<RequiredItem> stocked = new ArrayList<>();
         lines.values().stream()
                 .map(RequirementsBuilder::toItem)
                 .sorted(Comparator.comparing((RequiredItem i) -> nullToEmpty(i.labelName())).thenComparing(RequiredItem::foodName))
-                .forEach(item -> (item.policy() == PurchasePolicy.AUTO ? auto : check).add(item));
-        return new ShoppingRequirements(runId, auto, check, notes, problems);
+                .forEach(item -> (switch (item.policy()) {
+                    case AUTO -> auto;
+                    case STOCKED -> stocked;
+                    case CHECK, PREDICT -> check;
+                }).add(item));
+        return new ShoppingRequirements(runId, auto, check, stocked, notes, problems);
     }
 
     private static RequiredItem toItem(Line line) {
