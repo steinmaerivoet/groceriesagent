@@ -5,21 +5,21 @@
       "date" : "2026-10-12",
       "mealType" : "dinner"
     },
-    "recipeId" : "db782f16-e747-43ee-ae55-5dbd18b41c74",
+    "recipeId" : "db2b4bde-3cb7-4be7-9c7b-437a1f061c2c",
     "fixed" : false,
-    "score" : 1.5,
+    "score" : 2.39,
     "explanation" : [ {
       "term" : "rating",
-      "value" : 1.0,
-      "reason" : "rated 4/5"
+      "value" : 2.0,
+      "reason" : "rated 5/5"
+    }, {
+      "term" : "recency",
+      "value" : -0.1071428571428571,
+      "reason" : "last planned 2026-09-14"
     }, {
       "term" : "ingredient reuse",
       "value" : 0.5,
-      "reason" : "7 ingredients shared with other meals"
-    }, {
-      "term" : "weekly target",
-      "value" : 0.0,
-      "reason" : "counts towards Vegetarian ≥ 2"
+      "reason" : "6 ingredients shared with other meals"
     } ]
   }, {
     "slot" : {
@@ -47,42 +47,21 @@
       "date" : "2026-10-14",
       "mealType" : "dinner"
     },
-    "recipeId" : "e67de29b-23ca-40de-9ce3-28170a553e84",
+    "recipeId" : "98fdb4d1-2b00-486e-8a51-53d1a3355add",
     "fixed" : false,
-    "score" : 2.5,
+    "score" : 2.4,
     "explanation" : [ {
       "term" : "rating",
       "value" : 2.0,
       "reason" : "rated 5/5"
     }, {
       "term" : "ingredient reuse",
-      "value" : 0.5,
-      "reason" : "6 ingredients shared with other meals"
+      "value" : 0.4,
+      "reason" : "4 ingredients shared with other meals"
     } ]
   }, {
     "slot" : {
       "date" : "2026-10-15",
-      "mealType" : "dinner"
-    },
-    "recipeId" : "db2b4bde-3cb7-4be7-9c7b-437a1f061c2c",
-    "fixed" : false,
-    "score" : 2.39,
-    "explanation" : [ {
-      "term" : "rating",
-      "value" : 2.0,
-      "reason" : "rated 5/5"
-    }, {
-      "term" : "recency",
-      "value" : -0.1071428571428571,
-      "reason" : "last planned 2026-09-14"
-    }, {
-      "term" : "ingredient reuse",
-      "value" : 0.5,
-      "reason" : "7 ingredients shared with other meals"
-    } ]
-  }, {
-    "slot" : {
-      "date" : "2026-10-16",
       "mealType" : "dinner"
     },
     "recipeId" : "52c96a3e-54a8-4935-b29a-1ffd91b66d5d",
@@ -107,20 +86,41 @@
     } ]
   }, {
     "slot" : {
+      "date" : "2026-10-16",
+      "mealType" : "dinner"
+    },
+    "recipeId" : "20ba89d1-f977-4c74-aa76-95387cc48d76",
+    "fixed" : false,
+    "score" : 0.5,
+    "explanation" : [ {
+      "term" : "rating",
+      "value" : 0.0,
+      "reason" : "rated 3/5"
+    }, {
+      "term" : "ingredient reuse",
+      "value" : 0.5,
+      "reason" : "5 ingredients shared with other meals"
+    }, {
+      "term" : "weekly target",
+      "value" : 0.0,
+      "reason" : "counts towards Vegetarian ≥ 2"
+    } ]
+  }, {
+    "slot" : {
       "date" : "2026-10-17",
       "mealType" : "dinner"
     },
-    "recipeId" : "98fdb4d1-2b00-486e-8a51-53d1a3355add",
+    "recipeId" : "e67de29b-23ca-40de-9ce3-28170a553e84",
     "fixed" : false,
-    "score" : 2.4,
+    "score" : 2.5,
     "explanation" : [ {
       "term" : "rating",
       "value" : 2.0,
       "reason" : "rated 5/5"
     }, {
       "term" : "ingredient reuse",
-      "value" : 0.4,
-      "reason" : "4 ingredients shared with other meals"
+      "value" : 0.5,
+      "reason" : "7 ingredients shared with other meals"
     } ]
   }, {
     "slot" : {
@@ -137,14 +137,14 @@
     }, {
       "term" : "ingredient reuse",
       "value" : 0.5,
-      "reason" : "6 ingredients shared with other meals"
+      "reason" : "5 ingredients shared with other meals"
     }, {
       "term" : "weekly target",
       "value" : 0.0,
       "reason" : "counts towards Vegetarian ≥ 2"
     } ]
   } ],
-  "totalScore" : 15.28,
+  "totalScore" : 14.35,
   "weekTerms" : [ ],
   "problems" : [ {
     "type" : "RECIPE_CLASSIFICATION_REQUIRED",

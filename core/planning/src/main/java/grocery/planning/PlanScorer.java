@@ -154,7 +154,8 @@ final class PlanScorer {
         if (recipeId == null || w.jitter() == 0) {
             return 0;
         }
-        long seed = ((long) runId.hashCode() << 32) ^ Objects.hash(slot.date(), slot.mealType(), recipeId);
+        // Only value-based hash codes (String, LocalDate): enum and object hashes differ between JVM runs.
+        long seed = ((long) runId.hashCode() << 32) ^ Objects.hash(slot.date(), slot.mealType().name(), recipeId);
         return new SplittableRandom(seed).nextDouble() * w.jitter();
     }
 

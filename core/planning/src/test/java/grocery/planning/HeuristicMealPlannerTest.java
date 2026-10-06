@@ -152,6 +152,16 @@ class HeuristicMealPlannerTest {
         assertThat(plan.weekTerms()).isEmpty();
     }
 
+    @Test
+    void reproducesTheCommittedPlanForTheSeededWeek() {
+        // Guards determinism across JVM runs: fixtures/plan-2026-W42.json was produced by the demo.
+        PlanningSnapshot snapshot = Json.read(Path.of("../../fixtures/snapshot-2026-W42.json"), PlanningSnapshot.class);
+        ProposedPlan expected = Json.read(Path.of("../../fixtures/plan-2026-W42.json"), ProposedPlan.class);
+
+        assertThat(planner.plan(snapshot).slots()).extracting(PlannedSlot::recipeId)
+                .containsExactlyElementsOf(expected.slots().stream().map(PlannedSlot::recipeId).toList());
+    }
+
     private static void assertAllInPool(PlanningSnapshot snapshot, ProposedPlan plan) {
         Map<Object, SlotPool> pools = snapshot.pools().stream().collect(Collectors.toMap(SlotPool::slot, Function.identity()));
         plan.slots().stream().filter(s -> !s.fixed() && s.recipeId() != null)
