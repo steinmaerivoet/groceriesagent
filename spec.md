@@ -409,7 +409,7 @@ Items created by Grocery Core **SHALL** carry `{"groceries": {"managed": true, "
 | Managed, unchanged by the user, no longer required         | Remove it.                                  |
 | Managed, changed by the user (quantity, note, checked)     | Leave it; the user's version wins.          |
 | Created by the user                                        | Never modify or delete it.                  |
-| Required Food already present as a user-created item       | Do not add a duplicate; report the overlap. |
+| Required Food already present as a user-created item       | Do not add a duplicate; report the overlap. Mealie would otherwise merge the new item into the user's. |
 
 #### 4.3.4 Manual changes
 
@@ -821,8 +821,8 @@ Not part of the target design. Each item **SHOULD** be justified by an observed 
 
 | ID    | Question                                                                                                                                                                                                                    | Blocks  | Status   |
 | ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | -------- |
-| OQ-01 | **Mealie API surface.** Planner-rule behaviour is verified (§3.4.1). Still to verify against a pinned Mealie version: Foods and Food extras, shopping-list item extras, meal-plan entry CRUD, `GET /api/recipes` query filters incl. pagination of full pools, nutrition, substitutions. | Phase 1 | Partial  |
-| OQ-02 | **Purchase-policy storage.** Mealie Food extras or Grocery Core persistence? *Preferred:* per-Food overrides in extras, label defaults in Grocery Core settings.                                                               | Phase 1 | Open     |
+| OQ-01 | **Mealie API surface.** Planner-rule behaviour is verified (§3.4.1). POC 1 verified against v3.28.0: Food extras, shopping-list item extras (stored as JSON strings), meal-plan entry CRUD, paginated `GET /api/recipes` query filters (pools equal the random button's). Mealie merges a new list item into an existing one with the same Food (§4.3.3). Still open: nutrition, substitutions. | Phase 1 | Partial  |
+| OQ-02 | **Purchase-policy storage.** Per-Food overrides in Mealie extras, label defaults in Grocery Core settings (POC 3). The seeder writes only overrides.                                                                             | Phase 1 | Resolved |
 | OQ-04 | **Proposed versus confirmed meals.** Write unconfirmed proposals to Mealie, or keep them in the `PlanningRun` until accepted? *Preferred:* write to Mealie if they can be clearly identified as proposed and safely reconciled. | Phase 1 | Open     |
 | OQ-07 | **Agent runtime.** Select the agent host once the Phase 1 tool API exists; the framework **SHALL NOT** drive Grocery Core architecture. Independent of the chat channel: the agent only receives free text from the `chat` module. | Phase 1 | Open     |
 | OQ-03 | **Household products in Mealie.** Does representing detergent, toilet paper etc. as Foods cause undesirable UI behaviour? If so, add a minimal `HouseholdProduct` concept for non-food items only — not pre-emptively.          | Phase 2 | Open     |

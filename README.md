@@ -1,6 +1,7 @@
 # Grocery Orchestrator: development workspace
 
-See [spec.md](spec.md) for the product specification.
+See [spec.md](spec.md) for the product specification. The Grocery Core is being built as a set
+of small proofs of concept in [core/](core/README.md), one per part of the product.
 
 ## Quick start
 
@@ -55,10 +56,16 @@ All data lives in [dev/seed/data/](dev/seed/data/) and follows the Mealie conven
   ingredients. Shopping-list aggregation per Food UUID (spec §21) therefore works out of the box.
 - **Categories** (meal purpose): Breakfast, Lunch, Dinner, Snack, Side.
 - **Tags** (planning characteristics): carbohydrate, protein and preparation groups as in spec §7.2.
-- **250 Foods**, each with a shopping label (spec §8) and a purchase policy in extras (spec §10).
+- **250 Foods**, each with a shopping label. Foods that deviate from their label's default purchase
+  policy carry an override in extras; the label defaults live in Grocery Core
+  (`ShoppingSettings`), so policy resolution happens in one place.
   The Foods include non-recipe items such as Coca-Cola, dishwasher tablets and toilet paper, so
   you can test PREDICT behaviour.
 - **16 metric units** (g, kg, ml, l, tsp, tbsp, clove, can, bunch…).
+- **Planner rules** from spec §3.4.4 in [planner-rules.json](dev/seed/data/planner-rules.json)
+  (Monday pasta, no weekend recipes on weekdays, a quick Friday).
+- **Three weeks of past dinners** in [meal-plan-history.json](dev/seed/data/meal-plan-history.json),
+  dated relative to the week you seed in, for recency scoring.
 - **Ratings** for most recipes (1 to 5; rating 5 also marks the recipe as a favourite), plus an
   empty `Groceries` shopping list.
 - **Seasonal variety**: white asparagus, pumpkin, Brussels sprouts, endive, berries and so on,
@@ -88,7 +95,7 @@ Mealie stores extras as flat **string** key/value pairs. Sending a nested object
 The seeder therefore stores the spec §9 namespace as a JSON-encoded string:
 
 ```json
-"extras": { "groceries": "{\"purchasePolicy\": \"AUTO\", \"stockUpAllowed\": false}" }
+"extras": { "groceries": "{\"purchasePolicy\": \"CHECK\"}" }
 ```
 
 The Grocery Core needs to `JSON.parse` / serialize the `groceries` value. Seeded recipes carry
@@ -98,7 +105,8 @@ The Grocery Core needs to `JSON.parse` / serialize the `groceries` value. Seeded
 
 - **Pantry**: an extra label for oils, spices, flour, sugar and stock cubes. None of the
   suggested labels fit these.
-- **Purchase policies**: the label sets a default, which individual foods override.
+- **Purchase policies**: the label sets a default (in Grocery Core), which individual foods
+  override in `catalog.json`.
   - Onions, garlic and potatoes are `CHECK`.
   - Lemons, berries and cream are `AUTO`.
   - Beer for stoofvlees is `AUTO`; wine is `CHECK`.

@@ -28,6 +28,7 @@ import java.util.stream.Collectors;
  *   ./gradlew :shoppinglist:run --args="--plan fixtures/plan-2026-W42.json"                 # show requirements
  *   ./gradlew :shoppinglist:run --args="--plan fixtures/plan-2026-W42.json --yes rice,garlic --write"
  *   ./gradlew :shoppinglist:run --args="--recipes moules-frites,lasagne --servings 4"
+ *   ./gradlew :shoppinglist:run --args="--plan fixtures/plan-2026-W42.json --out fixtures/requirements-2026-W42.json"
  * </pre>
  * {@code --yes} answers the stock check by food name ({@code --all-yes} buys everything asked).
  * {@code --write} reconciles the Mealie list "Groceries"; what was written is remembered in
@@ -57,6 +58,11 @@ public final class Demo {
         List<Recipe> recipes = MealieRecipes.load(mealie, recipeIds);
         ShoppingRequirements requirements = new RequirementsBuilder(settings).build(runId, recipes);
         print(recipes, requirements, settings);
+        String out = option(args, "--out", null);
+        if (out != null) {
+            Json.write(Path.of(out), requirements);
+            System.out.println("\nRequirements written to " + Path.of(out).toAbsolutePath().normalize());
+        }
 
         if (Arrays.asList(args).contains("--write")) {
             Set<String> buy = answers(args, requirements);
