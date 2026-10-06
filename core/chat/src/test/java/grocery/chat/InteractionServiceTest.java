@@ -95,6 +95,16 @@ class InteractionServiceTest {
     }
 
     @Test
+    void buttonDataThatDoesNotFitTheQuestionIsRejected() {
+        Interaction asked = service.ask("2026-W42", currentState, PROPOSAL);
+
+        assertThat(service.press(press(STEIN, asked, Callback.option(asked.id(), 7)))).isEqualTo(Outcome.STALE);
+        assertThat(service.press(press(STEIN, asked, Callback.confirm(asked.id())))).isEqualTo(Outcome.STALE);
+        assertThat(service.press(new Press("p", GROUP, STEIN, "Stein", "i1:oops"))).isEqualTo(Outcome.STALE);
+        assertThat(answers).isEmpty();
+    }
+
+    @Test
     void outdatedQuestionsAreRejectedAndLoseTheirButtons() {
         Interaction asked = service.ask("2026-W42", currentState, PROPOSAL);
         currentState = "STOCK_CONFIRMATION_REQUIRED";

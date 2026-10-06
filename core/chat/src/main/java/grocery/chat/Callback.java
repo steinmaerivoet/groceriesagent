@@ -41,4 +41,19 @@ public record Callback(long interactionId, String action) {
     int index() {
         return Integer.parseInt(action.substring(1));
     }
+
+    /** False for data that doesn't match the message, e.g. a hand-crafted or out-of-range index. */
+    boolean fits(Message message) {
+        if (action.equals("c")) {
+            return message instanceof Message.Checklist;
+        }
+        if (!action.matches("[ot]\\d{1,4}")) {
+            return false;
+        }
+        return switch (message) {
+            case Message.Choice c -> action.startsWith("o") && index() < c.options().size();
+            case Message.Checklist c -> action.startsWith("t") && index() < c.items().size();
+            default -> false;
+        };
+    }
 }

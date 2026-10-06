@@ -105,6 +105,10 @@ public final class InteractionService {
     /** @return empty when the optimistic update lost a race and the press must be retried */
     private Optional<Outcome> apply(Interaction i, Callback callback, Press press) {
         String action = callback.action();
+        if (!callback.fits(i.message())) {
+            channel.acknowledge(press.pressId(), "This button is no longer active.");
+            return Optional.of(Outcome.STALE);
+        }
         if (i.message() instanceof Choice choice && action.startsWith("o")) {
             Message.Option option = choice.options().get(callback.index());
             return answer(i, i.selected(), option.label(), press, option.id());
