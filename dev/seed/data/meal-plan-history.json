@@ -1,0 +1,28 @@
+{
+  "_comment": "Past dinners, so recency and (later) routine learning have something to work with. weeksAgo counts back from the current ISO week; the seeder turns it into dates and skips slots that already have an entry.",
+  "entries": [
+    { "weeksAgo": 3, "day": "monday",    "recipe": "Spaghetti Bolognese" },
+    { "weeksAgo": 3, "day": "tuesday",   "recipe": "Moules-Frites" },
+    { "weeksAgo": 3, "day": "wednesday", "recipe": "Red Lentil Dal" },
+    { "weeksAgo": 3, "day": "thursday",  "recipe": "Carrot Stoemp with Sausages" },
+    { "weeksAgo": 3, "day": "friday",    "recipe": "Chicken Fajitas" },
+    { "weeksAgo": 3, "day": "saturday",  "recipe": "Flemish Beef Stew (Stoofvlees)" },
+    { "weeksAgo": 3, "day": "sunday",    "recipe": "Roast Chicken with Root Vegetables" },
+
+    { "weeksAgo": 2, "day": "monday",    "recipe": "Pasta Pesto with Green Beans and Potato" },
+    { "weeksAgo": 2, "day": "tuesday",   "recipe": "Thai Red Chicken Curry" },
+    { "weeksAgo": 2, "day": "wednesday", "recipe": "Baked Salmon with Lemon Potatoes" },
+    { "weeksAgo": 2, "day": "thursday",  "recipe": "Chickpea and Spinach Curry" },
+    { "weeksAgo": 2, "day": "friday",    "recipe": "Spinach Stoemp with Fried Eggs" },
+    { "weeksAgo": 2, "day": "saturday",  "recipe": "Ghent Chicken Waterzooi" },
+    { "weeksAgo": 2, "day": "sunday",    "recipe": "Lasagne" },
+
+    { "weeksAgo": 1, "day": "monday",    "recipe": "Spaghetti Carbonara" },
+    { "weeksAgo": 1, "day": "tuesday",   "recipe": "Mushroom Risotto" },
+    { "weeksAgo": 1, "day": "wednesday", "recipe": "Cod with Mustard Sauce and Mash" },
+    { "weeksAgo": 1, "day": "thursday",  "recipe": "Meatballs in Tomato Sauce" },
+    { "weeksAgo": 1, "day": "friday",    "recipe": "Shakshuka" },
+    { "weeksAgo": 1, "day": "saturday",  "recipe": "Vol-au-Vent" },
+    { "weeksAgo": 1, "day": "sunday",    "recipe": "Sweet Potato and Lentil Curry" }
+  ]
+}

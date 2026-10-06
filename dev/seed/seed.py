@@ -13,6 +13,7 @@ Environment: MEALIE_URL (default http://localhost:9925), MEALIE_ADMIN_EMAIL, MEA
 from __future__ import annotations
 
 import argparse
+import datetime
 import json
 import os
 import re
@@ -58,7 +59,6 @@ class Catalog:
             for entry in group:
                 food = {"name": entry} if isinstance(entry, str) else dict(entry)
                 food["label"] = label
-                food.setdefault("policy", self.labels[label]["policy"])
                 self.foods.append(food)
 
         self.unit_lookup: dict[str, str] = {}
@@ -104,8 +104,33 @@ def load_dataset() -> tuple[Catalog, list[dict]]:
     return catalog, recipes
 
 
-def validate(catalog: Catalog, recipes: list[dict]) -> list[str]:
+def load_rules() -> list[dict]:
+    return json.loads((DATA / "planner-rules.json").read_text())["rules"]
+
+
+def load_history() -> list[dict]:
+    return json.loads((DATA / "meal-plan-history.json").read_text())["entries"]
+
+
+_PLACEHOLDER = re.compile(r"\{(tag|category):([^}]+)\}")
+DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+
+
+def validate(catalog: Catalog, recipes: list[dict], rules: list[dict], history: list[dict]) -> list[str]:
     errors = []
+    for i, rule in enumerate(rules, 1):
+        for kind, name in _PLACEHOLDER.findall(rule["filter"]):
+            known = catalog.tags if kind == "tag" else catalog.categories
+            if name not in known:
+                errors.append(f"planner rule {i}: unknown {kind} '{name}'")
+        if rule["day"] not in [*DAYS, "unset"]:
+            errors.append(f"planner rule {i}: unknown day '{rule['day']}'")
+    recipe_names = {r.get("name") for r in recipes}
+    for entry in history:
+        if entry["recipe"] not in recipe_names:
+            errors.append(f"meal-plan history: unknown recipe '{entry['recipe']}'")
+        if entry["day"] not in DAYS:
+            errors.append(f"meal-plan history: unknown day '{entry['day']}'")
     names = set()
     for r in recipes:
         where = r.get("name", "<unnamed>")
@@ -198,6 +223,17 @@ def ensure_by_name(api: Mealie, path: str, wanted: list[dict], kind: str) -> dic
 # --------------------------------------------------------------------------- seeding
 
 
+def food_extras(food: dict) -> dict:
+    """Only a food's own overrides go into Mealie. Label defaults and policy resolution live in
+    Grocery Core (spec §4.2.2), so they are not copied onto every food here."""
+    overrides = {}
+    if "policy" in food:
+        overrides["purchasePolicy"] = food["policy"]
+    if "stockUpAllowed" in food:
+        overrides["stockUpAllowed"] = food["stockUpAllowed"]
+    return {EXTRAS_NAMESPACE: json.dumps(overrides)} if overrides else {}
+
+
 def seed_catalog(api: Mealie, catalog: Catalog):
     labels = ensure_by_name(
         api, "/api/groups/labels",
@@ -226,12 +262,7 @@ def seed_catalog(api: Mealie, catalog: Catalog):
                 "name": f["name"],
                 "pluralName": f.get("plural"),
                 "labelId": labels[f["label"]]["id"],
-                "extras": {
-                    EXTRAS_NAMESPACE: json.dumps({
-                        "purchasePolicy": f["policy"],
-                        "stockUpAllowed": f.get("stockUpAllowed", catalog.labels[f["label"]]["stockUpAllowed"]),
-                    })
-                },
+                "extras": food_extras(f),
             }
             for f in catalog.foods
         ],
@@ -303,6 +334,43 @@ def seed_recipes(api: Mealie, catalog: Catalog, recipes: list[dict], refs, updat
     print(f"\r  recipes      {created:>3} created, {updated:>3} updated, {skipped:>3} already present")
 
 
+def seed_planner_rules(api: Mealie, rules: list[dict], categories, tags):
+    def to_id(m: re.Match) -> str:
+        kind, name = m.groups()
+        return (tags if kind == "tag" else categories)[name]["id"]
+
+    existing = {(r["day"], r["entryType"], r["queryFilterString"]) for r in api.all("/api/households/mealplans/rules")}
+    created = 0
+    for rule in rules:
+        body = {"day": rule["day"], "entryType": rule["entryType"], "queryFilterString": _PLACEHOLDER.sub(to_id, rule["filter"])}
+        if (body["day"], body["entryType"], body["queryFilterString"]) not in existing:
+            api.post("/api/households/mealplans/rules", body)
+            created += 1
+    print(f"  {'rules':<12} {created:>3} created, {len(rules) - created:>3} already present")
+
+
+def seed_meal_plan_history(api: Mealie, history: list[dict]):
+    today = datetime.date.today()
+    this_monday = today - datetime.timedelta(days=today.weekday())
+    entries = [
+        (this_monday - datetime.timedelta(weeks=e["weeksAgo"]) + datetime.timedelta(days=DAYS.index(e["day"])), e["recipe"])
+        for e in history
+    ]
+    start, end = min(d for d, _ in entries), max(d for d, _ in entries)
+    taken = {
+        p["date"]
+        for p in api.all(f"/api/households/mealplans?start_date={start}&end_date={end}")
+        if p["entryType"] == "dinner"
+    }
+    recipe_ids = {r["name"]: r["id"] for r in api.all("/api/recipes")}
+    created = 0
+    for date, recipe in entries:
+        if date.isoformat() not in taken:
+            api.post("/api/households/mealplans", {"date": date.isoformat(), "entryType": "dinner", "recipeId": recipe_ids[recipe]})
+            created += 1
+    print(f"  {'meal plans':<12} {created:>3} created, {len(entries) - created:>3} already present")
+
+
 def ensure_shopping_list(api: Mealie):
     lists = api.all("/api/households/shopping/lists")
     if not any(l["name"] == SHOPPING_LIST_NAME for l in lists):
@@ -341,7 +409,8 @@ def main():
     args = ap.parse_args()
 
     catalog, recipes = load_dataset()
-    errors = validate(catalog, recipes)
+    rules, history = load_rules(), load_history()
+    errors = validate(catalog, recipes, rules, history)
     if errors:
         print("Dataset is invalid:", *errors, sep="\n  ")
         sys.exit(1)
@@ -357,6 +426,8 @@ def main():
 
     refs = seed_catalog(api, catalog)
     seed_recipes(api, catalog, recipes, refs, args.update, user["id"])
+    seed_planner_rules(api, rules, categories=refs[2], tags=refs[3])
+    seed_meal_plan_history(api, history)
     ensure_shopping_list(api)
     ensure_api_token(api, Path(args.env_file))
     print("Done.")

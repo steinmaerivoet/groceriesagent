@@ -207,7 +207,7 @@ Grocery Core **SHALL NOT** create an alternative source of truth for, or persist
 | Food labels    | Shopping-oriented; every Food **SHALL** have one.             | Vegetables, Fruit, Fish, Meat, Dairy & eggs, Bread, Pasta & grains, Canned & jars, Frozen, Drinks, Snacks, Spices & condiments, Household, Personal care                                                       |
 
 - Tags and labels **SHALL NOT** encode market state or purchasing behaviour (e.g. `On promotion`, `In season`, `Fresh`, `Weekly`, `Cheap`, `Always-buy`). Labels **MAY** define default purchase policies (§4.2.2).
-- **Completeness.** Every plannable recipe **SHOULD** have exactly one carbohydrate tag (or none, if not applicable) and exactly one protein / meal-type tag. Missing or conflicting planning tags **SHALL** be reported as `RECIPE_CLASSIFICATION_REQUIRED`, never guessed. Ingredients **SHOULD** be parsed (linked to a Food and Unit) with Mealie's ingredient parser.
+- **Completeness.** Every plannable recipe **SHOULD** have at least one protein / meal-type tag and **MAY** have any number of carbohydrate tags. A recipe with several planning tags counts towards each of them (Red Lentil Dal counts as `Vegetarian` and as `Legumes`). Missing or contradicting planning tags (`Vegetarian` with `Fish`, `Poultry` or `Red meat`) **SHALL** be reported as `RECIPE_CLASSIFICATION_REQUIRED`, never guessed. Ingredients **SHOULD** be parsed (linked to a Food and Unit) with Mealie's ingredient parser.
 - **Extras.** Integration metadata **SHOULD** be stored in Mealie extras under the single namespace `groceries`; no other root-level keys **SHALL** be written.
 
 | Extras key (under `groceries`)            | On                 | Purpose                    |
@@ -361,11 +361,12 @@ Every relevant Food **SHALL** have an effective `PurchasePolicy`:
 | `AUTO`    | Add the required quantity automatically.                          | Fresh vegetables, meat and fish; recipe-specific fresh ingredients        | P1    |
 | `CHECK`   | Ask whether it needs to be bought; all questions in one interaction. | Pasta, rice, flour, olive oil, passata, spices                          | P1    |
 | `PREDICT` | Decide from historical behaviour whether it is likely needed.     | Yoghurt, milk, fruit, Coca-Cola, dishwasher tablets, detergent, toilet paper | P2 |
+| `STOCKED` | Assume it is in stock: never asked, never added; the household adds it by hand when it runs out. | Salt, pepper, cooking oil, spices, flour, sugar, stock cubes          | P1    |
 
 #### 4.2.2 Policy resolution
 
 1. The Food's own `groceries.purchasePolicy` extra **SHALL** take precedence;
-2. otherwise the configured default for the Food's label (e.g. `Pasta & grains`, `Canned & jars`, `Spices & condiments` → `CHECK`);
+2. otherwise the configured default for the Food's label (e.g. `Pasta & grains`, `Canned & jars` → `CHECK`; `Pantry` staples → `STOCKED`);
 3. otherwise `AUTO`.
 
 Before Phase 2, a `PREDICT` Food occurring in a recipe **SHALL** be treated as `CHECK`. Where policies are stored is OQ-02.
@@ -409,7 +410,7 @@ Items created by Grocery Core **SHALL** carry `{"groceries": {"managed": true, "
 | Managed, unchanged by the user, no longer required         | Remove it.                                  |
 | Managed, changed by the user (quantity, note, checked)     | Leave it; the user's version wins.          |
 | Created by the user                                        | Never modify or delete it.                  |
-| Required Food already present as a user-created item       | Do not add a duplicate; report the overlap. |
+| Required Food already present as a user-created item       | Do not add a duplicate; report the overlap. Mealie would otherwise merge the new item into the user's. |
 
 #### 4.3.4 Manual changes
 
@@ -821,8 +822,8 @@ Not part of the target design. Each item **SHOULD** be justified by an observed 
 
 | ID    | Question                                                                                                                                                                                                                    | Blocks  | Status   |
 | ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | -------- |
-| OQ-01 | **Mealie API surface.** Planner-rule behaviour is verified (§3.4.1). Still to verify against a pinned Mealie version: Foods and Food extras, shopping-list item extras, meal-plan entry CRUD, `GET /api/recipes` query filters incl. pagination of full pools, nutrition, substitutions. | Phase 1 | Partial  |
-| OQ-02 | **Purchase-policy storage.** Mealie Food extras or Grocery Core persistence? *Preferred:* per-Food overrides in extras, label defaults in Grocery Core settings.                                                               | Phase 1 | Open     |
+| OQ-01 | **Mealie API surface.** Planner-rule behaviour is verified (§3.4.1). POC 1 verified against v3.28.0: Food extras, shopping-list item extras (stored as JSON strings), meal-plan entry CRUD, paginated `GET /api/recipes` query filters (pools equal the random button's). Mealie merges a new list item into an existing one with the same Food (§4.3.3). Still open: nutrition, substitutions. | Phase 1 | Partial  |
+| OQ-02 | **Purchase-policy storage.** Per-Food overrides in Mealie extras, label defaults in Grocery Core settings (POC 3). The seeder writes only overrides.                                                                             | Phase 1 | Resolved |
 | OQ-04 | **Proposed versus confirmed meals.** Write unconfirmed proposals to Mealie, or keep them in the `PlanningRun` until accepted? *Preferred:* write to Mealie if they can be clearly identified as proposed and safely reconciled. | Phase 1 | Open     |
 | OQ-07 | **Agent runtime.** Select the agent host once the Phase 1 tool API exists; the framework **SHALL NOT** drive Grocery Core architecture. Independent of the chat channel: the agent only receives free text from the `chat` module. | Phase 1 | Open     |
 | OQ-03 | **Household products in Mealie.** Does representing detergent, toilet paper etc. as Foods cause undesirable UI behaviour? If so, add a minimal `HouseholdProduct` concept for non-food items only — not pre-emptively.          | Phase 2 | Open     |

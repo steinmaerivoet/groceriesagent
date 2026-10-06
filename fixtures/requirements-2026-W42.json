@@ -1,0 +1,541 @@
+{
+  "runId" : "2026-W42",
+  "autoItems" : [ {
+    "foodId" : "24be44e2-d44e-48e2-aa6b-6a985292edec",
+    "foodName" : "cream",
+    "labelId" : "ad8f6c0e-3030-4075-b753-d4785acbc459",
+    "labelName" : "Dairy & eggs",
+    "policy" : "AUTO",
+    "quantity" : 75.0,
+    "unitId" : "1f584540-65ec-4246-a2ac-7a693838c087",
+    "unitName" : "millilitre",
+    "recipes" : [ "Butter Chicken" ]
+  }, {
+    "foodId" : "cbcbdf16-7b30-4309-8a46-0ccd3e5b1619",
+    "foodName" : "mussels",
+    "labelId" : "79537583-ed2b-4fa7-8887-4f8367928af2",
+    "labelName" : "Fish",
+    "policy" : "AUTO",
+    "quantity" : 1.5,
+    "unitId" : "7e9be6ec-405e-47b9-b1e7-f21babc3b3ef",
+    "unitName" : "kilogram",
+    "recipes" : [ "Moules-Frites" ]
+  }, {
+    "foodId" : "5b38ca9b-d184-48f2-82cb-44ff51914e41",
+    "foodName" : "prawns",
+    "labelId" : "79537583-ed2b-4fa7-8887-4f8367928af2",
+    "labelName" : "Fish",
+    "policy" : "AUTO",
+    "quantity" : 150.0,
+    "unitId" : "a8b90258-6433-4222-96ed-08cec5035fd8",
+    "unitName" : "gram",
+    "recipes" : [ "Pad Thai with Prawns" ]
+  }, {
+    "foodId" : "7d88154d-7018-42cc-b0c7-c56c8664060c",
+    "foodName" : "lemon",
+    "labelId" : "aef1f346-8116-4055-8ecb-cf7d7da5322c",
+    "labelName" : "Fruit",
+    "policy" : "AUTO",
+    "quantity" : 1.0,
+    "recipes" : [ "Flemish-Style Asparagus" ]
+  }, {
+    "foodId" : "b500772a-429f-4056-acd5-1c2179e95fe9",
+    "foodName" : "lime",
+    "labelId" : "aef1f346-8116-4055-8ecb-cf7d7da5322c",
+    "labelName" : "Fruit",
+    "policy" : "AUTO",
+    "quantity" : 2.0,
+    "recipes" : [ "Chicken Satay with Peanut Sauce", "Pad Thai with Prawns" ]
+  }, {
+    "foodId" : "f458893f-0366-4a2a-9f4d-ea95342f162c",
+    "foodName" : "chicken thigh",
+    "labelId" : "44ae9b0d-95a7-44b4-8335-db2374e263d6",
+    "labelName" : "Meat",
+    "policy" : "AUTO",
+    "quantity" : 650.0,
+    "unitId" : "a8b90258-6433-4222-96ed-08cec5035fd8",
+    "unitName" : "gram",
+    "recipes" : [ "Chicken Satay with Peanut Sauce", "Butter Chicken" ]
+  }, {
+    "foodId" : "c6da7be0-5bd7-46e8-8d4c-9e1a59df5ff5",
+    "foodName" : "minced beef",
+    "labelId" : "44ae9b0d-95a7-44b4-8335-db2374e263d6",
+    "labelName" : "Meat",
+    "policy" : "AUTO",
+    "quantity" : 250.0,
+    "unitId" : "a8b90258-6433-4222-96ed-08cec5035fd8",
+    "unitName" : "gram",
+    "recipes" : [ "Spaghetti Bolognese" ]
+  }, {
+    "foodId" : "0caa23ed-ec99-4f84-98ee-346c78347bfe",
+    "foodName" : "bean sprouts",
+    "labelId" : "a264e007-c9e0-4a92-ba83-7302ab521d66",
+    "labelName" : "Vegetables",
+    "policy" : "AUTO",
+    "quantity" : 100.0,
+    "unitId" : "a8b90258-6433-4222-96ed-08cec5035fd8",
+    "unitName" : "gram",
+    "recipes" : [ "Pad Thai with Prawns" ]
+  }, {
+    "foodId" : "518647cf-3b8d-4567-8f49-f8e8fc2c674e",
+    "foodName" : "butternut squash",
+    "labelId" : "a264e007-c9e0-4a92-ba83-7302ab521d66",
+    "labelName" : "Vegetables",
+    "policy" : "AUTO",
+    "quantity" : 1.0,
+    "recipes" : [ "Pumpkin Pasta with Sage Butter" ]
+  }, {
+    "foodId" : "6a07225a-c269-494f-86f3-66c553a13670",
+    "foodName" : "carrot",
+    "labelId" : "a264e007-c9e0-4a92-ba83-7302ab521d66",
+    "labelName" : "Vegetables",
+    "policy" : "AUTO",
+    "quantity" : 1.0,
+    "recipes" : [ "Spaghetti Bolognese" ]
+  }, {
+    "foodId" : "f56011e8-8e77-4aaf-8228-74d325e8b74a",
+    "foodName" : "celery",
+    "labelId" : "a264e007-c9e0-4a92-ba83-7302ab521d66",
+    "labelName" : "Vegetables",
+    "policy" : "AUTO",
+    "quantity" : 3.0,
+    "recipes" : [ "Moules-Frites", "Spaghetti Bolognese" ]
+  }, {
+    "foodId" : "1c273ed7-3e3c-43c4-8aff-80dca7b2e006",
+    "foodName" : "cucumber",
+    "labelId" : "a264e007-c9e0-4a92-ba83-7302ab521d66",
+    "labelName" : "Vegetables",
+    "policy" : "AUTO",
+    "quantity" : 1.0,
+    "recipes" : [ "Chicken Satay with Peanut Sauce" ]
+  }, {
+    "foodId" : "0c7dfbe8-8444-42ab-8249-c36ccc712218",
+    "foodName" : "fresh coriander",
+    "labelId" : "a264e007-c9e0-4a92-ba83-7302ab521d66",
+    "labelName" : "Vegetables",
+    "policy" : "AUTO",
+    "quantity" : 1.0,
+    "unitId" : "6e58804e-99c7-4f13-b1e6-cc7276844ba7",
+    "unitName" : "bunch",
+    "recipes" : [ "Pad Thai with Prawns", "Butter Chicken" ]
+  }, {
+    "foodId" : "f2d472cd-7423-468b-b3c0-5d7eb046ec3a",
+    "foodName" : "fresh parsley",
+    "labelId" : "a264e007-c9e0-4a92-ba83-7302ab521d66",
+    "labelName" : "Vegetables",
+    "policy" : "AUTO",
+    "quantity" : 1.0,
+    "unitId" : "6e58804e-99c7-4f13-b1e6-cc7276844ba7",
+    "unitName" : "bunch",
+    "recipes" : [ "Moules-Frites", "Flemish-Style Asparagus" ]
+  }, {
+    "foodId" : "f0adab4a-ee94-40b6-9945-e2f8ee210a9f",
+    "foodName" : "fresh thyme",
+    "labelId" : "a264e007-c9e0-4a92-ba83-7302ab521d66",
+    "labelName" : "Vegetables",
+    "policy" : "AUTO",
+    "quantity" : 2.0,
+    "unitId" : "c9cebe83-12f2-47ba-8851-7ec1fcdf610b",
+    "unitName" : "sprig",
+    "recipes" : [ "Pumpkin Pasta with Sage Butter" ]
+  }, {
+    "foodId" : "b51a324d-16c3-49d9-93b1-444aa915e5f1",
+    "foodName" : "ginger",
+    "labelId" : "a264e007-c9e0-4a92-ba83-7302ab521d66",
+    "labelName" : "Vegetables",
+    "policy" : "AUTO",
+    "quantity" : 10.0,
+    "unitId" : "a8b90258-6433-4222-96ed-08cec5035fd8",
+    "unitName" : "gram",
+    "recipes" : [ "Butter Chicken" ]
+  }, {
+    "foodId" : "aa3191e4-5d03-4d5c-b224-ec699d0db3f7",
+    "foodName" : "spring onion",
+    "labelId" : "a264e007-c9e0-4a92-ba83-7302ab521d66",
+    "labelName" : "Vegetables",
+    "policy" : "AUTO",
+    "quantity" : 2.0,
+    "recipes" : [ "Pad Thai with Prawns" ]
+  }, {
+    "foodId" : "df91e094-be00-430c-912c-ebb64710d2b7",
+    "foodName" : "waxy potato",
+    "labelId" : "a264e007-c9e0-4a92-ba83-7302ab521d66",
+    "labelName" : "Vegetables",
+    "policy" : "AUTO",
+    "quantity" : 400.0,
+    "unitId" : "a8b90258-6433-4222-96ed-08cec5035fd8",
+    "unitName" : "gram",
+    "recipes" : [ "Flemish-Style Asparagus" ]
+  }, {
+    "foodId" : "5f4da46d-12c3-4774-b7fd-cfab11372e3b",
+    "foodName" : "white asparagus",
+    "labelId" : "a264e007-c9e0-4a92-ba83-7302ab521d66",
+    "labelName" : "Vegetables",
+    "policy" : "AUTO",
+    "quantity" : 0.75,
+    "unitId" : "7e9be6ec-405e-47b9-b1e7-f21babc3b3ef",
+    "unitName" : "kilogram",
+    "recipes" : [ "Flemish-Style Asparagus" ]
+  } ],
+  "checkQuestions" : [ {
+    "foodId" : "54fda134-4c70-45d3-bdcd-09479af373f6",
+    "foodName" : "chopped tomatoes",
+    "labelId" : "0da99f35-621f-4458-9e21-04e1ccbb4735",
+    "labelName" : "Canned & jars",
+    "policy" : "CHECK",
+    "quantity" : 1.0,
+    "unitId" : "7020f8d8-ed19-413e-b2de-37067508a718",
+    "unitName" : "can",
+    "recipes" : [ "Spaghetti Bolognese" ]
+  }, {
+    "foodId" : "fea2eaf0-e632-4f5f-8c86-f8252d5e8407",
+    "foodName" : "coconut milk",
+    "labelId" : "0da99f35-621f-4458-9e21-04e1ccbb4735",
+    "labelName" : "Canned & jars",
+    "policy" : "CHECK",
+    "quantity" : 100.0,
+    "unitId" : "1f584540-65ec-4246-a2ac-7a693838c087",
+    "unitName" : "millilitre",
+    "recipes" : [ "Chicken Satay with Peanut Sauce" ]
+  }, {
+    "foodId" : "026a039f-daf6-4e80-b479-ebc7f7e3daeb",
+    "foodName" : "honey",
+    "labelId" : "0da99f35-621f-4458-9e21-04e1ccbb4735",
+    "labelName" : "Canned & jars",
+    "policy" : "CHECK",
+    "quantity" : 0.5,
+    "unitId" : "018ffd4b-e710-4117-80fb-334fea70dc5b",
+    "unitName" : "tablespoon",
+    "recipes" : [ "Chicken Satay with Peanut Sauce" ]
+  }, {
+    "foodId" : "9147dbfb-2099-4a3e-b5c1-e5afd2b0370f",
+    "foodName" : "mayonnaise",
+    "labelId" : "0da99f35-621f-4458-9e21-04e1ccbb4735",
+    "labelName" : "Canned & jars",
+    "policy" : "CHECK",
+    "recipes" : [ "Moules-Frites" ]
+  }, {
+    "foodId" : "4174b9de-2c6f-48a6-989a-3407170fbee5",
+    "foodName" : "passata",
+    "labelId" : "0da99f35-621f-4458-9e21-04e1ccbb4735",
+    "labelName" : "Canned & jars",
+    "policy" : "CHECK",
+    "quantity" : 250.0,
+    "unitId" : "1f584540-65ec-4246-a2ac-7a693838c087",
+    "unitName" : "millilitre",
+    "recipes" : [ "Butter Chicken" ]
+  }, {
+    "foodId" : "11cce08f-a013-40bd-806c-75f3bd2e3bf3",
+    "foodName" : "peanut butter",
+    "labelId" : "0da99f35-621f-4458-9e21-04e1ccbb4735",
+    "labelName" : "Canned & jars",
+    "policy" : "CHECK",
+    "quantity" : 75.0,
+    "unitId" : "a8b90258-6433-4222-96ed-08cec5035fd8",
+    "unitName" : "gram",
+    "recipes" : [ "Chicken Satay with Peanut Sauce" ]
+  }, {
+    "foodId" : "11cce08f-a013-40bd-806c-75f3bd2e3bf3",
+    "foodName" : "peanut butter",
+    "labelId" : "0da99f35-621f-4458-9e21-04e1ccbb4735",
+    "labelName" : "Canned & jars",
+    "policy" : "CHECK",
+    "quantity" : 1.0,
+    "unitId" : "018ffd4b-e710-4117-80fb-334fea70dc5b",
+    "unitName" : "tablespoon",
+    "recipes" : [ "Pad Thai with Prawns" ]
+  }, {
+    "foodId" : "d424a02f-409e-4266-9471-b9dbf97576ab",
+    "foodName" : "tomato paste",
+    "labelId" : "0da99f35-621f-4458-9e21-04e1ccbb4735",
+    "labelName" : "Canned & jars",
+    "policy" : "CHECK",
+    "quantity" : 1.0,
+    "unitId" : "018ffd4b-e710-4117-80fb-334fea70dc5b",
+    "unitName" : "tablespoon",
+    "recipes" : [ "Spaghetti Bolognese" ]
+  }, {
+    "foodId" : "309d6c1c-16a4-4b7b-9969-12deb6ae538e",
+    "foodName" : "Parmesan",
+    "labelId" : "ad8f6c0e-3030-4075-b753-d4785acbc459",
+    "labelName" : "Dairy & eggs",
+    "policy" : "CHECK",
+    "quantity" : 55.0,
+    "unitId" : "a8b90258-6433-4222-96ed-08cec5035fd8",
+    "unitName" : "gram",
+    "recipes" : [ "Pumpkin Pasta with Sage Butter", "Spaghetti Bolognese" ]
+  }, {
+    "foodId" : "25166ef4-4709-4007-a100-69fb324151b7",
+    "foodName" : "butter",
+    "labelId" : "ad8f6c0e-3030-4075-b753-d4785acbc459",
+    "labelName" : "Dairy & eggs",
+    "policy" : "CHECK",
+    "quantity" : 130.0,
+    "unitId" : "a8b90258-6433-4222-96ed-08cec5035fd8",
+    "unitName" : "gram",
+    "recipes" : [ "Pumpkin Pasta with Sage Butter", "Butter Chicken", "Moules-Frites", "Flemish-Style Asparagus" ]
+  }, {
+    "foodId" : "2610e934-75bd-4a51-988c-0e48fa2452bf",
+    "foodName" : "egg",
+    "labelId" : "ad8f6c0e-3030-4075-b753-d4785acbc459",
+    "labelName" : "Dairy & eggs",
+    "policy" : "CHECK",
+    "quantity" : 3.0,
+    "recipes" : [ "Pad Thai with Prawns", "Flemish-Style Asparagus" ]
+  }, {
+    "foodId" : "2ec41cef-7d6d-4059-91a0-3f0bf0ddd311",
+    "foodName" : "plain yoghurt",
+    "labelId" : "ad8f6c0e-3030-4075-b753-d4785acbc459",
+    "labelName" : "Dairy & eggs",
+    "policy" : "CHECK",
+    "quantity" : 75.0,
+    "unitId" : "a8b90258-6433-4222-96ed-08cec5035fd8",
+    "unitName" : "gram",
+    "recipes" : [ "Butter Chicken" ]
+  }, {
+    "foodId" : "37aea0e0-e76e-472e-b0d1-6264834e6335",
+    "foodName" : "white wine",
+    "labelId" : "3d39613d-c0b0-4ff1-a45f-76c55554e5e8",
+    "labelName" : "Drinks",
+    "policy" : "CHECK",
+    "quantity" : 100.0,
+    "unitId" : "1f584540-65ec-4246-a2ac-7a693838c087",
+    "unitName" : "millilitre",
+    "recipes" : [ "Moules-Frites" ]
+  }, {
+    "foodId" : "48e46054-360f-4f89-83ee-46470d0bb888",
+    "foodName" : "frozen fries",
+    "labelId" : "f867e746-39ff-45b7-9bb9-5fca434edc0a",
+    "labelName" : "Frozen",
+    "policy" : "CHECK",
+    "quantity" : 0.5,
+    "unitId" : "7e9be6ec-405e-47b9-b1e7-f21babc3b3ef",
+    "unitName" : "kilogram",
+    "recipes" : [ "Moules-Frites" ]
+  }, {
+    "foodId" : "6003c5ba-d203-427a-ae08-1913c9c511c6",
+    "foodName" : "walnuts",
+    "labelId" : "02b1121a-9b15-407c-8048-5c5c2607f0a6",
+    "labelName" : "Pantry",
+    "policy" : "CHECK",
+    "quantity" : 15.0,
+    "unitId" : "a8b90258-6433-4222-96ed-08cec5035fd8",
+    "unitName" : "gram",
+    "recipes" : [ "Pumpkin Pasta with Sage Butter" ]
+  }, {
+    "foodId" : "ffab7d3e-6055-492b-b90e-bc66024f086e",
+    "foodName" : "basmati rice",
+    "labelId" : "43d77782-4dee-4c0f-9a29-d58f0ceb5304",
+    "labelName" : "Pasta & grains",
+    "policy" : "CHECK",
+    "quantity" : 150.0,
+    "unitId" : "a8b90258-6433-4222-96ed-08cec5035fd8",
+    "unitName" : "gram",
+    "recipes" : [ "Butter Chicken" ]
+  }, {
+    "foodId" : "304038d0-145e-42f6-b5eb-25343bda5d6c",
+    "foodName" : "jasmine rice",
+    "labelId" : "43d77782-4dee-4c0f-9a29-d58f0ceb5304",
+    "labelName" : "Pasta & grains",
+    "policy" : "CHECK",
+    "quantity" : 150.0,
+    "unitId" : "a8b90258-6433-4222-96ed-08cec5035fd8",
+    "unitName" : "gram",
+    "recipes" : [ "Chicken Satay with Peanut Sauce" ]
+  }, {
+    "foodId" : "f5e9d4b7-8be3-4917-9a3d-44a5db6730d7",
+    "foodName" : "penne",
+    "labelId" : "43d77782-4dee-4c0f-9a29-d58f0ceb5304",
+    "labelName" : "Pasta & grains",
+    "policy" : "CHECK",
+    "quantity" : 200.0,
+    "unitId" : "a8b90258-6433-4222-96ed-08cec5035fd8",
+    "unitName" : "gram",
+    "recipes" : [ "Pumpkin Pasta with Sage Butter" ]
+  }, {
+    "foodId" : "8510d29a-2042-4189-aa4c-b86cd1e8fc6f",
+    "foodName" : "rice noodles",
+    "labelId" : "43d77782-4dee-4c0f-9a29-d58f0ceb5304",
+    "labelName" : "Pasta & grains",
+    "policy" : "CHECK",
+    "quantity" : 125.0,
+    "unitId" : "a8b90258-6433-4222-96ed-08cec5035fd8",
+    "unitName" : "gram",
+    "recipes" : [ "Pad Thai with Prawns" ]
+  }, {
+    "foodId" : "14f0d777-8dfb-49b0-8172-a3ff9a0a1398",
+    "foodName" : "spaghetti",
+    "labelId" : "43d77782-4dee-4c0f-9a29-d58f0ceb5304",
+    "labelName" : "Pasta & grains",
+    "policy" : "CHECK",
+    "quantity" : 200.0,
+    "unitId" : "a8b90258-6433-4222-96ed-08cec5035fd8",
+    "unitName" : "gram",
+    "recipes" : [ "Spaghetti Bolognese" ]
+  }, {
+    "foodId" : "42599c3f-9131-4531-857d-1ae7fd13e232",
+    "foodName" : "garlic",
+    "labelId" : "a264e007-c9e0-4a92-ba83-7302ab521d66",
+    "labelName" : "Vegetables",
+    "policy" : "CHECK",
+    "quantity" : 5.0,
+    "unitId" : "bb46624e-b53a-4d25-9967-73faf8172771",
+    "unitName" : "clove",
+    "recipes" : [ "Pumpkin Pasta with Sage Butter", "Pad Thai with Prawns", "Butter Chicken", "Spaghetti Bolognese" ]
+  }, {
+    "foodId" : "dda42ae9-34e5-468e-9021-fb331a820441",
+    "foodName" : "onion",
+    "labelId" : "a264e007-c9e0-4a92-ba83-7302ab521d66",
+    "labelName" : "Vegetables",
+    "policy" : "CHECK",
+    "quantity" : 2.0,
+    "recipes" : [ "Butter Chicken", "Moules-Frites", "Spaghetti Bolognese" ]
+  } ],
+  "assumedInStock" : [ {
+    "foodId" : "8216adcb-4f30-49e5-a11e-a012b425bcda",
+    "foodName" : "black pepper",
+    "labelId" : "02b1121a-9b15-407c-8048-5c5c2607f0a6",
+    "labelName" : "Pantry",
+    "policy" : "STOCKED",
+    "recipes" : [ "Pumpkin Pasta with Sage Butter", "Moules-Frites", "Spaghetti Bolognese", "Flemish-Style Asparagus" ]
+  }, {
+    "foodId" : "a822dfd4-58c4-4eb4-8687-a5848dd3051e",
+    "foodName" : "brown sugar",
+    "labelId" : "02b1121a-9b15-407c-8048-5c5c2607f0a6",
+    "labelName" : "Pantry",
+    "policy" : "STOCKED",
+    "quantity" : 1.0,
+    "unitId" : "018ffd4b-e710-4117-80fb-334fea70dc5b",
+    "unitName" : "tablespoon",
+    "recipes" : [ "Pad Thai with Prawns" ]
+  }, {
+    "foodId" : "a9271e39-6513-4a35-9d9f-f3403b1b12a9",
+    "foodName" : "curry powder",
+    "labelId" : "02b1121a-9b15-407c-8048-5c5c2607f0a6",
+    "labelName" : "Pantry",
+    "policy" : "STOCKED",
+    "quantity" : 0.5,
+    "unitId" : "42505923-8dcd-4689-b849-e4ce73696e6c",
+    "unitName" : "teaspoon",
+    "recipes" : [ "Chicken Satay with Peanut Sauce" ]
+  }, {
+    "foodId" : "3372d7c9-3fd1-444b-b2a4-6a2d96acef65",
+    "foodName" : "dried oregano",
+    "labelId" : "02b1121a-9b15-407c-8048-5c5c2607f0a6",
+    "labelName" : "Pantry",
+    "policy" : "STOCKED",
+    "quantity" : 0.5,
+    "unitId" : "42505923-8dcd-4689-b849-e4ce73696e6c",
+    "unitName" : "teaspoon",
+    "recipes" : [ "Spaghetti Bolognese" ]
+  }, {
+    "foodId" : "affddb56-20f7-4d31-8ea3-e409621198c3",
+    "foodName" : "fish sauce",
+    "labelId" : "02b1121a-9b15-407c-8048-5c5c2607f0a6",
+    "labelName" : "Pantry",
+    "policy" : "STOCKED",
+    "quantity" : 1.5,
+    "unitId" : "018ffd4b-e710-4117-80fb-334fea70dc5b",
+    "unitName" : "tablespoon",
+    "recipes" : [ "Pad Thai with Prawns" ]
+  }, {
+    "foodId" : "04164b8b-8996-49af-ac2a-4face689bb5d",
+    "foodName" : "garam masala",
+    "labelId" : "02b1121a-9b15-407c-8048-5c5c2607f0a6",
+    "labelName" : "Pantry",
+    "policy" : "STOCKED",
+    "quantity" : 1.0,
+    "unitId" : "42505923-8dcd-4689-b849-e4ce73696e6c",
+    "unitName" : "teaspoon",
+    "recipes" : [ "Butter Chicken" ]
+  }, {
+    "foodId" : "e021a3b9-9254-425b-aa08-0897859d2f11",
+    "foodName" : "ground cumin",
+    "labelId" : "02b1121a-9b15-407c-8048-5c5c2607f0a6",
+    "labelName" : "Pantry",
+    "policy" : "STOCKED",
+    "quantity" : 0.5,
+    "unitId" : "42505923-8dcd-4689-b849-e4ce73696e6c",
+    "unitName" : "teaspoon",
+    "recipes" : [ "Butter Chicken" ]
+  }, {
+    "foodId" : "6c2c0852-0208-499d-a077-4af6549dea34",
+    "foodName" : "nutmeg",
+    "labelId" : "02b1121a-9b15-407c-8048-5c5c2607f0a6",
+    "labelName" : "Pantry",
+    "policy" : "STOCKED",
+    "quantity" : 1.0,
+    "unitId" : "1414633b-4686-4abb-9306-ea7e14252260",
+    "unitName" : "pinch",
+    "recipes" : [ "Pumpkin Pasta with Sage Butter", "Flemish-Style Asparagus" ]
+  }, {
+    "foodId" : "1d8f9f48-06f9-4f2d-9034-cc7d18004b41",
+    "foodName" : "olive oil",
+    "labelId" : "02b1121a-9b15-407c-8048-5c5c2607f0a6",
+    "labelName" : "Pantry",
+    "policy" : "STOCKED",
+    "quantity" : 2.0,
+    "unitId" : "018ffd4b-e710-4117-80fb-334fea70dc5b",
+    "unitName" : "tablespoon",
+    "recipes" : [ "Pumpkin Pasta with Sage Butter", "Spaghetti Bolognese" ]
+  }, {
+    "foodId" : "e1461190-c16d-4dde-997d-1f405023d5e3",
+    "foodName" : "salt",
+    "labelId" : "02b1121a-9b15-407c-8048-5c5c2607f0a6",
+    "labelName" : "Pantry",
+    "policy" : "STOCKED",
+    "recipes" : [ "Pumpkin Pasta with Sage Butter", "Butter Chicken", "Spaghetti Bolognese", "Flemish-Style Asparagus" ]
+  }, {
+    "foodId" : "c3266923-65ad-49fb-bc3d-4ead7cd0202e",
+    "foodName" : "soy sauce",
+    "labelId" : "02b1121a-9b15-407c-8048-5c5c2607f0a6",
+    "labelName" : "Pantry",
+    "policy" : "STOCKED",
+    "quantity" : 3.0,
+    "unitId" : "018ffd4b-e710-4117-80fb-334fea70dc5b",
+    "unitName" : "tablespoon",
+    "recipes" : [ "Chicken Satay with Peanut Sauce", "Pad Thai with Prawns" ]
+  }, {
+    "foodId" : "81e45d60-1347-4a56-9aff-4f1a189c2955",
+    "foodName" : "sriracha",
+    "labelId" : "02b1121a-9b15-407c-8048-5c5c2607f0a6",
+    "labelName" : "Pantry",
+    "policy" : "STOCKED",
+    "quantity" : 0.5,
+    "unitId" : "42505923-8dcd-4689-b849-e4ce73696e6c",
+    "unitName" : "teaspoon",
+    "recipes" : [ "Chicken Satay with Peanut Sauce" ]
+  }, {
+    "foodId" : "bda404b3-cb30-4e1f-8f8d-738a65112c2b",
+    "foodName" : "sunflower oil",
+    "labelId" : "02b1121a-9b15-407c-8048-5c5c2607f0a6",
+    "labelName" : "Pantry",
+    "policy" : "STOCKED",
+    "quantity" : 1.0,
+    "unitId" : "018ffd4b-e710-4117-80fb-334fea70dc5b",
+    "unitName" : "tablespoon",
+    "recipes" : [ "Pad Thai with Prawns" ]
+  }, {
+    "foodId" : "73803bd7-3591-4c39-821f-687041a16cef",
+    "foodName" : "turmeric",
+    "labelId" : "02b1121a-9b15-407c-8048-5c5c2607f0a6",
+    "labelName" : "Pantry",
+    "policy" : "STOCKED",
+    "quantity" : 0.5,
+    "unitId" : "42505923-8dcd-4689-b849-e4ce73696e6c",
+    "unitName" : "teaspoon",
+    "recipes" : [ "Butter Chicken" ]
+  }, {
+    "foodId" : "3e4c5c6d-3e29-482a-871c-d222476e69d5",
+    "foodName" : "white wine vinegar",
+    "labelId" : "02b1121a-9b15-407c-8048-5c5c2607f0a6",
+    "labelName" : "Pantry",
+    "policy" : "STOCKED",
+    "quantity" : 0.5,
+    "unitId" : "018ffd4b-e710-4117-80fb-334fea70dc5b",
+    "unitName" : "tablespoon",
+    "recipes" : [ "Chicken Satay with Peanut Sauce" ]
+  } ],
+  "noteItems" : [ ],
+  "problems" : [ ]
+}

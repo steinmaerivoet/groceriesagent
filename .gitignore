@@ -23,3 +23,11 @@ venv/
 
 # Node
 node_modules/
+
+# Java / Gradle
+.gradle/
+build/
+*.class
+
+# Local POC state (e.g. what the shopping-list POC last wrote to Mealie)
+.state/
