@@ -1,0 +1,406 @@
+[
+  {
+    "name": "Overnight Oats with Berries",
+    "description": "Oats soaked overnight in milk and yoghurt, topped with berries in the morning.",
+    "servings": 2, "prepMinutes": 5, "cookMinutes": 0, "rating": 4,
+    "categories": ["Breakfast"],
+    "tags": ["Other grain", "Vegetarian", "Quick", "Light meal"],
+    "ingredients": [
+      "100 g rolled oats",
+      "200 ml milk",
+      "150 g Greek yoghurt",
+      "1 tbsp chia seeds",
+      "1 tbsp maple syrup",
+      "150 g blueberries",
+      "100 g raspberries"
+    ],
+    "steps": [
+      "Mix oats, milk, yoghurt, chia seeds and maple syrup in two jars.",
+      "Refrigerate overnight.",
+      "Top with berries before serving."
+    ]
+  },
+  {
+    "name": "Yoghurt Granola Bowl",
+    "description": "Greek yoghurt with crunchy granola, fresh fruit and a drizzle of honey.",
+    "servings": 2, "prepMinutes": 5, "cookMinutes": 0, "rating": 3,
+    "categories": ["Breakfast"],
+    "tags": ["Vegetarian", "Quick", "Light meal"],
+    "ingredients": [
+      "400 g Greek yoghurt",
+      "80 g granola",
+      "150 g strawberries, sliced",
+      "1 banana, sliced",
+      "2 tsp honey"
+    ],
+    "steps": [
+      "Divide the yoghurt over two bowls.",
+      "Top with fruit, granola and honey."
+    ]
+  },
+  {
+    "name": "Scrambled Eggs on Sourdough",
+    "description": "Soft, buttery scrambled eggs with chives on toasted sourdough.",
+    "servings": 2, "prepMinutes": 5, "cookMinutes": 5, "rating": 4,
+    "categories": ["Breakfast"],
+    "tags": ["Bread", "Vegetarian", "Quick"],
+    "ingredients": [
+      "5 eggs",
+      "20 g butter",
+      "2 tbsp milk",
+      "4 slices sourdough bread",
+      "1 bunch fresh chives, snipped",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Whisk the eggs with milk, salt and pepper.",
+      "Cook gently in butter over low heat, stirring, until just set.",
+      "Pile onto hot toast and scatter with chives."
+    ]
+  },
+  {
+    "name": "Avocado Toast with Poached Egg",
+    "description": "Smashed avocado with lime and chilli on sourdough, topped with a poached egg.",
+    "servings": 2, "prepMinutes": 10, "cookMinutes": 5, "rating": 4,
+    "categories": ["Breakfast", "Lunch"],
+    "tags": ["Bread", "Vegetarian", "Quick", "Light meal"],
+    "ingredients": [
+      "2 avocados",
+      "1 lime",
+      "2 eggs",
+      "2 slices sourdough bread",
+      "1 pinch chilli flakes",
+      "1 tbsp white wine vinegar",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Mash the avocado with lime juice, salt and pepper.",
+      "Poach the eggs in barely simmering water with the vinegar for 3 minutes.",
+      "Toast the bread, spread with avocado, top with egg and chilli flakes."
+    ]
+  },
+  {
+    "name": "Apple Cinnamon Porridge",
+    "description": "Creamy oat porridge with grated apple, cinnamon and walnuts.",
+    "servings": 2, "prepMinutes": 5, "cookMinutes": 8, "rating": 3,
+    "categories": ["Breakfast"],
+    "tags": ["Other grain", "Vegetarian", "Quick", "Comfort food"],
+    "ingredients": [
+      "90 g rolled oats",
+      "400 ml milk",
+      "1 apple, grated",
+      "1 tsp cinnamon",
+      "1 tbsp maple syrup",
+      "20 g walnuts, chopped"
+    ],
+    "steps": [
+      "Simmer the oats with the milk and half of the apple for 5 minutes, stirring.",
+      "Stir in cinnamon and maple syrup.",
+      "Serve topped with the rest of the apple and walnuts."
+    ]
+  },
+  {
+    "name": "Banana Oat Pancakes",
+    "description": "Thick, naturally sweet pancakes made from banana, oats and egg.",
+    "servings": 2, "prepMinutes": 5, "cookMinutes": 10, "rating": 4,
+    "categories": ["Breakfast"],
+    "tags": ["Other grain", "Vegetarian", "Quick"],
+    "ingredients": [
+      "2 bananas",
+      "2 eggs",
+      "80 g rolled oats",
+      "1 tsp baking powder",
+      "1 pinch cinnamon",
+      "10 g butter",
+      "100 g blueberries",
+      "1 tbsp maple syrup"
+    ],
+    "steps": [
+      "Blend bananas, eggs, oats, baking powder and cinnamon into a thick batter.",
+      "Fry small pancakes in butter, 2 minutes per side.",
+      "Serve with blueberries and maple syrup."
+    ]
+  },
+  {
+    "name": "French Toast",
+    "description": "Wentelteefjes: day-old bread soaked in vanilla-cinnamon custard and fried in butter.",
+    "servings": 4, "prepMinutes": 5, "cookMinutes": 10, "rating": 4,
+    "categories": ["Breakfast"],
+    "tags": ["Bread", "Vegetarian", "Weekend"],
+    "ingredients": [
+      "8 slices white bread",
+      "3 eggs",
+      "250 ml milk",
+      "1 tbsp vanilla sugar",
+      "1 tsp cinnamon",
+      "30 g butter",
+      "brown sugar"
+    ],
+    "steps": [
+      "Whisk eggs, milk, vanilla sugar and cinnamon in a shallow dish.",
+      "Soak the bread briefly on both sides.",
+      "Fry in butter until golden, 2 minutes per side. Sprinkle with brown sugar."
+    ]
+  },
+  {
+    "name": "Ham and Cheese Omelette",
+    "description": "Fluffy three-egg omelette with ham, cheese and chives.",
+    "servings": 1, "prepMinutes": 5, "cookMinutes": 5, "rating": 3,
+    "categories": ["Breakfast", "Lunch"],
+    "tags": ["Red meat", "Quick", "Light meal"],
+    "ingredients": [
+      "3 eggs",
+      "1 slice cooked ham, in strips",
+      "30 g grated cheese",
+      "10 g butter",
+      "1 tbsp fresh chives",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Beat the eggs with salt and pepper.",
+      "Pour into foaming butter and stir gently until almost set.",
+      "Add ham, cheese and chives, fold and slide onto a plate."
+    ]
+  },
+  {
+    "name": "Mango Chia Pudding",
+    "description": "Coconut chia pudding layered with fresh mango. Make it the night before.",
+    "servings": 2, "prepMinutes": 10, "cookMinutes": 0, "rating": 3,
+    "categories": ["Breakfast", "Snack"],
+    "tags": ["Vegetarian", "Light meal"],
+    "ingredients": [
+      "50 g chia seeds",
+      "250 ml coconut milk",
+      "100 ml milk",
+      "1 tbsp maple syrup",
+      "1 mango, diced"
+    ],
+    "steps": [
+      "Stir chia seeds into the coconut milk, milk and maple syrup. Stir again after 10 minutes.",
+      "Refrigerate at least 4 hours or overnight.",
+      "Layer with mango in glasses."
+    ]
+  },
+  {
+    "name": "Soft-Boiled Eggs with Toast Soldiers",
+    "description": "The weekend breakfast: runny eggs with buttered toast strips.",
+    "servings": 2, "prepMinutes": 2, "cookMinutes": 6, "rating": 4,
+    "categories": ["Breakfast"],
+    "tags": ["Bread", "Vegetarian", "Quick", "Weekend"],
+    "ingredients": [
+      "4 eggs",
+      "4 slices wholemeal bread",
+      "20 g butter",
+      "salt"
+    ],
+    "steps": [
+      "Lower the eggs into boiling water and cook for 6 minutes.",
+      "Toast and butter the bread and cut into strips.",
+      "Serve the eggs in egg cups with salt and the soldiers."
+    ]
+  },
+  {
+    "name": "Shakshuka",
+    "description": "Eggs poached in a spiced tomato and pepper sauce, with bread for dipping.",
+    "servings": 4, "prepMinutes": 10, "cookMinutes": 25, "rating": 5,
+    "categories": ["Breakfast", "Lunch", "Dinner"],
+    "tags": ["Bread", "Vegetarian", "Quick", "Weekend"],
+    "ingredients": [
+      "6 eggs",
+      "2 cans chopped tomatoes",
+      "2 red bell peppers, sliced",
+      "1 onion, sliced",
+      "3 cloves garlic, crushed",
+      "1 tsp ground cumin",
+      "1 tsp smoked paprika",
+      "1 pinch chilli flakes",
+      "3 tbsp olive oil",
+      "100 g feta",
+      "1 bunch fresh coriander",
+      "1 baguette",
+      "salt"
+    ],
+    "steps": [
+      "Soften onion and peppers in olive oil for 10 minutes. Add garlic and spices.",
+      "Add the tomatoes and simmer 10 minutes until thick. Season.",
+      "Make six hollows, crack in the eggs, cover and cook 6 to 8 minutes until the whites are set.",
+      "Crumble over the feta and coriander. Serve with bread."
+    ]
+  },
+  {
+    "name": "Ham and Cheese Smos",
+    "description": "Belgian sandwich-shop classic: baguette with ham, cheese, egg, salad and mayonnaise.",
+    "servings": 2, "prepMinutes": 10, "cookMinutes": 10, "rating": 4,
+    "categories": ["Lunch"],
+    "tags": ["Bread", "Red meat", "Quick"],
+    "ingredients": [
+      "1 baguette",
+      "4 slices cooked ham",
+      "4 slices Gouda",
+      "2 eggs",
+      "1 tomato, sliced",
+      "1/2 cucumber, sliced",
+      "1/2 lettuce",
+      "2 tbsp mayonnaise",
+      "20 g butter"
+    ],
+    "steps": [
+      "Hard-boil the eggs for 10 minutes, cool and slice.",
+      "Halve the baguette and slice open. Spread with butter and mayonnaise.",
+      "Fill with lettuce, ham, cheese, tomato, cucumber and egg."
+    ]
+  },
+  {
+    "name": "Chicken Caesar Salad",
+    "description": "Romaine with grilled chicken, croutons, Parmesan and a creamy anchovy-free dressing.",
+    "servings": 4, "prepMinutes": 15, "cookMinutes": 15, "rating": 4,
+    "categories": ["Lunch", "Dinner"],
+    "tags": ["Poultry", "Light meal", "Quick"],
+    "ingredients": [
+      "2 chicken breasts",
+      "2 lettuce",
+      "3 slices sourdough bread, cubed",
+      "60 g Parmesan, shaved",
+      "4 tbsp mayonnaise",
+      "1 lemon",
+      "1 clove garlic, crushed",
+      "1 tsp Dijon mustard",
+      "1 tsp Worcestershire sauce",
+      "3 tbsp olive oil",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Season the chicken and pan-fry in 1 tbsp oil for 6 minutes per side. Rest and slice.",
+      "Toss the bread cubes in the remaining oil and bake at 200 °C for 8 minutes.",
+      "Whisk mayonnaise, lemon juice, garlic, mustard and Worcestershire sauce with a little water.",
+      "Toss the lettuce with dressing and top with chicken, croutons and Parmesan."
+    ]
+  },
+  {
+    "name": "Greek Salad",
+    "description": "Tomato, cucumber, pepper, olives and feta with oregano and olive oil.",
+    "servings": 4, "prepMinutes": 15, "cookMinutes": 0, "rating": 4,
+    "categories": ["Lunch", "Side"],
+    "tags": ["Vegetarian", "Quick", "Light meal"],
+    "ingredients": [
+      "4 tomatoes, in wedges",
+      "1 cucumber, in chunks",
+      "1 green bell pepper, sliced",
+      "1 red onion, thinly sliced",
+      "100 g black olives",
+      "200 g feta",
+      "1 tsp dried oregano",
+      "4 tbsp olive oil",
+      "1 tbsp red wine vinegar",
+      "1 pita bread",
+      "salt"
+    ],
+    "steps": [
+      "Combine the vegetables and olives in a bowl.",
+      "Top with the feta in one piece, sprinkle with oregano and drizzle with oil and vinegar.",
+      "Serve with warm pita."
+    ]
+  },
+  {
+    "name": "Club Sandwich",
+    "description": "Triple-decker toast with chicken, bacon, egg, lettuce and tomato.",
+    "servings": 2, "prepMinutes": 15, "cookMinutes": 15, "rating": 3,
+    "categories": ["Lunch"],
+    "tags": ["Bread", "Poultry", "Weekend"],
+    "ingredients": [
+      "6 slices white bread",
+      "1 chicken breast",
+      "4 bacon rashers",
+      "2 eggs",
+      "2 tomatoes, sliced",
+      "1/2 lettuce",
+      "3 tbsp mayonnaise",
+      "100 g crisps",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Pan-fry the seasoned chicken and slice. Fry the bacon until crisp. Fry the eggs.",
+      "Toast the bread and spread with mayonnaise.",
+      "Layer: toast, lettuce, tomato, chicken, toast, bacon, egg, toast. Cut into triangles and serve with crisps."
+    ]
+  },
+  {
+    "name": "Leek and Potato Soup",
+    "description": "Silky blended leek and potato soup, ready in half an hour.",
+    "servings": 6, "prepMinutes": 10, "cookMinutes": 25, "rating": 4,
+    "categories": ["Lunch"],
+    "tags": ["Vegetarian", "Potatoes", "Freezer-friendly", "Leftovers-friendly", "Light meal"],
+    "ingredients": [
+      "3 leeks, sliced",
+      "500 g potatoes, cubed",
+      "1 onion, chopped",
+      "30 g butter",
+      "2 vegetable stock cube",
+      "100 ml cream",
+      "1 bunch fresh chives",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Soften the leeks and onion in butter for 8 minutes.",
+      "Add the potatoes, stock cubes and 1.2 litres water. Simmer 20 minutes.",
+      "Blend smooth, add cream and season. Garnish with chives."
+    ]
+  },
+  {
+    "name": "Couscous Salad with Feta and Mint",
+    "description": "Lunchbox salad of couscous, cucumber, tomato, chickpeas, feta and fresh herbs.",
+    "servings": 4, "prepMinutes": 15, "cookMinutes": 5, "rating": 3,
+    "categories": ["Lunch"],
+    "tags": ["Other grain", "Vegetarian", "Legumes", "Quick", "Light meal", "Leftovers-friendly"],
+    "ingredients": [
+      "250 g couscous",
+      "1 can chickpeas, drained",
+      "1 cucumber, diced",
+      "250 g cherry tomatoes, halved",
+      "150 g feta, crumbled",
+      "1 handful fresh mint, chopped",
+      "1 bunch fresh parsley, chopped",
+      "1 lemon",
+      "4 tbsp olive oil",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Pour 300 ml boiling salted water over the couscous, cover for 5 minutes and fluff with a fork.",
+      "Mix in the chickpeas, vegetables and herbs.",
+      "Dress with lemon juice and olive oil, season and top with feta."
+    ]
+  },
+  {
+    "name": "Salade Niçoise",
+    "description": "Tuna, egg, green beans, potatoes, tomatoes and olives with a mustard vinaigrette.",
+    "servings": 4, "prepMinutes": 20, "cookMinutes": 15, "rating": 4,
+    "categories": ["Lunch", "Dinner"],
+    "tags": ["Fish", "Potatoes", "Light meal"],
+    "ingredients": [
+      "500 g waxy potatoes",
+      "200 g green beans",
+      "4 eggs",
+      "2 cans tuna in olive oil",
+      "250 g cherry tomatoes, halved",
+      "60 g black olives",
+      "1 lettuce",
+      "1 tsp Dijon mustard",
+      "1 tbsp red wine vinegar",
+      "3 tbsp olive oil",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Boil the potatoes, adding the beans for the last 4 minutes. Boil the eggs for 8 minutes.",
+      "Whisk mustard, vinegar and oil into a dressing.",
+      "Arrange lettuce, halved potatoes, beans, tomatoes, quartered eggs, tuna and olives. Drizzle with the dressing."
+    ]
+  }
+]

@@ -1,0 +1,622 @@
+[
+  {
+    "name": "Flemish Beef Stew (Stoofvlees)",
+    "description": "Slow-braised beef in dark Belgian beer with onions, mustard and gingerbread. Classic with fries.",
+    "servings": 4, "prepMinutes": 25, "cookMinutes": 180, "rating": 5,
+    "categories": ["Dinner"],
+    "tags": ["Red meat", "Potatoes", "Weekend", "Freezer-friendly", "Comfort food", "Leftovers-friendly"],
+    "ingredients": [
+      "1 kg beef stewing meat, in large cubes",
+      "3 onions, sliced",
+      "40 g butter",
+      "2 tbsp plain flour",
+      "500 ml dark Belgian beer",
+      "2 slices gingerbread",
+      "2 tbsp Dijon mustard",
+      "1 tbsp brown sugar",
+      "1 tbsp red wine vinegar",
+      "2 bay leaf",
+      "4 sprigs fresh thyme",
+      "1 beef stock cube",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Pat the beef dry, season and dust with flour. Brown in batches in butter in a heavy casserole; set aside.",
+      "Soften the onions in the same pan for 10 minutes, then return the meat.",
+      "Add the beer, crumbled stock cube, bay leaves, thyme, sugar and vinegar. Spread the mustard on the gingerbread and lay it on top.",
+      "Cover and simmer very gently for 2.5 to 3 hours, stirring occasionally, until the meat falls apart.",
+      "Season to taste and serve with fries and mayonnaise."
+    ]
+  },
+  {
+    "name": "Belgian Endive Gratin with Ham",
+    "description": "Witloof in hesp: braised endives wrapped in ham, baked under a cheesy béchamel. Served with mashed potatoes.",
+    "servings": 4, "prepMinutes": 25, "cookMinutes": 45, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Red meat", "Potatoes", "Comfort food", "Weekend"],
+    "ingredients": [
+      "8 Belgian endives",
+      "8 slices cooked ham",
+      "50 g butter",
+      "50 g plain flour",
+      "600 ml milk",
+      "150 g Gruyère, grated",
+      "1 pinch nutmeg",
+      "1 kg potatoes",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Remove the bitter core of the endives and braise them in a covered pan with a knob of butter for 20 minutes. Drain well.",
+      "Boil the potatoes and mash with a little milk and butter.",
+      "Make a béchamel with the butter, flour and milk. Stir in two thirds of the cheese and season with nutmeg, salt and pepper.",
+      "Wrap each endive in a slice of ham, place in an oven dish, cover with the sauce and the rest of the cheese.",
+      "Bake at 200 °C for 20 to 25 minutes until golden. Serve with the mash."
+    ]
+  },
+  {
+    "name": "Vol-au-Vent",
+    "description": "Chicken, mushrooms and meatballs in a creamy sauce, served in puff pastry shells or with fries.",
+    "servings": 4, "prepMinutes": 30, "cookMinutes": 60, "rating": 5,
+    "categories": ["Dinner"],
+    "tags": ["Poultry", "Weekend", "Freezer-friendly", "Comfort food"],
+    "ingredients": [
+      "1 whole chicken",
+      "2 carrots",
+      "1 onion",
+      "2 celery stalks",
+      "250 g meatballs",
+      "250 g mushrooms, quartered",
+      "60 g butter",
+      "60 g plain flour",
+      "100 ml cream",
+      "1 lemon",
+      "1 chicken stock cube",
+      "4 puff pastry shells",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Poach the chicken with carrots, onion, celery and stock cube in water for 1 hour. Lift out, pull the meat from the bones and strain 800 ml of the stock.",
+      "Poach the small meatballs in the stock for 5 minutes. Fry the mushrooms in a little butter.",
+      "Make a roux with butter and flour, whisk in the warm stock and simmer until thick. Add cream and lemon juice.",
+      "Fold in the chicken, meatballs and mushrooms. Season and serve in warmed puff pastry shells."
+    ]
+  },
+  {
+    "name": "Carrot Stoemp with Sausages",
+    "description": "Rustic Brussels mash of potatoes and carrots with pan-fried pork sausages.",
+    "servings": 4, "prepMinutes": 15, "cookMinutes": 30, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Red meat", "Potatoes", "Comfort food", "Quick"],
+    "ingredients": [
+      "1 kg potatoes, peeled",
+      "600 g carrots, sliced",
+      "1 onion, chopped",
+      "8 pork sausages",
+      "40 g butter",
+      "100 ml milk",
+      "1 pinch nutmeg",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Boil potatoes and carrots together in salted water for 20 minutes.",
+      "Meanwhile soften the onion in a little butter and fry the sausages until cooked through.",
+      "Drain the vegetables and mash coarsely with butter, warm milk, onion and nutmeg. Season and serve with the sausages."
+    ]
+  },
+  {
+    "name": "Spinach Stoemp with Fried Eggs",
+    "description": "Creamy potato and spinach mash topped with crispy fried eggs. A meat-free weeknight favourite.",
+    "servings": 4, "prepMinutes": 10, "cookMinutes": 25, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Vegetarian", "Potatoes", "Quick", "Comfort food"],
+    "ingredients": [
+      "1 kg potatoes, peeled",
+      "400 g spinach",
+      "1 onion, finely chopped",
+      "50 g butter",
+      "100 ml milk",
+      "8 eggs",
+      "1 pinch nutmeg",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Boil the potatoes in salted water until tender.",
+      "Soften the onion in butter, add the spinach and let it wilt. Chop roughly.",
+      "Mash the potatoes with milk and butter, fold in the spinach and season with nutmeg.",
+      "Fry the eggs and serve two per plate on the stoemp."
+    ]
+  },
+  {
+    "name": "Ghent Chicken Waterzooi",
+    "description": "Velvety chicken and vegetable stew from Ghent, finished with cream and egg yolk.",
+    "servings": 4, "prepMinutes": 25, "cookMinutes": 45, "rating": 5,
+    "categories": ["Dinner"],
+    "tags": ["Poultry", "Potatoes", "Weekend", "Comfort food"],
+    "ingredients": [
+      "800 g chicken thighs",
+      "2 leeks, in thin strips",
+      "3 carrots, in thin strips",
+      "2 celery stalks, sliced",
+      "1 onion, chopped",
+      "600 g waxy potatoes, cubed",
+      "1 chicken stock cube",
+      "200 ml cream",
+      "2 eggs, yolks only",
+      "30 g butter",
+      "1 bunch fresh parsley, chopped",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Soften leek, carrot, celery and onion in butter for 5 minutes.",
+      "Add the chicken, stock cube and 1 litre of water. Simmer for 25 minutes. Add the potatoes and cook 15 minutes more.",
+      "Whisk the cream with the egg yolks, stir in a ladle of hot broth, then return to the pan off the heat. Do not boil again.",
+      "Season and scatter with parsley. Serve in deep plates."
+    ]
+  },
+  {
+    "name": "Moules-Frites",
+    "description": "Mussels steamed with celery, onion and white wine, served with crispy fries.",
+    "servings": 4, "prepMinutes": 20, "cookMinutes": 15, "rating": 5,
+    "categories": ["Dinner"],
+    "tags": ["Fish", "Potatoes", "Quick"],
+    "ingredients": [
+      "3 kg mussels",
+      "2 onions, sliced",
+      "4 celery stalks, sliced",
+      "30 g butter",
+      "200 ml white wine",
+      "1 bunch fresh parsley, chopped",
+      "1 kg frozen fries",
+      "mayonnaise",
+      "black pepper"
+    ],
+    "steps": [
+      "Clean the mussels and discard any that are broken or stay open when tapped.",
+      "Bake the fries according to the packet.",
+      "Soften onion and celery in butter in a large pot, add the mussels and wine, cover and steam over high heat for 5 to 7 minutes, shaking the pot.",
+      "Add parsley and pepper, toss, and serve immediately with fries and mayonnaise."
+    ]
+  },
+  {
+    "name": "Meatballs in Tomato Sauce",
+    "description": "Balletjes in tomatensaus: tender meatballs simmered in a rich tomato sauce. Great with fries or bread.",
+    "servings": 4, "prepMinutes": 20, "cookMinutes": 40, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Red meat", "Potatoes", "Freezer-friendly", "Comfort food", "Leftovers-friendly"],
+    "ingredients": [
+      "800 g mixed mince",
+      "1 egg",
+      "50 g breadcrumbs",
+      "2 onions, chopped",
+      "2 cloves garlic, crushed",
+      "2 cans chopped tomatoes",
+      "2 tbsp tomato paste",
+      "1 tsp dried thyme",
+      "1 bay leaf",
+      "2 tbsp olive oil",
+      "1 kg frozen fries",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Mix the mince with egg, breadcrumbs, half the onion, salt and pepper. Roll into 16 balls and brown in olive oil.",
+      "Soften the remaining onion and the garlic, add tomato paste, tomatoes, thyme and bay leaf.",
+      "Add the meatballs and simmer covered for 30 minutes.",
+      "Serve with fries or crusty bread."
+    ]
+  },
+  {
+    "name": "Liège Salad",
+    "description": "Luikse salade: warm salad of green beans and potatoes with crispy bacon and a vinegar-onion dressing.",
+    "servings": 4, "prepMinutes": 15, "cookMinutes": 25, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Red meat", "Potatoes", "Quick"],
+    "ingredients": [
+      "800 g waxy potatoes",
+      "500 g green beans",
+      "200 g bacon lardons",
+      "2 shallots, finely chopped",
+      "3 tbsp red wine vinegar",
+      "1 bunch fresh parsley, chopped",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Boil the potatoes in their skins; peel and slice. Cook the beans until just tender.",
+      "Fry the bacon until crisp. Add the shallots for 2 minutes, then deglaze with the vinegar.",
+      "Toss the warm potatoes and beans with the bacon and dressing. Season and finish with parsley."
+    ]
+  },
+  {
+    "name": "Hutsepot",
+    "description": "Hearty Flemish winter hotpot of pork, sausages and root vegetables.",
+    "servings": 6, "prepMinutes": 30, "cookMinutes": 120, "rating": 3,
+    "categories": ["Dinner"],
+    "tags": ["Red meat", "Potatoes", "Weekend", "Freezer-friendly", "Comfort food", "Leftovers-friendly"],
+    "ingredients": [
+      "600 g beef stewing meat",
+      "4 pork sausages",
+      "200 g bacon lardons",
+      "4 carrots, in chunks",
+      "2 parsnips, in chunks",
+      "1 celeriac, in chunks",
+      "2 leeks, sliced",
+      "1/2 savoy cabbage, in wedges",
+      "2 onions, quartered",
+      "1 kg potatoes, in chunks",
+      "1 beef stock cube",
+      "2 bay leaf",
+      "4 sprigs fresh thyme",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Brown the beef and bacon in a large pot. Add the onions, bay leaves, thyme, stock cube and 1.5 litres of water. Simmer for 1 hour.",
+      "Add carrots, parsnips, celeriac and leeks; simmer 20 minutes.",
+      "Add the potatoes, cabbage and sausages and cook another 30 minutes.",
+      "Season and serve the meat and vegetables with a little broth and mustard."
+    ]
+  },
+  {
+    "name": "Rabbit with Prunes",
+    "description": "Konijn met pruimen: rabbit braised in dark beer with prunes and thyme.",
+    "servings": 4, "prepMinutes": 20, "cookMinutes": 90, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Red meat", "Potatoes", "Weekend", "Comfort food"],
+    "ingredients": [
+      "1.2 kg rabbit, in pieces",
+      "2 onions, sliced",
+      "40 g butter",
+      "1 tbsp plain flour",
+      "330 ml dark Belgian beer",
+      "200 g prunes",
+      "1 tbsp apple syrup",
+      "4 sprigs fresh thyme",
+      "2 bay leaf",
+      "1 kg potatoes",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Season and flour the rabbit and brown it in butter. Remove, then soften the onions in the same pan.",
+      "Return the rabbit, add beer, apple syrup, thyme and bay. Cover and braise gently for 60 minutes.",
+      "Add the prunes and cook 30 minutes more. Meanwhile boil the potatoes.",
+      "Season the sauce and serve with the potatoes."
+    ]
+  },
+  {
+    "name": "Tomato with Grey Shrimp",
+    "description": "Tomaat-garnaal: hollowed tomatoes filled with North Sea grey shrimp in mayonnaise.",
+    "servings": 4, "prepMinutes": 20, "cookMinutes": 0, "rating": 5,
+    "categories": ["Lunch"],
+    "tags": ["Fish", "Light meal", "Quick"],
+    "ingredients": [
+      "8 tomatoes",
+      "400 g grey shrimp",
+      "4 tbsp mayonnaise",
+      "1 lemon",
+      "1 bunch fresh chives, snipped",
+      "1 lettuce",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Cut a lid from each tomato and scoop out the seeds. Season the inside and turn upside down to drain.",
+      "Mix the shrimp with mayonnaise, a squeeze of lemon and chives.",
+      "Fill the tomatoes, replace the lids and serve on lettuce leaves with fresh bread."
+    ]
+  },
+  {
+    "name": "Croque Monsieur",
+    "description": "Toasted ham and cheese sandwich, the café classic.",
+    "servings": 2, "prepMinutes": 5, "cookMinutes": 8, "rating": 4,
+    "categories": ["Lunch", "Snack"],
+    "tags": ["Bread", "Red meat", "Quick"],
+    "ingredients": [
+      "4 slices white bread",
+      "2 slices cooked ham",
+      "4 slices Gouda",
+      "20 g butter",
+      "ketchup"
+    ],
+    "steps": [
+      "Butter the outside of each slice of bread.",
+      "Assemble with cheese, ham and cheese between the unbuttered sides.",
+      "Toast in a sandwich maker or pan for 3 to 4 minutes per side until golden and melted. Serve with ketchup."
+    ]
+  },
+  {
+    "name": "Belgian Pancakes",
+    "description": "Thin pannenkoeken with brown sugar, the Sunday afternoon classic.",
+    "servings": 4, "prepMinutes": 10, "cookMinutes": 30, "rating": 5,
+    "categories": ["Breakfast", "Snack"],
+    "tags": ["Vegetarian", "Weekend"],
+    "ingredients": [
+      "250 g self-raising flour",
+      "3 eggs",
+      "500 ml milk",
+      "30 g butter, melted",
+      "1 pinch salt",
+      "1 tbsp vanilla sugar",
+      "brown sugar"
+    ],
+    "steps": [
+      "Whisk flour, salt and vanilla sugar with the eggs and half of the milk to a smooth batter. Whisk in the rest of the milk and the melted butter.",
+      "Rest the batter for 15 minutes.",
+      "Cook thin pancakes in a hot buttered pan, about 1 minute per side.",
+      "Serve with brown sugar, jam or chocolate spread."
+    ]
+  },
+  {
+    "name": "Brussels Waffles",
+    "description": "Light, crisp yeasted waffles dusted with sugar.",
+    "servings": 6, "prepMinutes": 15, "cookMinutes": 30, "rating": 4,
+    "categories": ["Snack"],
+    "tags": ["Vegetarian", "Weekend"],
+    "ingredients": [
+      "500 g plain flour",
+      "7 g dried yeast",
+      "500 ml milk",
+      "250 ml sparkling water",
+      "3 eggs, separated",
+      "100 g butter, melted",
+      "1 tbsp vanilla sugar",
+      "1 pinch salt",
+      "caster sugar"
+    ],
+    "steps": [
+      "Dissolve the yeast in lukewarm milk. Mix the flour, salt and vanilla sugar, then whisk in the milk, egg yolks, butter and sparkling water.",
+      "Beat the egg whites until stiff and fold into the batter. Leave to rise for 1 hour.",
+      "Bake in a hot greased waffle iron until golden and crisp. Dust with sugar."
+    ]
+  },
+  {
+    "name": "Fish Pot with Leek",
+    "description": "Vispannetje: white fish, shrimp and leek in a creamy sauce under a crust of mashed potato.",
+    "servings": 4, "prepMinutes": 25, "cookMinutes": 35, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Fish", "Potatoes", "Comfort food"],
+    "ingredients": [
+      "400 g cod fillets, in chunks",
+      "200 g salmon fillets, in chunks",
+      "150 g grey shrimp",
+      "2 leeks, sliced",
+      "40 g butter",
+      "30 g plain flour",
+      "1 fish stock cube",
+      "100 ml cream",
+      "1 kg potatoes",
+      "100 ml milk",
+      "50 g grated cheese",
+      "1 bunch fresh dill, chopped",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Boil the potatoes and mash with milk and a knob of butter.",
+      "Soften the leek in butter, stir in the flour, then add 400 ml water and the stock cube. Simmer until thickened and add the cream.",
+      "Add the fish and poach for 4 minutes. Stir in the shrimp and dill.",
+      "Spoon into an oven dish, cover with mash and cheese and grill at 220 °C for 10 to 15 minutes."
+    ]
+  },
+  {
+    "name": "Brussels Sprouts with Bacon and Mash",
+    "description": "Pan-fried sprouts with bacon and nutmeg, served with creamy mashed potatoes.",
+    "servings": 4, "prepMinutes": 15, "cookMinutes": 25, "rating": 3,
+    "categories": ["Dinner"],
+    "tags": ["Red meat", "Potatoes", "Comfort food"],
+    "ingredients": [
+      "800 g Brussels sprouts",
+      "200 g bacon lardons",
+      "1 onion, chopped",
+      "1 kg potatoes",
+      "150 ml milk",
+      "40 g butter",
+      "1 pinch nutmeg",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Trim the sprouts and blanch for 5 minutes. Drain.",
+      "Boil and mash the potatoes with milk, butter and nutmeg.",
+      "Fry the bacon and onion until golden, add the sprouts and fry until lightly caramelised. Season and serve with the mash."
+    ]
+  },
+  {
+    "name": "Flemish-Style Asparagus",
+    "description": "White asparagus with egg-butter sauce, parsley and new potatoes. Spring only.",
+    "servings": 4, "prepMinutes": 20, "cookMinutes": 20, "rating": 5,
+    "categories": ["Dinner", "Lunch"],
+    "tags": ["Vegetarian", "Potatoes", "Light meal"],
+    "ingredients": [
+      "1.5 kg white asparagus",
+      "800 g waxy potatoes",
+      "4 eggs",
+      "120 g butter",
+      "1 bunch fresh parsley, chopped",
+      "1 lemon",
+      "1 pinch nutmeg",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Peel the asparagus and cook in salted water for 12 to 15 minutes until tender. Boil the potatoes.",
+      "Hard-boil the eggs, peel and mash them with a fork.",
+      "Melt the butter, stir in the egg, parsley, a squeeze of lemon and nutmeg.",
+      "Serve the asparagus with the potatoes and spoon over the egg butter."
+    ]
+  },
+  {
+    "name": "Red Cabbage with Apples",
+    "description": "Sweet-sour braised red cabbage with apples and cinnamon. Freezes perfectly.",
+    "servings": 6, "prepMinutes": 15, "cookMinutes": 60, "rating": 4,
+    "categories": ["Side"],
+    "tags": ["Vegetarian", "Freezer-friendly", "Leftovers-friendly"],
+    "ingredients": [
+      "1 red cabbage, finely shredded",
+      "3 apples, peeled and cubed",
+      "1 onion, chopped",
+      "30 g butter",
+      "3 tbsp brown sugar",
+      "4 tbsp red wine vinegar",
+      "1 tsp cinnamon",
+      "2 bay leaf",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Soften the onion in butter, add the cabbage, apples, sugar, vinegar, cinnamon and bay leaves with a splash of water.",
+      "Cover and braise gently for 1 hour, stirring now and then.",
+      "Season to taste. Serve with pork, game or sausages."
+    ]
+  },
+  {
+    "name": "Belgian Rice Pudding",
+    "description": "Rijstpap: creamy saffron-free rice pudding cooked slowly in milk.",
+    "servings": 6, "prepMinutes": 5, "cookMinutes": 50, "rating": 3,
+    "categories": ["Snack"],
+    "tags": ["Vegetarian", "Rice", "Comfort food"],
+    "ingredients": [
+      "1 l milk",
+      "125 g risotto rice",
+      "80 g caster sugar",
+      "1 tbsp vanilla sugar",
+      "1 pinch salt",
+      "brown sugar"
+    ],
+    "steps": [
+      "Bring the milk to the boil with the salt. Add the rice and simmer very gently for 45 minutes, stirring regularly.",
+      "Stir in sugar and vanilla sugar. The pudding thickens as it cools.",
+      "Serve warm or cold with a sprinkle of brown sugar."
+    ]
+  },
+  {
+    "name": "Pumpkin Soup",
+    "description": "Smooth autumn soup of pumpkin, carrot and ginger.",
+    "servings": 6, "prepMinutes": 15, "cookMinutes": 30, "rating": 4,
+    "categories": ["Lunch"],
+    "tags": ["Vegetarian", "Freezer-friendly", "Light meal", "Leftovers-friendly"],
+    "ingredients": [
+      "1.2 kg pumpkin, peeled and cubed",
+      "2 carrots, sliced",
+      "1 onion, chopped",
+      "20 g ginger, grated",
+      "2 tbsp olive oil",
+      "2 vegetable stock cube",
+      "100 ml cream",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Soften the onion and ginger in olive oil.",
+      "Add pumpkin, carrots, stock cubes and 1.2 litres of water. Simmer for 25 minutes.",
+      "Blend until smooth, stir in the cream and season."
+    ]
+  },
+  {
+    "name": "Tomato Soup with Meatballs",
+    "description": "Tomatensoep met balletjes: the Belgian family soup, with tiny meatballs.",
+    "servings": 6, "prepMinutes": 20, "cookMinutes": 35, "rating": 5,
+    "categories": ["Lunch"],
+    "tags": ["Red meat", "Freezer-friendly", "Leftovers-friendly", "Comfort food"],
+    "ingredients": [
+      "1 kg tomatoes, quartered",
+      "1 can chopped tomatoes",
+      "2 tbsp tomato paste",
+      "1 onion, chopped",
+      "2 carrots, sliced",
+      "2 celery stalks, sliced",
+      "2 vegetable stock cube",
+      "300 g minced pork",
+      "1 egg",
+      "30 g breadcrumbs",
+      "2 tbsp olive oil",
+      "1 bunch fresh basil",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Soften the onion, carrot and celery in olive oil. Add fresh and canned tomatoes, tomato paste, stock cubes and 1.2 litres water. Simmer 25 minutes.",
+      "Mix the mince with egg, breadcrumbs, salt and pepper and roll into marble-sized balls.",
+      "Blend the soup with the basil, bring back to a simmer and poach the meatballs for 8 minutes."
+    ]
+  },
+  {
+    "name": "Vegetable Soup",
+    "description": "Groentesoep: everyday clear soup full of vegetables. Makes a big pot.",
+    "servings": 8, "prepMinutes": 20, "cookMinutes": 30, "rating": 3,
+    "categories": ["Lunch"],
+    "tags": ["Vegetarian", "Freezer-friendly", "Leftovers-friendly", "Light meal"],
+    "ingredients": [
+      "2 leeks, sliced",
+      "3 carrots, diced",
+      "1/2 celeriac, diced",
+      "2 celery stalks, sliced",
+      "1 onion, chopped",
+      "2 potatoes, diced",
+      "1/4 cauliflower, in small florets",
+      "3 vegetable stock cube",
+      "1 bunch fresh parsley, chopped",
+      "1 tbsp olive oil",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Soften the onion and leek in olive oil.",
+      "Add all other vegetables, stock cubes and 2 litres of water. Simmer 25 minutes.",
+      "Season, add parsley and serve as is or partly blended."
+    ]
+  },
+  {
+    "name": "Endive Stoemp with Pork Chops",
+    "description": "Mashed potatoes with raw shredded endive, served with pan-fried pork chops.",
+    "servings": 4, "prepMinutes": 15, "cookMinutes": 25, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Red meat", "Potatoes", "Quick"],
+    "ingredients": [
+      "1 kg potatoes, peeled",
+      "4 Belgian endives, finely sliced",
+      "4 pork chops",
+      "150 g bacon lardons",
+      "150 ml milk",
+      "30 g butter",
+      "1 pinch nutmeg",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Boil the potatoes and mash with warm milk, butter and nutmeg.",
+      "Fry the bacon until crisp and fold into the mash together with the raw endive.",
+      "Season the pork chops and fry 4 to 5 minutes per side. Serve with the stoemp."
+    ]
+  },
+  {
+    "name": "Celeriac Soup",
+    "description": "Velvety celeriac and potato soup with a hint of nutmeg.",
+    "servings": 6, "prepMinutes": 15, "cookMinutes": 30, "rating": 3,
+    "categories": ["Lunch"],
+    "tags": ["Vegetarian", "Freezer-friendly", "Light meal"],
+    "ingredients": [
+      "1 celeriac, peeled and cubed",
+      "2 potatoes, cubed",
+      "1 leek, sliced",
+      "30 g butter",
+      "2 vegetable stock cube",
+      "100 ml cream",
+      "1 pinch nutmeg",
+      "1 bunch fresh chives, snipped",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Soften the leek in butter. Add celeriac, potato, stock cubes and 1.2 litres water and simmer 25 minutes.",
+      "Blend smooth, add cream and nutmeg and season. Garnish with chives."
+    ]
+  }
+]

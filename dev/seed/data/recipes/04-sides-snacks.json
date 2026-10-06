@@ -1,0 +1,241 @@
+[
+  {
+    "name": "Homemade Belgian Fries",
+    "description": "Frieten the Belgian way: fried twice for a fluffy inside and crisp outside.",
+    "servings": 4, "prepMinutes": 20, "cookMinutes": 20, "rating": 5,
+    "categories": ["Side"],
+    "tags": ["Potatoes", "Vegetarian", "Weekend", "Comfort food"],
+    "ingredients": [
+      "1.2 kg potatoes",
+      "2 l sunflower oil",
+      "salt",
+      "mayonnaise"
+    ],
+    "steps": [
+      "Peel the potatoes and cut into 1 cm sticks. Rinse and dry thoroughly.",
+      "Pre-fry in batches at 150 °C for 6 minutes until soft but pale. Drain and cool at least 15 minutes.",
+      "Fry again at 180 °C for 2 to 3 minutes until golden and crisp. Salt and serve with mayonnaise."
+    ]
+  },
+  {
+    "name": "Creamy Mashed Potatoes",
+    "description": "Smooth potato purée with butter, milk and nutmeg.",
+    "servings": 4, "prepMinutes": 10, "cookMinutes": 20, "rating": 4,
+    "categories": ["Side"],
+    "tags": ["Potatoes", "Vegetarian", "Comfort food"],
+    "ingredients": [
+      "1 kg potatoes, peeled",
+      "200 ml milk",
+      "50 g butter",
+      "1 pinch nutmeg",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Boil the potatoes in salted water until tender, 20 minutes.",
+      "Drain and dry briefly over the heat.",
+      "Mash with warm milk and butter until smooth. Season with nutmeg, salt and pepper."
+    ]
+  },
+  {
+    "name": "Gratin Dauphinois",
+    "description": "Thinly sliced potatoes baked slowly in garlicky cream.",
+    "servings": 6, "prepMinutes": 20, "cookMinutes": 75, "rating": 5,
+    "categories": ["Side"],
+    "tags": ["Potatoes", "Vegetarian", "Weekend", "Comfort food"],
+    "ingredients": [
+      "1.2 kg waxy potatoes, thinly sliced",
+      "400 ml cream",
+      "200 ml milk",
+      "2 cloves garlic, crushed",
+      "20 g butter",
+      "1 pinch nutmeg",
+      "60 g Gruyère, grated",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Heat the cream and milk with garlic, nutmeg, salt and pepper.",
+      "Layer the potatoes in a buttered dish and pour over the cream.",
+      "Sprinkle with cheese and bake at 160 °C for 75 minutes until tender and golden."
+    ]
+  },
+  {
+    "name": "Coleslaw",
+    "description": "Crunchy cabbage and carrot slaw with a light yoghurt-mayonnaise dressing.",
+    "servings": 6, "prepMinutes": 15, "cookMinutes": 0, "rating": 3,
+    "categories": ["Side"],
+    "tags": ["Vegetarian", "Quick", "Light meal"],
+    "ingredients": [
+      "1/2 white cabbage, finely shredded",
+      "2 carrots, grated",
+      "1 red onion, thinly sliced",
+      "3 tbsp mayonnaise",
+      "3 tbsp plain yoghurt",
+      "1 tbsp white wine vinegar",
+      "1 tsp Dijon mustard",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Mix mayonnaise, yoghurt, vinegar and mustard and season.",
+      "Toss with the cabbage, carrot and onion. Rest 15 minutes before serving."
+    ]
+  },
+  {
+    "name": "Green Salad with Vinaigrette",
+    "description": "Simple lettuce, lamb's lettuce and cucumber salad with a mustard vinaigrette.",
+    "servings": 4, "prepMinutes": 10, "cookMinutes": 0, "rating": 3,
+    "categories": ["Side"],
+    "tags": ["Vegetarian", "Quick", "Light meal"],
+    "ingredients": [
+      "1 lettuce",
+      "100 g lamb's lettuce",
+      "1/2 cucumber, sliced",
+      "1 shallot, finely chopped",
+      "1 tsp Dijon mustard",
+      "1 tbsp white wine vinegar",
+      "3 tbsp olive oil",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Whisk mustard, vinegar, shallot, salt and pepper, then whisk in the oil.",
+      "Toss with the leaves and cucumber just before serving."
+    ]
+  },
+  {
+    "name": "Hummus with Vegetable Sticks",
+    "description": "Smooth homemade hummus with carrot, cucumber and pepper sticks.",
+    "servings": 6, "prepMinutes": 15, "cookMinutes": 0, "rating": 4,
+    "categories": ["Snack"],
+    "tags": ["Vegetarian", "Legumes", "Quick", "Light meal"],
+    "ingredients": [
+      "2 cans chickpeas, drained",
+      "3 tbsp tahini",
+      "1 lemon",
+      "1 clove garlic",
+      "4 tbsp olive oil",
+      "1 tsp ground cumin",
+      "1 pinch smoked paprika",
+      "3 carrots, in sticks",
+      "1 cucumber, in sticks",
+      "1 red bell pepper, in strips",
+      "salt"
+    ],
+    "steps": [
+      "Blend the chickpeas with tahini, lemon juice, garlic, cumin, 3 tbsp oil and 4 tbsp ice-cold water until very smooth. Season.",
+      "Spread in a bowl, drizzle with the remaining oil and dust with paprika.",
+      "Serve with the vegetable sticks."
+    ]
+  },
+  {
+    "name": "Guacamole with Tortilla Chips",
+    "description": "Chunky guacamole with lime, tomato, red onion and coriander.",
+    "servings": 4, "prepMinutes": 10, "cookMinutes": 0, "rating": 4,
+    "categories": ["Snack"],
+    "tags": ["Vegetarian", "Quick"],
+    "ingredients": [
+      "3 avocados",
+      "1 lime",
+      "1 tomato, finely diced",
+      "1/2 red onion, finely chopped",
+      "1/2 red chilli, finely chopped",
+      "1 handful fresh coriander, chopped",
+      "200 g tortilla chips",
+      "salt"
+    ],
+    "steps": [
+      "Mash the avocados with lime juice and salt, leaving some texture.",
+      "Fold in tomato, onion, chilli and coriander.",
+      "Serve straight away with tortilla chips."
+    ]
+  },
+  {
+    "name": "Banana Bread",
+    "description": "Moist loaf made with very ripe bananas and walnuts. Keeps for days.",
+    "servings": 10, "prepMinutes": 15, "cookMinutes": 60, "rating": 5,
+    "categories": ["Snack", "Breakfast"],
+    "tags": ["Vegetarian", "Freezer-friendly", "Weekend"],
+    "ingredients": [
+      "3 bananas, very ripe",
+      "250 g self-raising flour",
+      "100 g brown sugar",
+      "100 g butter, melted",
+      "2 eggs",
+      "1 tsp cinnamon",
+      "1 tsp baking powder",
+      "60 g walnuts, chopped",
+      "1 pinch salt"
+    ],
+    "steps": [
+      "Mash the bananas and whisk in melted butter, sugar and eggs.",
+      "Fold in flour, baking powder, cinnamon, salt and walnuts.",
+      "Pour into a lined loaf tin and bake at 175 °C for 55 to 60 minutes. Cool before slicing."
+    ]
+  },
+  {
+    "name": "Chocolate Mousse",
+    "description": "Airy dark chocolate mousse, the Belgian bistro dessert.",
+    "servings": 6, "prepMinutes": 20, "cookMinutes": 0, "rating": 5,
+    "categories": ["Snack"],
+    "tags": ["Vegetarian", "Weekend"],
+    "ingredients": [
+      "200 g dark chocolate",
+      "6 eggs, separated",
+      "40 g butter",
+      "40 g caster sugar",
+      "1 pinch salt"
+    ],
+    "steps": [
+      "Melt the chocolate with the butter and let it cool slightly. Stir in the egg yolks one by one.",
+      "Whisk the egg whites with salt to soft peaks, then add the sugar and whisk until glossy.",
+      "Fold the whites into the chocolate in three parts. Chill for at least 4 hours."
+    ]
+  },
+  {
+    "name": "Apple Crumble",
+    "description": "Warm cinnamon apples under a buttery oat crumble.",
+    "servings": 6, "prepMinutes": 20, "cookMinutes": 35, "rating": 4,
+    "categories": ["Snack"],
+    "tags": ["Vegetarian", "Comfort food", "Weekend"],
+    "ingredients": [
+      "6 apples, peeled and cubed",
+      "1 tsp cinnamon",
+      "2 tbsp brown sugar",
+      "1 lemon",
+      "125 g plain flour",
+      "75 g rolled oats",
+      "100 g butter, cold and cubed",
+      "75 g brown sugar",
+      "Greek yoghurt"
+    ],
+    "steps": [
+      "Toss the apples with cinnamon, 2 tbsp sugar and a squeeze of lemon in an oven dish.",
+      "Rub the butter into the flour, oats and sugar until crumbly and scatter over the fruit.",
+      "Bake at 190 °C for 35 minutes. Serve warm with yoghurt."
+    ]
+  },
+  {
+    "name": "Speculoos Tiramisu",
+    "description": "Belgian twist on tiramisu with speculoos biscuits soaked in coffee.",
+    "servings": 6, "prepMinutes": 25, "cookMinutes": 0, "rating": 5,
+    "categories": ["Snack"],
+    "tags": ["Vegetarian", "Weekend"],
+    "ingredients": [
+      "250 g speculoos biscuits",
+      "250 g cream cheese",
+      "200 ml cream",
+      "3 eggs, separated",
+      "80 g caster sugar",
+      "20 g ground coffee, brewed with 250 ml water and cooled",
+      "2 tbsp cocoa powder"
+    ],
+    "steps": [
+      "Beat egg yolks with sugar until pale, then beat in the cream cheese.",
+      "Whip the cream and egg whites separately and fold both into the cheese mixture.",
+      "Dip the biscuits briefly in coffee and layer with the cream in a dish, twice.",
+      "Chill overnight and dust with cocoa before serving."
+    ]
+  }
+]

@@ -1,0 +1,1185 @@
+[
+  {
+    "name": "Spaghetti Bolognese",
+    "description": "Slow-simmered beef and tomato ragù with spaghetti. The family weeknight staple.",
+    "servings": 4, "prepMinutes": 15, "cookMinutes": 60, "rating": 5,
+    "categories": ["Dinner"],
+    "tags": ["Pasta", "Red meat", "Freezer-friendly", "Leftovers-friendly", "Comfort food"],
+    "ingredients": [
+      "500 g minced beef",
+      "400 g spaghetti",
+      "1 onion, chopped",
+      "2 carrots, finely diced",
+      "2 celery stalks, finely diced",
+      "2 cloves garlic, crushed",
+      "2 cans chopped tomatoes",
+      "2 tbsp tomato paste",
+      "1 tsp dried oregano",
+      "2 tbsp olive oil",
+      "50 g Parmesan, grated",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Soften onion, carrot, celery and garlic in olive oil for 8 minutes.",
+      "Add the mince and brown it. Stir in tomato paste, tomatoes and oregano.",
+      "Simmer gently for 45 minutes, adding a splash of water if needed. Season.",
+      "Cook the spaghetti and serve with the sauce and Parmesan."
+    ]
+  },
+  {
+    "name": "Lasagne",
+    "description": "Layers of meat sauce, béchamel and pasta, baked until bubbling.",
+    "servings": 6, "prepMinutes": 30, "cookMinutes": 90, "rating": 5,
+    "categories": ["Dinner"],
+    "tags": ["Pasta", "Red meat", "Weekend", "Freezer-friendly", "Leftovers-friendly", "Comfort food"],
+    "ingredients": [
+      "600 g mixed mince",
+      "250 g lasagne sheets",
+      "1 onion, chopped",
+      "2 cloves garlic, crushed",
+      "1 carrot, finely diced",
+      "700 ml passata",
+      "2 tbsp tomato paste",
+      "1 tsp dried oregano",
+      "50 g butter",
+      "50 g plain flour",
+      "700 ml milk",
+      "1 pinch nutmeg",
+      "150 g grated cheese",
+      "2 tbsp olive oil",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Make a meat sauce: soften onion, garlic and carrot in oil, brown the mince, add passata, tomato paste and oregano and simmer 30 minutes.",
+      "Make a béchamel with butter, flour and milk; season with nutmeg, salt and pepper.",
+      "Layer sauce, lasagne sheets and béchamel in an oven dish, three times, finishing with béchamel and cheese.",
+      "Bake at 180 °C for 40 to 45 minutes. Rest 10 minutes before cutting."
+    ]
+  },
+  {
+    "name": "Spaghetti Carbonara",
+    "description": "Roman-style carbonara with egg, Parmesan, bacon and lots of black pepper.",
+    "servings": 4, "prepMinutes": 10, "cookMinutes": 15, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Pasta", "Red meat", "Quick"],
+    "ingredients": [
+      "400 g spaghetti",
+      "200 g bacon lardons",
+      "4 eggs",
+      "80 g Parmesan, finely grated",
+      "black pepper",
+      "salt"
+    ],
+    "steps": [
+      "Cook the spaghetti in well-salted water.",
+      "Fry the bacon until crisp. Whisk the eggs with the Parmesan and plenty of pepper.",
+      "Drain the pasta, keeping a cup of cooking water. Off the heat, toss pasta with bacon, then the egg mixture, loosening with pasta water until silky."
+    ]
+  },
+  {
+    "name": "Penne Arrabbiata",
+    "description": "Fiery tomato and garlic sauce with chilli. Vegetarian and ready in 20 minutes.",
+    "servings": 4, "prepMinutes": 5, "cookMinutes": 15, "rating": 3,
+    "categories": ["Dinner"],
+    "tags": ["Pasta", "Vegetarian", "Quick"],
+    "ingredients": [
+      "400 g penne",
+      "2 cans chopped tomatoes",
+      "4 cloves garlic, sliced",
+      "1 tsp chilli flakes",
+      "3 tbsp olive oil",
+      "1 bunch fresh parsley, chopped",
+      "40 g Parmesan, grated",
+      "salt"
+    ],
+    "steps": [
+      "Gently fry garlic and chilli in olive oil without browning.",
+      "Add the tomatoes, season and simmer 10 minutes while the penne cooks.",
+      "Toss the pasta with the sauce and parsley. Serve with Parmesan."
+    ]
+  },
+  {
+    "name": "Pasta Pesto with Green Beans and Potato",
+    "description": "Ligurian-style trofie dish made with fusilli, pesto, green beans and potato.",
+    "servings": 4, "prepMinutes": 10, "cookMinutes": 15, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Pasta", "Vegetarian", "Quick"],
+    "ingredients": [
+      "400 g fusilli",
+      "250 g green beans, halved",
+      "2 waxy potatoes, small cubes",
+      "1 jar pesto",
+      "30 g pine nuts, toasted",
+      "40 g Parmesan, grated",
+      "salt"
+    ],
+    "steps": [
+      "Boil the potato cubes in salted water for 5 minutes, add the pasta, and add the beans for the last 5 minutes.",
+      "Drain, keeping a little cooking water, and toss with the pesto.",
+      "Serve with pine nuts and Parmesan."
+    ]
+  },
+  {
+    "name": "Macaroni with Ham and Cheese",
+    "description": "Belgian-style macaroni in a cheesy sauce with ham, baked under a golden crust.",
+    "servings": 4, "prepMinutes": 15, "cookMinutes": 30, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Pasta", "Red meat", "Comfort food", "Freezer-friendly"],
+    "ingredients": [
+      "400 g macaroni",
+      "200 g cooked ham, diced",
+      "50 g butter",
+      "50 g plain flour",
+      "750 ml milk",
+      "200 g grated cheese",
+      "1 pinch nutmeg",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Cook the macaroni until just al dente.",
+      "Make a béchamel with butter, flour and milk; melt in 150 g of the cheese and season with nutmeg.",
+      "Mix the pasta, ham and sauce, transfer to an oven dish, top with remaining cheese and bake at 200 °C for 15 minutes."
+    ]
+  },
+  {
+    "name": "Tagliatelle with Salmon and Spinach",
+    "description": "Creamy salmon pasta with spinach, lemon and dill.",
+    "servings": 4, "prepMinutes": 10, "cookMinutes": 15, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Pasta", "Fish", "Quick"],
+    "ingredients": [
+      "400 g tagliatelle",
+      "400 g salmon fillets, in cubes",
+      "200 g spinach",
+      "200 ml crème fraîche",
+      "1 lemon",
+      "2 cloves garlic, crushed",
+      "1 tbsp olive oil",
+      "1 bunch fresh dill, chopped",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Cook the tagliatelle.",
+      "Fry the garlic in olive oil, add the salmon and cook 3 minutes. Add the spinach until wilted.",
+      "Stir in crème fraîche, lemon zest and juice and dill. Season and toss with the pasta."
+    ]
+  },
+  {
+    "name": "Tuna Pasta Bake",
+    "description": "Penne, tuna, sweetcorn and tomato baked with cheese. Uses mostly store-cupboard ingredients.",
+    "servings": 4, "prepMinutes": 10, "cookMinutes": 30, "rating": 3,
+    "categories": ["Dinner"],
+    "tags": ["Pasta", "Fish", "Leftovers-friendly", "Comfort food"],
+    "ingredients": [
+      "350 g penne",
+      "2 cans tuna in olive oil",
+      "1 can sweetcorn",
+      "500 ml passata",
+      "1 onion, chopped",
+      "1 tsp dried oregano",
+      "150 g grated cheese",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Cook the penne for 2 minutes less than the packet says.",
+      "Soften the onion in a little oil from the tuna, add passata and oregano and simmer 5 minutes.",
+      "Mix pasta, sauce, drained tuna and sweetcorn. Top with cheese and bake at 200 °C for 20 minutes."
+    ]
+  },
+  {
+    "name": "Mushroom Risotto",
+    "description": "Creamy risotto with mushrooms, thyme and Parmesan.",
+    "servings": 4, "prepMinutes": 10, "cookMinutes": 30, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Rice", "Vegetarian", "Comfort food"],
+    "ingredients": [
+      "320 g risotto rice",
+      "400 g mushrooms, sliced",
+      "2 shallots, finely chopped",
+      "1 clove garlic, crushed",
+      "100 ml white wine",
+      "2 vegetable stock cube",
+      "40 g butter",
+      "60 g Parmesan, grated",
+      "4 sprigs fresh thyme",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Dissolve the stock cubes in 1.2 litres of hot water and keep warm.",
+      "Fry the mushrooms in half of the butter until golden; set aside.",
+      "Soften shallot and garlic, add the rice and stir 1 minute. Add the wine, then ladle in stock gradually, stirring, for 18 minutes.",
+      "Stir in the mushrooms, thyme leaves, remaining butter and Parmesan. Rest 2 minutes before serving."
+    ]
+  },
+  {
+    "name": "Thai Red Chicken Curry",
+    "description": "Fragrant coconut curry with chicken, peppers and green beans.",
+    "servings": 4, "prepMinutes": 15, "cookMinutes": 20, "rating": 5,
+    "categories": ["Dinner"],
+    "tags": ["Rice", "Poultry", "Quick", "Freezer-friendly"],
+    "ingredients": [
+      "600 g chicken thighs, in strips",
+      "3 tbsp red curry paste",
+      "1 can coconut milk",
+      "1 red bell pepper, in strips",
+      "200 g green beans, halved",
+      "2 tbsp fish sauce",
+      "1 tbsp brown sugar",
+      "1 lime",
+      "1 bunch fresh coriander",
+      "300 g jasmine rice",
+      "1 tbsp sunflower oil"
+    ],
+    "steps": [
+      "Cook the rice.",
+      "Fry the curry paste in oil for 1 minute, add the chicken and stir-fry 3 minutes.",
+      "Add coconut milk, pepper and beans and simmer 10 minutes. Season with fish sauce, sugar and lime juice.",
+      "Serve with rice and coriander."
+    ]
+  },
+  {
+    "name": "Butter Chicken",
+    "description": "Mild, creamy tomato curry with marinated chicken. A crowd pleaser for kids.",
+    "servings": 4, "prepMinutes": 20, "cookMinutes": 30, "rating": 5,
+    "categories": ["Dinner"],
+    "tags": ["Rice", "Poultry", "Freezer-friendly", "Comfort food"],
+    "ingredients": [
+      "700 g chicken thighs, in chunks",
+      "150 g plain yoghurt",
+      "2 tsp garam masala",
+      "1 tsp turmeric",
+      "1 tsp ground cumin",
+      "1 onion, chopped",
+      "3 cloves garlic, crushed",
+      "20 g ginger, grated",
+      "500 ml passata",
+      "50 g butter",
+      "150 ml cream",
+      "300 g basmati rice",
+      "1 bunch fresh coriander",
+      "salt"
+    ],
+    "steps": [
+      "Marinate the chicken in yoghurt with half the spices and salt for at least 15 minutes.",
+      "Cook the rice. Brown the chicken in half the butter; set aside.",
+      "Melt the rest of the butter, soften onion, garlic and ginger, add remaining spices and passata and simmer 10 minutes. Blend smooth.",
+      "Return the chicken, add the cream and simmer 10 minutes. Serve with rice and coriander."
+    ]
+  },
+  {
+    "name": "Chili con Carne",
+    "description": "Beef and bean chili with cumin and smoked paprika. Even better the next day.",
+    "servings": 6, "prepMinutes": 15, "cookMinutes": 60, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Rice", "Red meat", "Legumes", "Freezer-friendly", "Leftovers-friendly", "Comfort food"],
+    "ingredients": [
+      "750 g minced beef",
+      "2 onions, chopped",
+      "3 cloves garlic, crushed",
+      "2 red bell peppers, diced",
+      "2 cans chopped tomatoes",
+      "2 cans kidney beans, drained",
+      "2 tbsp tomato paste",
+      "2 tsp ground cumin",
+      "2 tsp smoked paprika",
+      "1 tsp chilli flakes",
+      "1 beef stock cube",
+      "2 tbsp olive oil",
+      "400 g basmati rice",
+      "150 g crème fraîche",
+      "salt"
+    ],
+    "steps": [
+      "Soften onion, garlic and pepper in olive oil. Add the mince and brown well.",
+      "Add the spices and tomato paste, then the tomatoes, crumbled stock cube and 200 ml water.",
+      "Simmer 45 minutes, add the beans for the last 15 minutes. Season.",
+      "Serve with rice and a spoon of crème fraîche."
+    ]
+  },
+  {
+    "name": "Chickpea and Spinach Curry",
+    "description": "Quick vegan-friendly curry of chickpeas, tomato, coconut and spinach.",
+    "servings": 4, "prepMinutes": 10, "cookMinutes": 20, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Rice", "Vegetarian", "Legumes", "Quick", "Freezer-friendly"],
+    "ingredients": [
+      "2 cans chickpeas, drained",
+      "1 can chopped tomatoes",
+      "1 can coconut milk",
+      "200 g spinach",
+      "1 onion, chopped",
+      "2 cloves garlic, crushed",
+      "20 g ginger, grated",
+      "2 tbsp curry powder",
+      "1 tbsp sunflower oil",
+      "300 g basmati rice",
+      "1 lime",
+      "salt"
+    ],
+    "steps": [
+      "Cook the rice. Soften onion, garlic and ginger in oil and add the curry powder for 1 minute.",
+      "Add the tomatoes, coconut milk and chickpeas and simmer 15 minutes.",
+      "Stir in the spinach until wilted, season with salt and lime. Serve with rice."
+    ]
+  },
+  {
+    "name": "Red Lentil Dal",
+    "description": "Comforting spiced red lentils with tomato and a garlic-cumin tarka.",
+    "servings": 4, "prepMinutes": 10, "cookMinutes": 30, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Rice", "Vegetarian", "Legumes", "Freezer-friendly", "Leftovers-friendly"],
+    "ingredients": [
+      "300 g red lentils",
+      "1 onion, chopped",
+      "3 cloves garlic, sliced",
+      "20 g ginger, grated",
+      "1 can chopped tomatoes",
+      "1 tsp turmeric",
+      "1 tsp ground cumin",
+      "1 tsp garam masala",
+      "30 g butter",
+      "300 g basmati rice",
+      "1 bunch fresh coriander",
+      "salt"
+    ],
+    "steps": [
+      "Rinse the lentils and simmer with 1 litre water, turmeric and ginger for 20 minutes until soft.",
+      "Add the tomatoes and garam masala and cook 5 minutes more. Season. Cook the rice meanwhile.",
+      "Fry onion and garlic in butter until golden, add cumin, and pour over the dal. Serve with rice and coriander."
+    ]
+  },
+  {
+    "name": "Vegetable Noodle Stir-Fry",
+    "description": "Egg noodles with crunchy vegetables in a soy-ginger sauce.",
+    "servings": 4, "prepMinutes": 15, "cookMinutes": 10, "rating": 3,
+    "categories": ["Dinner"],
+    "tags": ["Other grain", "Vegetarian", "Quick", "Light meal"],
+    "ingredients": [
+      "300 g egg noodles",
+      "1 red bell pepper, in strips",
+      "2 carrots, in matchsticks",
+      "200 g broccoli, small florets",
+      "2 pak choi, quartered",
+      "150 g bean sprouts",
+      "4 spring onions, sliced",
+      "2 cloves garlic, crushed",
+      "20 g ginger, grated",
+      "4 tbsp soy sauce",
+      "1 tbsp sesame oil",
+      "1 tbsp sunflower oil",
+      "1 tbsp sesame seeds"
+    ],
+    "steps": [
+      "Cook the noodles, drain and toss with sesame oil.",
+      "Stir-fry garlic and ginger in hot oil, add carrot, broccoli and pepper for 3 minutes, then pak choi and bean sprouts for 2 minutes.",
+      "Add the noodles and soy sauce and toss until hot. Serve with spring onion and sesame seeds."
+    ]
+  },
+  {
+    "name": "Ginger Soy Chicken with Rice",
+    "description": "Sticky chicken stir-fry with broccoli and a glossy soy-honey glaze.",
+    "servings": 4, "prepMinutes": 10, "cookMinutes": 20, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Rice", "Poultry", "Quick"],
+    "ingredients": [
+      "600 g chicken breasts, in strips",
+      "300 g broccoli, florets",
+      "300 g jasmine rice",
+      "4 tbsp soy sauce",
+      "2 tbsp honey",
+      "20 g ginger, grated",
+      "2 cloves garlic, crushed",
+      "1 tbsp cornflour",
+      "1 tbsp sunflower oil",
+      "3 spring onions, sliced",
+      "1 tbsp sesame seeds"
+    ],
+    "steps": [
+      "Cook the rice. Toss the chicken with the cornflour.",
+      "Stir-fry the chicken in hot oil until golden. Add garlic, ginger and broccoli with a splash of water and cook 4 minutes.",
+      "Add soy sauce and honey and let it bubble until glossy. Serve with rice, spring onion and sesame."
+    ]
+  },
+  {
+    "name": "Pad Thai with Prawns",
+    "description": "Rice noodles with prawns, egg, bean sprouts and peanuts in a sweet-sour sauce.",
+    "servings": 4, "prepMinutes": 20, "cookMinutes": 10, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Fish", "Other grain", "Quick"],
+    "ingredients": [
+      "250 g rice noodles",
+      "300 g prawns",
+      "2 eggs",
+      "200 g bean sprouts",
+      "4 spring onions, sliced",
+      "2 cloves garlic, crushed",
+      "3 tbsp fish sauce",
+      "2 tbsp brown sugar",
+      "2 tbsp soy sauce",
+      "2 limes",
+      "2 tbsp peanut butter",
+      "2 tbsp sunflower oil",
+      "1 bunch fresh coriander"
+    ],
+    "steps": [
+      "Soak the noodles in hot water until just soft; drain.",
+      "Whisk fish sauce, sugar, soy sauce, juice of 1 lime and peanut butter with 3 tbsp water.",
+      "Stir-fry the garlic and prawns until pink. Push aside, scramble the eggs, then add noodles and sauce and toss.",
+      "Add bean sprouts and spring onion. Serve with lime wedges and coriander."
+    ]
+  },
+  {
+    "name": "Egg Fried Rice",
+    "description": "Leftover-rice fried rice with egg, peas and spring onion. Ten minutes flat.",
+    "servings": 4, "prepMinutes": 5, "cookMinutes": 10, "rating": 3,
+    "categories": ["Dinner", "Lunch"],
+    "tags": ["Rice", "Vegetarian", "Quick", "Leftovers-friendly"],
+    "ingredients": [
+      "300 g basmati rice, cooked the day before",
+      "4 eggs",
+      "200 g frozen peas",
+      "1 carrot, finely diced",
+      "4 spring onions, sliced",
+      "2 cloves garlic, crushed",
+      "3 tbsp soy sauce",
+      "1 tsp sesame oil",
+      "2 tbsp sunflower oil"
+    ],
+    "steps": [
+      "Stir-fry the carrot and garlic in hot oil for 2 minutes. Add the peas.",
+      "Push aside, scramble the eggs, then add the cold rice and toss over high heat for 4 minutes.",
+      "Season with soy sauce and sesame oil and scatter with spring onion."
+    ]
+  },
+  {
+    "name": "Ratatouille",
+    "description": "Provençal stew of aubergine, courgette, pepper and tomato. Serve with rice, bread or as a side.",
+    "servings": 4, "prepMinutes": 20, "cookMinutes": 45, "rating": 3,
+    "categories": ["Dinner", "Side"],
+    "tags": ["Vegetarian", "Freezer-friendly", "Leftovers-friendly", "Light meal"],
+    "ingredients": [
+      "1 aubergine, cubed",
+      "2 courgettes, cubed",
+      "1 red bell pepper, cubed",
+      "1 green bell pepper, cubed",
+      "1 onion, chopped",
+      "3 cloves garlic, crushed",
+      "1 can chopped tomatoes",
+      "4 tbsp olive oil",
+      "1 tsp dried thyme",
+      "1 bunch fresh basil",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Fry the aubergine in half the oil until golden; set aside.",
+      "Soften onion, garlic and peppers in the rest of the oil, then add courgette.",
+      "Add tomatoes, thyme and aubergine and simmer covered for 30 minutes. Season and finish with basil."
+    ]
+  },
+  {
+    "name": "Roast Chicken with Root Vegetables",
+    "description": "Whole roast chicken on a bed of potatoes, carrots and onions, with lemon and thyme.",
+    "servings": 4, "prepMinutes": 20, "cookMinutes": 90, "rating": 5,
+    "categories": ["Dinner"],
+    "tags": ["Poultry", "Potatoes", "Weekend", "Leftovers-friendly"],
+    "ingredients": [
+      "1 whole chicken",
+      "1 kg potatoes, in chunks",
+      "4 carrots, in chunks",
+      "2 red onions, quartered",
+      "1 lemon",
+      "1 garlic, halved horizontally",
+      "6 sprigs fresh thyme",
+      "40 g butter, soft",
+      "3 tbsp olive oil",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Heat the oven to 200 °C. Rub the chicken with butter, salt and pepper and stuff with the halved lemon, half the garlic and thyme.",
+      "Toss the vegetables with oil, salt and remaining garlic and thyme in a roasting tin. Place the chicken on top.",
+      "Roast 1 hour 20 minutes until the juices run clear. Rest 10 minutes before carving."
+    ]
+  },
+  {
+    "name": "Chicken Fajitas",
+    "description": "Spiced chicken and peppers in warm wraps with guacamole and yoghurt.",
+    "servings": 4, "prepMinutes": 15, "cookMinutes": 15, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Bread", "Poultry", "Quick"],
+    "ingredients": [
+      "600 g chicken breasts, in strips",
+      "2 red bell peppers, in strips",
+      "1 green bell pepper, in strips",
+      "2 red onions, sliced",
+      "2 tsp smoked paprika",
+      "1 tsp ground cumin",
+      "8 tortilla wraps",
+      "2 avocados",
+      "1 lime",
+      "150 g Greek yoghurt",
+      "100 g grated cheese",
+      "2 tbsp sunflower oil",
+      "salt"
+    ],
+    "steps": [
+      "Toss the chicken with the spices, salt and half the oil.",
+      "Stir-fry the chicken in a hot pan until cooked; remove. Fry peppers and onion until charred at the edges.",
+      "Mash the avocados with lime juice and salt.",
+      "Warm the wraps and fill at the table with chicken, peppers, guacamole, yoghurt and cheese."
+    ]
+  },
+  {
+    "name": "Homemade Beef Burgers",
+    "description": "Juicy beef burgers with cheddar, lettuce, tomato and oven fries.",
+    "servings": 4, "prepMinutes": 15, "cookMinutes": 25, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Bread", "Red meat", "Weekend", "Potatoes"],
+    "ingredients": [
+      "600 g minced beef",
+      "4 burger buns",
+      "4 slices cheddar",
+      "1 lettuce",
+      "2 tomatoes, sliced",
+      "1 red onion, sliced",
+      "4 pickled gherkins, sliced",
+      "800 g frozen fries",
+      "ketchup",
+      "mayonnaise",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Bake the fries according to the packet.",
+      "Season the mince and shape four patties. Grill or pan-fry 3 to 4 minutes per side, adding cheese for the last minute.",
+      "Toast the buns and build the burgers with lettuce, tomato, onion, gherkins and sauces."
+    ]
+  },
+  {
+    "name": "Shepherd's Pie",
+    "description": "Lamb and vegetable ragù under a crust of fluffy mashed potato.",
+    "servings": 6, "prepMinutes": 25, "cookMinutes": 60, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Red meat", "Potatoes", "Freezer-friendly", "Comfort food", "Weekend"],
+    "ingredients": [
+      "800 g lamb shoulder, minced or finely diced",
+      "1 onion, chopped",
+      "2 carrots, diced",
+      "200 g frozen peas",
+      "2 tbsp tomato paste",
+      "1 tbsp Worcestershire sauce",
+      "1 beef stock cube",
+      "1 tbsp plain flour",
+      "1.2 kg potatoes",
+      "150 ml milk",
+      "50 g butter",
+      "80 g cheddar, grated",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Brown the lamb, add onion and carrot and cook 5 minutes. Stir in flour and tomato paste.",
+      "Add Worcestershire sauce, stock cube and 400 ml water and simmer 25 minutes. Add the peas.",
+      "Boil and mash the potatoes with milk and butter.",
+      "Spoon the filling into a dish, top with mash and cheese and bake at 200 °C for 25 minutes."
+    ]
+  },
+  {
+    "name": "Baked Salmon with Lemon Potatoes",
+    "description": "One-tray salmon with lemony roast potatoes and green asparagus.",
+    "servings": 4, "prepMinutes": 10, "cookMinutes": 35, "rating": 5,
+    "categories": ["Dinner"],
+    "tags": ["Fish", "Potatoes", "Light meal"],
+    "ingredients": [
+      "4 salmon fillets",
+      "800 g waxy potatoes, in wedges",
+      "400 g green asparagus",
+      "2 lemons",
+      "3 tbsp olive oil",
+      "1 bunch fresh dill",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Toss the potatoes with oil, salt and the zest of one lemon and roast at 210 °C for 20 minutes.",
+      "Add the asparagus and salmon, drizzle with oil and lay lemon slices on the fish.",
+      "Roast 12 minutes more. Finish with dill and lemon juice."
+    ]
+  },
+  {
+    "name": "Cod with Mustard Sauce and Mash",
+    "description": "Poached cod with a Flemish mustard cream sauce, mashed potatoes and spinach.",
+    "servings": 4, "prepMinutes": 15, "cookMinutes": 25, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Fish", "Potatoes", "Light meal"],
+    "ingredients": [
+      "4 cod fillets",
+      "1 kg potatoes",
+      "400 g spinach",
+      "200 ml cream",
+      "2 tbsp wholegrain mustard",
+      "1 shallot, finely chopped",
+      "30 g butter",
+      "100 ml milk",
+      "1 fish stock cube",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Boil and mash the potatoes with milk and half of the butter.",
+      "Dissolve the stock cube in 500 ml simmering water and poach the cod for 6 minutes.",
+      "Soften the shallot in butter, add cream, mustard and a ladle of poaching liquid and reduce slightly.",
+      "Wilt the spinach and serve with the cod, mash and sauce."
+    ]
+  },
+  {
+    "name": "Sea Bass with Fennel and Orange",
+    "description": "Crispy-skinned sea bass on roasted fennel with orange and olives.",
+    "servings": 2, "prepMinutes": 10, "cookMinutes": 30, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Fish", "Light meal", "Other grain"],
+    "ingredients": [
+      "2 sea bass fillets",
+      "2 fennel, thinly sliced",
+      "1 orange",
+      "50 g black olives",
+      "2 tbsp olive oil",
+      "150 g couscous",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Roast the fennel with olive oil, salt and orange zest at 200 °C for 20 minutes. Add the olives.",
+      "Prepare the couscous with boiling water and orange juice.",
+      "Fry the sea bass skin side down for 4 minutes, flip for 1 minute. Serve on the fennel with the couscous."
+    ]
+  },
+  {
+    "name": "Pork Tenderloin with Mustard Cream",
+    "description": "Seared pork tenderloin with a creamy mustard and mushroom sauce.",
+    "servings": 4, "prepMinutes": 10, "cookMinutes": 25, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Red meat", "Potatoes", "Quick"],
+    "ingredients": [
+      "600 g pork tenderloin",
+      "250 g mushrooms, sliced",
+      "1 shallot, chopped",
+      "200 ml cream",
+      "2 tbsp Dijon mustard",
+      "30 g butter",
+      "800 g waxy potatoes",
+      "300 g green beans",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Boil the potatoes and beans.",
+      "Season the tenderloin, sear on all sides in butter and roast at 180 °C for 15 minutes. Rest.",
+      "Fry the mushrooms and shallot in the same pan, add cream and mustard and simmer 3 minutes.",
+      "Slice the pork and serve with the sauce, potatoes and beans."
+    ]
+  },
+  {
+    "name": "Sausage and Vegetable Traybake",
+    "description": "Sausages roasted with sweet potato, red onion, pepper and rosemary on one tray.",
+    "servings": 4, "prepMinutes": 15, "cookMinutes": 40, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Red meat", "Potatoes", "Quick", "Comfort food"],
+    "ingredients": [
+      "8 pork sausages",
+      "2 sweet potatoes, in chunks",
+      "500 g potatoes, in chunks",
+      "2 red onions, in wedges",
+      "2 red bell peppers, in chunks",
+      "3 sprigs fresh rosemary",
+      "3 tbsp olive oil",
+      "1 tbsp wholegrain mustard",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Toss the vegetables with oil, rosemary, salt and pepper on a large tray.",
+      "Nestle in the sausages and roast at 200 °C for 40 minutes, turning halfway.",
+      "Serve with mustard."
+    ]
+  },
+  {
+    "name": "Stuffed Bell Peppers",
+    "description": "Peppers filled with spiced mince, rice and tomato, baked under cheese.",
+    "servings": 4, "prepMinutes": 20, "cookMinutes": 40, "rating": 3,
+    "categories": ["Dinner"],
+    "tags": ["Rice", "Red meat", "Freezer-friendly"],
+    "ingredients": [
+      "4 red bell peppers",
+      "400 g mixed mince",
+      "150 g basmati rice",
+      "1 onion, chopped",
+      "2 cloves garlic, crushed",
+      "500 ml passata",
+      "1 tsp paprika",
+      "1 tsp dried oregano",
+      "100 g grated cheese",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Cook the rice for 8 minutes; drain. Cut the tops off the peppers and remove seeds.",
+      "Brown the mince with onion, garlic and spices. Mix with the rice and half the passata.",
+      "Fill the peppers, stand them in a dish with the rest of the passata, top with cheese and bake at 190 °C for 35 minutes."
+    ]
+  },
+  {
+    "name": "Moroccan Chicken with Couscous",
+    "description": "Cumin and cinnamon chicken thighs with apricots, chickpeas and fluffy couscous.",
+    "servings": 4, "prepMinutes": 15, "cookMinutes": 35, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Poultry", "Legumes", "Other grain", "Freezer-friendly"],
+    "ingredients": [
+      "8 chicken thighs",
+      "1 onion, sliced",
+      "2 cloves garlic, crushed",
+      "2 tsp ground cumin",
+      "1 tsp cinnamon",
+      "1 tsp ground coriander",
+      "1 can chopped tomatoes",
+      "1 can chickpeas, drained",
+      "100 g dried apricots",
+      "1 chicken stock cube",
+      "300 g couscous",
+      "2 tbsp olive oil",
+      "1 bunch fresh coriander",
+      "salt"
+    ],
+    "steps": [
+      "Brown the chicken in olive oil; remove. Soften onion and garlic and add the spices.",
+      "Add tomatoes, chickpeas, apricots, stock cube and 300 ml water. Return the chicken and simmer covered 30 minutes.",
+      "Prepare the couscous with boiling water and a pinch of salt. Serve with coriander."
+    ]
+  },
+  {
+    "name": "Black Bean Tacos",
+    "description": "Smoky black beans and corn in soft wraps with avocado, feta and lime.",
+    "servings": 4, "prepMinutes": 15, "cookMinutes": 10, "rating": 3,
+    "categories": ["Dinner"],
+    "tags": ["Bread", "Vegetarian", "Legumes", "Quick"],
+    "ingredients": [
+      "2 cans black beans, drained",
+      "1 can sweetcorn, drained",
+      "1 red onion, finely chopped",
+      "2 tsp smoked paprika",
+      "1 tsp ground cumin",
+      "8 tortilla wraps",
+      "2 avocados, sliced",
+      "100 g feta, crumbled",
+      "2 limes",
+      "1 bunch fresh coriander",
+      "1 tbsp olive oil",
+      "salt"
+    ],
+    "steps": [
+      "Fry the onion in oil, add the spices, beans and corn and warm through, lightly crushing some of the beans.",
+      "Warm the wraps in a dry pan.",
+      "Fill with the beans, avocado, feta and coriander and squeeze over lime."
+    ]
+  },
+  {
+    "name": "Orzo with Prawns, Tomato and Feta",
+    "description": "One-pot orzo cooked in tomato with prawns, finished with feta and herbs.",
+    "servings": 4, "prepMinutes": 10, "cookMinutes": 20, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Pasta", "Fish", "Quick"],
+    "ingredients": [
+      "300 g orzo",
+      "400 g prawns",
+      "250 g cherry tomatoes, halved",
+      "500 ml passata",
+      "2 cloves garlic, crushed",
+      "1 vegetable stock cube",
+      "150 g feta",
+      "2 tbsp olive oil",
+      "1 bunch fresh parsley, chopped",
+      "1 lemon",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Fry the garlic in olive oil, add orzo, passata, cherry tomatoes, stock cube and 500 ml water.",
+      "Simmer 10 to 12 minutes, stirring, until the orzo is tender. Add the prawns for the last 3 minutes.",
+      "Crumble over the feta, add parsley and lemon zest and serve."
+    ]
+  },
+  {
+    "name": "Coconut Prawn Curry",
+    "description": "Mild Kerala-style prawn curry with coconut, tomato and lime.",
+    "servings": 4, "prepMinutes": 10, "cookMinutes": 20, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Rice", "Fish", "Quick"],
+    "ingredients": [
+      "500 g prawns",
+      "1 can coconut milk",
+      "1 can chopped tomatoes",
+      "1 onion, chopped",
+      "2 cloves garlic, crushed",
+      "20 g ginger, grated",
+      "1 red chilli, sliced",
+      "1 tsp turmeric",
+      "1 tbsp curry powder",
+      "1 tbsp sunflower oil",
+      "1 lime",
+      "300 g basmati rice",
+      "salt"
+    ],
+    "steps": [
+      "Cook the rice. Soften onion, garlic, ginger and chilli in oil and add the spices.",
+      "Add tomatoes and coconut milk and simmer 10 minutes.",
+      "Add the prawns and cook 3 minutes until pink. Season with lime and salt."
+    ]
+  },
+  {
+    "name": "Slow-Cooked Lamb Tagine",
+    "description": "Spiced lamb shoulder with prunes, almonds and couscous. Weekend project.",
+    "servings": 6, "prepMinutes": 20, "cookMinutes": 150, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Red meat", "Other grain", "Weekend", "Freezer-friendly"],
+    "ingredients": [
+      "1.2 kg lamb shoulder, in chunks",
+      "2 onions, chopped",
+      "3 cloves garlic, crushed",
+      "2 tsp ground cumin",
+      "2 tsp cinnamon",
+      "1 tsp ground coriander",
+      "1 can chopped tomatoes",
+      "150 g prunes",
+      "50 g almonds",
+      "1 tbsp honey",
+      "1 beef stock cube",
+      "2 tbsp olive oil",
+      "400 g couscous",
+      "1 bunch fresh coriander",
+      "salt"
+    ],
+    "steps": [
+      "Brown the lamb in batches in olive oil. Soften the onions and garlic and add the spices.",
+      "Return the lamb, add tomatoes, stock cube, honey and 500 ml water. Cover and cook in the oven at 160 °C for 2 hours.",
+      "Add the prunes for the last 30 minutes. Toast the almonds.",
+      "Serve with couscous, almonds and coriander."
+    ]
+  },
+  {
+    "name": "Quiche Lorraine",
+    "description": "Classic quiche with bacon, Gruyère and a silky egg custard.",
+    "servings": 6, "prepMinutes": 15, "cookMinutes": 40, "rating": 4,
+    "categories": ["Dinner", "Lunch"],
+    "tags": ["Red meat", "Leftovers-friendly", "Freezer-friendly"],
+    "ingredients": [
+      "1 sheet shortcrust pastry",
+      "200 g bacon lardons",
+      "4 eggs",
+      "200 ml cream",
+      "200 ml milk",
+      "120 g Gruyère, grated",
+      "1 pinch nutmeg",
+      "1 lettuce",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Line a tart tin with the pastry and blind-bake at 200 °C for 10 minutes.",
+      "Fry the bacon and scatter over the base with the cheese.",
+      "Whisk eggs, cream, milk, nutmeg, salt and pepper and pour in.",
+      "Bake at 180 °C for 30 minutes until just set. Serve with a green salad."
+    ]
+  },
+  {
+    "name": "Chicken and Leek Pie",
+    "description": "Creamy chicken, leek and mushroom filling under a puff pastry lid.",
+    "servings": 4, "prepMinutes": 20, "cookMinutes": 40, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Poultry", "Comfort food", "Freezer-friendly", "Weekend"],
+    "ingredients": [
+      "600 g chicken thighs, in chunks",
+      "2 leeks, sliced",
+      "200 g mushrooms, quartered",
+      "30 g butter",
+      "2 tbsp plain flour",
+      "1 chicken stock cube",
+      "150 ml crème fraîche",
+      "1 tbsp wholegrain mustard",
+      "1 sheet puff pastry",
+      "1 egg, beaten",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Brown the chicken in butter, add leeks and mushrooms and cook 5 minutes.",
+      "Stir in the flour, then 300 ml water with the stock cube. Simmer 10 minutes, add crème fraîche and mustard. Season and cool slightly.",
+      "Pour into a pie dish, cover with pastry, brush with egg and bake at 200 °C for 25 minutes."
+    ]
+  },
+  {
+    "name": "Steak with Pepper Sauce and Fries",
+    "description": "Steak-frites with a creamy peppercorn sauce and a simple salad.",
+    "servings": 2, "prepMinutes": 10, "cookMinutes": 25, "rating": 5,
+    "categories": ["Dinner"],
+    "tags": ["Red meat", "Potatoes", "Weekend"],
+    "ingredients": [
+      "2 beef steaks",
+      "500 g frozen fries",
+      "150 ml cream",
+      "1 shallot, finely chopped",
+      "2 tsp black pepper, coarsely crushed",
+      "20 g butter",
+      "1/2 beef stock cube",
+      "1 lettuce",
+      "1 tomato",
+      "salt"
+    ],
+    "steps": [
+      "Bake the fries. Bring the steaks to room temperature and season with salt.",
+      "Sear the steaks in hot butter, 2 to 3 minutes per side for medium-rare. Rest.",
+      "In the same pan soften the shallot, add pepper, crumbled stock cube and cream and reduce until thick.",
+      "Serve the steaks with sauce, fries and a lettuce-tomato salad."
+    ]
+  },
+  {
+    "name": "Chicken Satay with Peanut Sauce",
+    "description": "Marinated chicken skewers with peanut sauce, rice and cucumber salad.",
+    "servings": 4, "prepMinutes": 25, "cookMinutes": 15, "rating": 5,
+    "categories": ["Dinner"],
+    "tags": ["Rice", "Poultry"],
+    "ingredients": [
+      "600 g chicken thighs, in strips",
+      "4 tbsp soy sauce",
+      "1 tsp curry powder",
+      "1 tbsp honey",
+      "150 g peanut butter",
+      "200 ml coconut milk",
+      "1 lime",
+      "1 tsp sriracha",
+      "1 cucumber",
+      "1 tbsp white wine vinegar",
+      "300 g jasmine rice"
+    ],
+    "steps": [
+      "Marinate the chicken in 2 tbsp soy sauce, curry powder and honey for 15 minutes. Thread onto skewers.",
+      "Warm peanut butter, coconut milk, remaining soy, lime juice and sriracha into a smooth sauce.",
+      "Grill the skewers 4 minutes per side. Cook the rice.",
+      "Slice the cucumber and toss with vinegar. Serve everything together."
+    ]
+  },
+  {
+    "name": "Beef Stroganoff",
+    "description": "Strips of beef and mushrooms in a paprika-sour cream sauce over tagliatelle.",
+    "servings": 4, "prepMinutes": 15, "cookMinutes": 20, "rating": 3,
+    "categories": ["Dinner"],
+    "tags": ["Pasta", "Red meat", "Quick"],
+    "ingredients": [
+      "500 g beef steaks, in thin strips",
+      "300 g mushrooms, sliced",
+      "1 onion, sliced",
+      "1 tbsp paprika",
+      "200 ml crème fraîche",
+      "1 tbsp Dijon mustard",
+      "30 g butter",
+      "350 g tagliatelle",
+      "1 bunch fresh parsley, chopped",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Cook the pasta. Sear the beef quickly in hot butter in batches; set aside.",
+      "Fry onion and mushrooms until golden, add paprika.",
+      "Stir in crème fraîche and mustard, return the beef and warm through. Serve over the pasta with parsley."
+    ]
+  },
+  {
+    "name": "Sweet Potato and Lentil Curry",
+    "description": "Hearty vegan curry with sweet potato, green lentils and spinach.",
+    "servings": 4, "prepMinutes": 15, "cookMinutes": 30, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Rice", "Vegetarian", "Legumes", "Freezer-friendly", "Leftovers-friendly"],
+    "ingredients": [
+      "2 sweet potatoes, cubed",
+      "200 g green lentils",
+      "1 can coconut milk",
+      "1 can chopped tomatoes",
+      "100 g spinach",
+      "1 onion, chopped",
+      "2 cloves garlic, crushed",
+      "2 tbsp curry powder",
+      "1 tbsp sunflower oil",
+      "1 vegetable stock cube",
+      "300 g brown rice",
+      "salt"
+    ],
+    "steps": [
+      "Cook the brown rice.",
+      "Soften the onion and garlic in oil, add the curry powder, sweet potato and lentils.",
+      "Add coconut milk, tomatoes, stock cube and 400 ml water. Simmer 25 minutes until lentils are tender.",
+      "Stir in the spinach, season and serve."
+    ]
+  },
+  {
+    "name": "Pumpkin Pasta with Sage Butter",
+    "description": "Roasted butternut squash folded through penne with brown butter and Parmesan.",
+    "servings": 4, "prepMinutes": 15, "cookMinutes": 35, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Pasta", "Vegetarian", "Comfort food"],
+    "ingredients": [
+      "1 butternut squash, peeled and cubed",
+      "400 g penne",
+      "60 g butter",
+      "2 cloves garlic, sliced",
+      "4 sprigs fresh thyme",
+      "60 g Parmesan, grated",
+      "30 g walnuts, chopped",
+      "2 tbsp olive oil",
+      "1 pinch nutmeg",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Roast the squash with olive oil, salt and pepper at 200 °C for 30 minutes. Mash half of it.",
+      "Cook the penne. Brown the butter with garlic and thyme.",
+      "Toss the pasta with mashed and cubed squash, the butter, Parmesan and a splash of pasta water. Top with walnuts."
+    ]
+  },
+  {
+    "name": "Teriyaki Salmon Rice Bowl",
+    "description": "Glazed salmon over rice with edamame, cucumber and avocado.",
+    "servings": 4, "prepMinutes": 15, "cookMinutes": 15, "rating": 4,
+    "categories": ["Dinner", "Lunch"],
+    "tags": ["Rice", "Fish", "Quick", "Light meal"],
+    "ingredients": [
+      "4 salmon fillets",
+      "300 g jasmine rice",
+      "200 g frozen edamame",
+      "1 cucumber, sliced",
+      "2 avocados, sliced",
+      "4 tbsp soy sauce",
+      "2 tbsp honey",
+      "1 tbsp white wine vinegar",
+      "10 g ginger, grated",
+      "1 tbsp sesame seeds",
+      "3 spring onions, sliced"
+    ],
+    "steps": [
+      "Cook the rice and the edamame.",
+      "Simmer soy sauce, honey, vinegar and ginger until slightly syrupy.",
+      "Pan-fry the salmon 3 minutes per side and brush with the glaze.",
+      "Build bowls of rice, salmon, edamame, cucumber and avocado. Top with sesame and spring onion."
+    ]
+  },
+  {
+    "name": "Fish Fingers with Mashed Peas",
+    "description": "Kid-friendly dinner of baked fish fingers, minty mashed peas and potato wedges.",
+    "servings": 4, "prepMinutes": 10, "cookMinutes": 30, "rating": 3,
+    "categories": ["Dinner"],
+    "tags": ["Fish", "Potatoes", "Quick"],
+    "ingredients": [
+      "1 pack frozen fish fingers",
+      "800 g potatoes, in wedges",
+      "400 g frozen peas",
+      "20 g butter",
+      "1 handful fresh mint",
+      "2 tbsp sunflower oil",
+      "1 lemon",
+      "salt"
+    ],
+    "steps": [
+      "Toss the wedges with oil and salt and roast at 220 °C for 30 minutes.",
+      "Bake the fish fingers for the last 15 minutes.",
+      "Cook the peas, then mash with butter and mint. Serve with lemon wedges."
+    ]
+  },
+  {
+    "name": "Turkey Schnitzel with Potato Salad",
+    "description": "Crumbed turkey escalopes with a tangy mustard potato salad.",
+    "servings": 4, "prepMinutes": 20, "cookMinutes": 25, "rating": 3,
+    "categories": ["Dinner"],
+    "tags": ["Poultry", "Potatoes"],
+    "ingredients": [
+      "4 turkey breast, thin escalopes",
+      "2 eggs",
+      "50 g plain flour",
+      "100 g breadcrumbs",
+      "800 g waxy potatoes",
+      "1 red onion, finely chopped",
+      "2 tbsp wholegrain mustard",
+      "3 tbsp mayonnaise",
+      "4 pickled gherkins, diced",
+      "1 lemon",
+      "4 tbsp sunflower oil",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Boil the potatoes, slice and dress while warm with onion, mustard, mayonnaise and gherkins.",
+      "Dip the escalopes in flour, beaten egg and breadcrumbs.",
+      "Fry in hot oil 3 minutes per side until golden. Serve with lemon wedges and the potato salad."
+    ]
+  },
+  {
+    "name": "Spaghetti with Meatballs",
+    "description": "Herby beef meatballs in marinara over spaghetti.",
+    "servings": 4, "prepMinutes": 20, "cookMinutes": 35, "rating": 4,
+    "categories": ["Dinner"],
+    "tags": ["Pasta", "Red meat", "Freezer-friendly", "Comfort food"],
+    "ingredients": [
+      "500 g minced beef",
+      "1 egg",
+      "40 g breadcrumbs",
+      "40 g Parmesan, grated",
+      "400 g spaghetti",
+      "700 ml passata",
+      "2 cloves garlic, crushed",
+      "1 tsp dried oregano",
+      "2 tbsp olive oil",
+      "1 bunch fresh basil",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Mix the beef, egg, breadcrumbs, half the Parmesan and seasoning. Roll into 20 balls and brown in olive oil.",
+      "Add garlic, passata and oregano and simmer 20 minutes.",
+      "Cook the spaghetti and serve with the meatballs, basil and remaining Parmesan."
+    ]
+  },
+  {
+    "name": "Minestrone",
+    "description": "Thick Italian vegetable soup with beans and small pasta. A meal in a bowl.",
+    "servings": 6, "prepMinutes": 20, "cookMinutes": 35, "rating": 3,
+    "categories": ["Dinner", "Lunch"],
+    "tags": ["Pasta", "Vegetarian", "Legumes", "Freezer-friendly", "Leftovers-friendly"],
+    "ingredients": [
+      "1 onion, chopped",
+      "2 carrots, diced",
+      "2 celery stalks, diced",
+      "1 courgette, diced",
+      "2 cloves garlic, crushed",
+      "1 can chopped tomatoes",
+      "1 can white beans, drained",
+      "100 g orzo",
+      "1/4 savoy cabbage, shredded",
+      "2 vegetable stock cube",
+      "2 tbsp olive oil",
+      "1 jar pesto",
+      "40 g Parmesan, grated",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Soften onion, carrot, celery and garlic in olive oil.",
+      "Add tomatoes, stock cubes and 1.5 litres water. Simmer 15 minutes.",
+      "Add courgette, cabbage, beans and pasta and cook 10 minutes more.",
+      "Season and serve with a spoon of pesto and Parmesan."
+    ]
+  }
+]
