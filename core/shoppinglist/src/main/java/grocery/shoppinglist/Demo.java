@@ -114,7 +114,7 @@ public final class Demo {
     }
 
     private static String line(RequiredItem i) {
-        String amount = i.quantity() == null ? "" : fmt(i.quantity()) + (i.unitName() == null ? " " : " " + i.unitName() + " ");
+        String amount = i.amountText().isEmpty() ? "" : i.amountText() + " ";
         return "%-34s %-16s %s".formatted(amount + i.foodName(), i.labelName(), String.join(", ", i.recipes()));
     }
 

@@ -1,5 +1,6 @@
 package grocery.shoppinglist;
 
+import grocery.contracts.Amounts;
 import grocery.contracts.NoteItem;
 import grocery.contracts.Problem;
 import grocery.contracts.ProblemType;
@@ -16,7 +17,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Spec §4.3.1: recipe ingredients → scale → aggregate per Food → purchase policy → AUTO items,
+ * Spec §4.3.1: recipe ingredients → scale → aggregate per Food (one item each) → purchase policy → AUTO items,
  * CHECK questions and STOCKED items assumed in stock. Pure: no Mealie calls.
  */
 public final class RequirementsBuilder {
@@ -29,19 +30,28 @@ public final class RequirementsBuilder {
         this.policies = new PolicyResolver(settings);
     }
 
-    /** One food in one unit dimension, accumulated in the unit it was first seen with. */
+    /** One food, accumulated per unit dimension in the unit each dimension was first seen with. */
     private static final class Line {
         final Ingredient first;
-        final Units.Measure measure;
         final PurchasePolicy policy;
         final Set<String> recipes = new LinkedHashSet<>();
-        double amount;
-        boolean hasQuantity;
+        final Map<String, Part> parts = new LinkedHashMap<>();
 
         Line(Ingredient first, PurchasePolicy policy) {
             this.first = first;
-            this.measure = Units.measure(first.unitName());
             this.policy = policy;
+        }
+    }
+
+    private static final class Part {
+        final Ingredient first;
+        final Units.Measure measure;
+        double amount;
+        boolean hasQuantity;
+
+        Part(Ingredient first) {
+            this.first = first;
+            this.measure = Units.measure(first.unitName());
         }
     }
 
@@ -66,12 +76,12 @@ public final class RequirementsBuilder {
                     continue;
                 }
                 Units.Measure measure = Units.measure(ingredient.unitName());
-                Line line = lines.computeIfAbsent(ingredient.foodId() + "|" + measure.dimension(),
-                        k -> new Line(ingredient, policies.resolve(ingredient)));
+                Line line = lines.computeIfAbsent(ingredient.foodId(), k -> new Line(ingredient, policies.resolve(ingredient)));
                 line.recipes.add(recipe.name());
+                Part part = line.parts.computeIfAbsent(measure.dimension(), k -> new Part(ingredient));
                 if (ingredient.quantity() != null && ingredient.quantity() > 0) {
-                    line.amount += ingredient.quantity() * scale * measure.factor() / line.measure.factor();
-                    line.hasQuantity = true;
+                    part.amount += ingredient.quantity() * scale * measure.factor() / part.measure.factor();
+                    part.hasQuantity = true;
                 }
             }
         }
@@ -90,11 +100,34 @@ public final class RequirementsBuilder {
         return new ShoppingRequirements(runId, auto, check, stocked, notes, problems);
     }
 
+    /**
+     * One item per Food. The quantity is in the first mass unit seen, or else the first unit seen;
+     * other units are converted into it through the Food's weight per unit, and amounts that can't
+     * be converted are listed next to it ("75 g + 1 tablespoon") rather than guessed.
+     */
     private static RequiredItem toItem(Line line) {
-        Ingredient f = line.first;
-        Double quantity = line.hasQuantity ? round(line.amount, f.unitName()) : null;
+        List<Part> parts = line.parts.values().stream().filter(p -> p.hasQuantity).toList();
+        Part target = parts.stream().filter(p -> p.measure.dimension().equals("mass")).findFirst()
+                .orElse(parts.isEmpty() ? line.parts.values().iterator().next() : parts.getFirst());
+        Map<String, Double> gramsPer = line.first.gramsPer();
+        Double targetGrams = Units.grams(1, target.first.unitName(), gramsPer);
+        double amount = target.amount;
+        List<String> other = new ArrayList<>();
+        for (Part part : parts) {
+            if (part == target) {
+                continue;
+            }
+            Double grams = Units.grams(part.amount, part.first.unitName(), gramsPer);
+            if (grams != null && targetGrams != null) {
+                amount += grams / targetGrams;
+            } else {
+                other.add(Amounts.format(round(part.amount, part.first.unitName()), part.first.unitName()));
+            }
+        }
+        Ingredient f = target.first;
+        Double quantity = parts.isEmpty() ? null : round(amount, f.unitName());
         return new RequiredItem(f.foodId(), f.foodName(), f.labelId(), f.labelName(), line.policy, quantity,
-                f.unitId(), f.unitName(), List.copyOf(line.recipes));
+                f.unitId(), f.unitName(), other, List.copyOf(line.recipes));
     }
 
     /** Whole pieces for countable units (1.5 onions → 2); two decimals for mass and volume. */

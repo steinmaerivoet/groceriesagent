@@ -205,6 +205,11 @@ The seeder therefore stores the spec §3.3 namespace as a JSON-encoded string:
 "extras": { "groceries": "{\"purchasePolicy\": \"CHECK\"}" }
 ```
 
+Foods can also carry `gramsPer` (grams per unit, `piece` for "no unit", e.g.
+`{"tablespoon": 16}` for peanut butter) so the shopping list can merge "75 g" and "1 tbsp" into
+one quantity. Set it in `catalog.json` for foods the recipes use in units that don't convert
+into each other; `make check-data` lists the ones that are missing.
+
 The Grocery Core needs to `JSON.parse` / serialize the `groceries` value. Seeded recipes carry
 `"groceries": "{\"seed\": true}"`.
 

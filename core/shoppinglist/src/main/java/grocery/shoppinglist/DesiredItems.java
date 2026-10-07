@@ -28,6 +28,7 @@ public final class DesiredItems {
 
     private static DesiredItem item(RequiredItem i, String origin) {
         String key = i.foodId() + "|" + (i.unitId() == null ? "-" : i.unitId());
-        return new DesiredItem(key, i.foodId(), i.foodName(), i.labelId(), i.unitId(), i.quantity(), "", origin);
+        String note = i.otherAmounts().isEmpty() ? "" : "+ " + String.join(" + ", i.otherAmounts());
+        return new DesiredItem(key, i.foodId(), i.foodName(), i.labelId(), i.unitId(), i.quantity(), note, origin);
     }
 }
