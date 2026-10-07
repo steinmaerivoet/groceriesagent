@@ -83,7 +83,7 @@ at all.
 
 | Phase | Outcome | Status |
 | --- | --- | --- |
-| **1. MVP** | A weekly meal plan and a Mealie shopping list after a short check-in in Telegram | POCs 1–4 done in [core/](core/README.md); the agent POC and wiring into one app are next |
+| **1. MVP** | A weekly meal plan and a Mealie shopping list after a short check-in in Telegram | POCs 1–4 done in [core/](core/README.md), and a first agent POC answers recipe questions in Telegram; wiring into one app is next |
 | 2. Routines | Recurring products suggested; learned habits and the season shape the plan | Not started |
 | 3. Albert Heijn | Prices and promotions in the plan; the list becomes an AH order after approval | Not started |
 | 4. Multi-retailer | Split the basket over AH and Colruyt when it is clearly worth it | Not started |

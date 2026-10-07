@@ -55,6 +55,31 @@ public class MealieClient {
         return getAll("/api/recipes", queryFilter);
     }
 
+    /**
+     * One page of recipes for a free-text search (name, description, ingredients) and/or tags,
+     * as Mealie's search box does. Tags are ids; a recipe must carry all of them.
+     */
+    public List<JsonNode> searchRecipes(String search, List<String> tagIds, int limit) {
+        StringBuilder path = new StringBuilder("/api/recipes?page=1&perPage=").append(limit)
+                .append("&orderBy=rating&orderDirection=desc&requireAllTags=true");
+        if (search != null && !search.isBlank()) {
+            path.append("&search=").append(URLEncoder.encode(search, StandardCharsets.UTF_8));
+        }
+        tagIds.forEach(id -> path.append("&tags=").append(URLEncoder.encode(id, StandardCharsets.UTF_8)));
+        List<JsonNode> items = new ArrayList<>();
+        get(path.toString()).path("items").forEach(items::add);
+        return items;
+    }
+
+    public List<JsonNode> tags() {
+        return getAll("/api/organizers/tags", null);
+    }
+
+    /** The household's group, whose slug is part of recipe URLs in the UI. */
+    public JsonNode group() {
+        return get("/api/groups/self");
+    }
+
     /** The full recipe, including parsed ingredients. */
     public JsonNode recipe(String slugOrId) {
         return get("/api/recipes/" + slugOrId);
