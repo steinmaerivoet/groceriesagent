@@ -1,0 +1,31 @@
+# Every setting comes from an environment variable, falling back to the repository's .env
+# (environment variables win). See core/README.md, "POC 5".
+spring:
+  config:
+    import: optional:file:.env[.properties]
+  main:
+    web-application-type: none
+    banner-mode: off
+    log-startup-info: false
+  ai:
+    model:
+      chat: bedrock-converse
+    bedrock:
+      aws:
+        region: ${AWS_REGION:eu-central-1}
+        # Empty keys and profile fall back to the AWS default credentials chain (~/.aws, SSO, …).
+        access-key: ${AWS_ACCESS_KEY_ID:}
+        secret-key: ${AWS_SECRET_ACCESS_KEY:}
+        session-token: ${AWS_SESSION_TOKEN:}
+        profile:
+          name: ${AWS_PROFILE:}
+      converse:
+        chat:
+          options:
+            model: ${BEDROCK_MODEL_ID:eu.anthropic.claude-opus-5-5}
+            max-tokens: ${BEDROCK_MAX_TOKENS:4096}
+
+logging:
+  level:
+    root: warn
+    grocery: info

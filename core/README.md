@@ -12,6 +12,7 @@ step later replaces those files with direct calls.
 | `planning` | 2 | Does a greedy + local-improvement planner produce acceptable weeks? | a snapshot file |
 | `shoppinglist` | 3 | Can a week of recipes become a correct Mealie list that survives re-runs and manual edits? | Mealie |
 | `chat` | 4 | Can a Telegram group handle the proposal, a shared checklist and safe button presses? | nothing (console) or a bot token |
+| `agent` | 5 | Can a Spring AI agent on Amazon Bedrock answer free-text questions in the group from Mealie, e.g. *geef mij een recept met vis*? | Mealie, AWS Bedrock, optionally a bot token |
 
 ## Running
 
@@ -36,6 +37,10 @@ Start Mealie first from the repository root (`make setup`). Then, from `core/`:
 # POC 4: chat
 ./gradlew -q --console=plain :chat:run --args=console           # the Appendix A.1 conversation in your terminal
 ./gradlew -q :chat:run                                          # the same in your Telegram test group
+
+# POC 5: free-text agent (Spring AI + Bedrock + Mealie)
+./gradlew -q --console=plain :agent:run --args=console          # ask questions in your terminal
+./gradlew -q :agent:run                                         # the bot answers in your Telegram group
 ```
 
 Demos run from the repository root, so paths like `fixtures/…` are relative to it.
@@ -49,6 +54,35 @@ Demos run from the repository root, so paths like `fixtures/…` are relative to
 3. Fill in `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` and `TELEGRAM_ALLOWED_USER_IDS` in `.env`.
 4. `./gradlew -q :chat:run`. Press buttons from two phones, double-tap, press an old message,
    send `/plan` to post a fresh proposal (the older buttons then become outdated).
+
+### Trying the agent (POC 5)
+
+The agent is a Spring Boot app (`agent/`). Spring AI runs the LLM loop on Amazon Bedrock's
+Converse API and calls three read-only tools over Mealie: `listRecipeTags`, `searchRecipes`
+(free text and tags) and `getRecipe`. In Telegram it answers messages that mention the bot or
+reply to it, from allowlisted members only; `/help` is answered without an LLM call. Each chat
+keeps its last 20 messages in memory, so follow-up questions work until the app restarts.
+
+It reads these settings from the environment, falling back to `.env` (the environment wins):
+
+| Variable | Needed | Meaning |
+| --- | --- | --- |
+| `MEALIE_API_TOKEN`, `MEALIE_URL` | yes | as for POC 1 (`make setup` fills in the token) |
+| `AWS_REGION` | yes | region with Bedrock model access; default `eu-central-1` |
+| `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY` (`AWS_SESSION_TOKEN`) or `AWS_PROFILE` | yes | credentials allowed to call `bedrock:InvokeModel` / `bedrock:Converse`. Leave all empty to use the AWS default chain (`~/.aws`, SSO, …). |
+| `BEDROCK_MODEL_ID` | no | model or inference profile id; default `eu.anthropic.claude-opus-5-5`. Copy the exact id from the Bedrock console (Model catalog or Cross-region inference) for your region. |
+| `BEDROCK_MAX_TOKENS` | no | answer length limit; default 4096 |
+| `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `TELEGRAM_ALLOWED_USER_IDS` | for Telegram | as for POC 4; without a token the agent starts in console mode |
+
+In the AWS account, enable access to the model in the Bedrock console first; the IAM user or
+role needs `bedrock:InvokeModel` on that model or inference profile. Then:
+
+1. `make setup` (Mealie with the seeded recipes), fill in the variables above.
+2. `./gradlew -q --console=plain :agent:run --args=console` and ask *geef mij een recept met vis*.
+3. `./gradlew -q :agent:run` and ask the same in the group: `@boodschappen_buddy_bot geef mij een recept met vis`.
+
+The tests run the real Spring AI tool loop against a scripted stand-in for Bedrock and a fake
+Mealie, so `./gradlew build` needs neither AWS nor Mealie.
 
 ## What the POCs found
 
