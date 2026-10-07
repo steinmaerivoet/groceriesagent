@@ -213,6 +213,7 @@ Grocery Core **SHALL NOT** create an alternative source of truth for, or persist
 | Extras key (under `groceries`)            | On                 | Purpose                    |
 | ----------------------------------------- | ------------------ | -------------------------- |
 | `purchasePolicy`                          | Food               | Policy override (§4.2.2)   |
+| `gramsPer`                                | Food               | Weight per unit (§4.3.1)   |
 | `managed`, `planningRunId`, `origin`      | Shopping-list item | Managed items (§4.3.3)     |
 | `stockUpAllowed`                          | Food               | NTH-05 only                |
 
@@ -392,7 +393,7 @@ Adding products without asking (`AUTO_ADD`) is NTH-06; promotion-driven stock-up
 After meal-plan confirmation: recipe ingredients → scale → aggregate → apply purchase policy → `AUTO` items, `CHECK` questions and `PREDICT` suggestions [P2].
 
 - **Scaling.** Quantities **SHALL** be scaled by `householdServings / recipeServings`. Without a servings value, quantities are used unscaled and the recipe is reported as `RECIPE_CLASSIFICATION_REQUIRED`.
-- **Aggregation.** Requirements for the same Food **SHALL** be summed when units are identical or convertible within a dimension (mass, volume, count), e.g. broccoli 200 g + 350 g → 550 g. Incompatible units remain separate lines.
+- **Aggregation.** Each Food **SHALL** yield one line. Requirements are summed when units are identical or convertible within a dimension (mass, volume), e.g. broccoli 200 g + 350 g → 550 g. Across dimensions, the Food's weight per unit (`gramsPer`, e.g. `{"tablespoon": 16}` for peanut butter, `piece` for "no unit") converts amounts into the line's unit: the first mass unit seen, else the first unit seen; peanut butter 75 g + 1 tbsp → 91 g. A weight for one volume unit covers all volume units. Amounts that cannot be converted are never guessed: they stay on the same line, e.g. "75 g + 1 tbsp".
 - **Unparsed ingredients.** An ingredient without a Food **SHALL** be added as a managed note item with its original text and reported once as `UNPARSED_INGREDIENT`.
 
 #### 4.3.2 List semantics

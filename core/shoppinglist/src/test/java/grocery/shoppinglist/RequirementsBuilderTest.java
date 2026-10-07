@@ -7,6 +7,8 @@ import grocery.contracts.ShoppingRequirements;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -15,12 +17,12 @@ class RequirementsBuilderTest {
     private final RequirementsBuilder builder = new RequirementsBuilder(ShoppingSettings.defaults());
 
     static Ingredient food(String name, String label, Double quantity, String unit) {
-        return new Ingredient("food-" + name, name, "label-" + label, label, null, quantity, unit == null ? null : "unit-" + unit, unit,
+        return new Ingredient("food-" + name, name, "label-" + label, label, null, null, quantity, unit == null ? null : "unit-" + unit, unit,
                 quantity + " " + unit + " " + name);
     }
 
     static Ingredient override(Ingredient i, PurchasePolicy policy) {
-        return new Ingredient(i.foodId(), i.foodName(), i.labelId(), i.labelName(), policy, i.quantity(), i.unitId(), i.unitName(),
+        return new Ingredient(i.foodId(), i.foodName(), i.labelId(), i.labelName(), policy, i.gramsPer(), i.quantity(), i.unitId(), i.unitName(),
                 i.originalText());
     }
 
@@ -38,13 +40,54 @@ class RequirementsBuilderTest {
         });
     }
 
+    static Ingredient weighing(Ingredient i, Map<String, Double> gramsPer) {
+        return new Ingredient(i.foodId(), i.foodName(), i.labelId(), i.labelName(), i.policyOverride(), gramsPer, i.quantity(),
+                i.unitId(), i.unitName(), i.originalText());
+    }
+
     @Test
-    void keepsIncompatibleUnitsOnSeparateLines() {
+    void convertsOtherUnitsToGramsWithTheFoodsWeightPerUnit() {
+        var curry = new Recipe("a", "Curry", 2.0, List.of(
+                weighing(food("peanut butter", "Canned & jars", 1.0, "tablespoon"), Map.of("tablespoon", 16.0)),
+                weighing(food("peanut butter", "Canned & jars", 75.0, "gram"), Map.of("tablespoon", 16.0))));
+        var stew = new Recipe("b", "Stew", 2.0, List.of(
+                weighing(food("carrot", "Vegetables", 2.0, null), Map.of("piece", 80.0)),
+                weighing(food("carrot", "Vegetables", 100.0, "gram"), Map.of("piece", 80.0))));
+
+        ShoppingRequirements r = builder.build("run", List.of(curry, stew));
+
+        assertThat(r.checkQuestions()).singleElement().satisfies(i -> {
+            assertThat(i.foodName()).isEqualTo("peanut butter");
+            assertThat(i.amountText()).isEqualTo("91 gram");
+        });
+        assertThat(r.autoItems()).singleElement().satisfies(i -> assertThat(i.amountText()).isEqualTo("260 gram"));
+    }
+
+    @Test
+    void aVolumeWeightCoversEveryVolumeUnit() {
+        var recipe = new Recipe("a", "Soup", 2.0, List.of(
+                weighing(food("crème fraîche", "Vegetables", 200.0, "millilitre"), Map.of("millilitre", 1.0)),
+                weighing(food("crème fraîche", "Vegetables", 2.0, "tablespoon"), Map.of("millilitre", 1.0))));
+
+        assertThat(builder.build("run", List.of(recipe)).autoItems()).singleElement()
+                .satisfies(i -> assertThat(i.amountText()).isEqualTo("230 millilitre"));
+    }
+
+    @Test
+    void listsAmountsItCannotConvertOnTheSameLine() {
         var recipe = new Recipe("a", "Curry", 2.0, List.of(
                 food("peanut butter", "Canned & jars", 1.0, "tablespoon"),
                 food("peanut butter", "Canned & jars", 75.0, "gram")));
 
-        assertThat(builder.build("run", List.of(recipe)).checkQuestions()).hasSize(2);
+        ShoppingRequirements r = builder.build("run", List.of(recipe));
+
+        assertThat(r.checkQuestions()).singleElement().satisfies(i -> {
+            assertThat(i.quantity()).isEqualTo(75.0);
+            assertThat(i.otherAmounts()).containsExactly("1 tablespoon");
+            assertThat(i.amountText()).isEqualTo("75 gram + 1 tablespoon");
+        });
+        assertThat(DesiredItems.from(r, Set.of("food-peanut butter"))).singleElement()
+                .satisfies(d -> assertThat(d.note()).isEqualTo("+ 1 tablespoon"));
     }
 
     @Test
@@ -75,7 +118,7 @@ class RequirementsBuilderTest {
 
     @Test
     void unparsedIngredientsBecomeNotesAndAreReported() {
-        var unparsed = new Ingredient(null, null, null, null, null, null, null, null, "a splash of something nice");
+        var unparsed = new Ingredient(null, null, null, null, null, null, null, null, null, "a splash of something nice");
         var recipe = new Recipe("a", "Curry", 2.0, List.of(unparsed));
 
         ShoppingRequirements r = builder.build("run", List.of(recipe));

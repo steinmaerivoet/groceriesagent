@@ -151,11 +151,7 @@ public final class Demo {
     }
 
     private static String label(RequiredItem q) {
-        if (q.quantity() == null) {
-            return q.foodName();
-        }
-        String amount = q.quantity() == Math.rint(q.quantity()) ? String.valueOf(q.quantity().longValue()) : String.valueOf(q.quantity());
-        return q.foodName() + " (" + amount + (q.unitName() == null ? "" : " " + q.unitName()) + ")";
+        return q.amountText().isEmpty() ? q.foodName() : q.foodName() + " (" + q.amountText() + ")";
     }
 
     // ------------------------------------------------------------------ channels

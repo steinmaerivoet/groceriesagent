@@ -116,6 +116,28 @@ _PLACEHOLDER = re.compile(r"\{(tag|category):([^}]+)\}")
 DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 
 
+_DIMENSION = {"gram": "mass", "kilogram": "mass", "millilitre": "volume", "litre": "volume",
+              "teaspoon": "volume", "tablespoon": "volume"}
+
+
+def missing_weights(catalog: Catalog, recipes: list[dict]) -> list[str]:
+    """Foods the recipes use in units that don't convert into each other (grams and tablespoons)
+    without a `gramsPer` entry. Grocery Core can't merge those amounts into one quantity, so the
+    shopping list shows them side by side."""
+    units: dict[str, set] = {}
+    for r in recipes:
+        for line in r.get("ingredients", []):
+            i = catalog.parse_ingredient(line)
+            if i.quantity is not None:
+                units.setdefault(i.food, set()).add(i.unit or "piece")
+    weighed = {f["name"] for f in catalog.foods if "gramsPer" in f}
+    return [
+        f"{food}: used in {', '.join(sorted(u))} but has no gramsPer"
+        for food, u in sorted(units.items())
+        if len({_DIMENSION.get(unit, unit) for unit in u}) > 1 and food not in weighed
+    ]
+
+
 def validate(catalog: Catalog, recipes: list[dict], rules: list[dict], history: list[dict]) -> list[str]:
     errors = []
     for i, rule in enumerate(rules, 1):
@@ -231,6 +253,8 @@ def food_extras(food: dict) -> dict:
         overrides["purchasePolicy"] = food["policy"]
     if "stockUpAllowed" in food:
         overrides["stockUpAllowed"] = food["stockUpAllowed"]
+    if "gramsPer" in food:
+        overrides["gramsPer"] = food["gramsPer"]
     return {EXTRAS_NAMESPACE: json.dumps(overrides)} if overrides else {}
 
 
@@ -415,6 +439,8 @@ def main():
         print("Dataset is invalid:", *errors, sep="\n  ")
         sys.exit(1)
     print(f"Dataset OK: {len(recipes)} recipes, {len(catalog.foods)} foods, {len(catalog.units)} units")
+    for warning in missing_weights(catalog, recipes):
+        print(f"  warning: {warning}")
     if args.check:
         return
 

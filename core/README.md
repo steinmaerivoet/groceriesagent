@@ -78,7 +78,10 @@ second run changes nothing, a hand-edited item is left alone, and an item the ho
 is not added back. The first run asked **38 stock-check questions**, mostly salt, pepper, oil and
 spices. Pantry staples are now `STOCKED` (assumed in stock, never asked), which brings the seeded
 week to 22 questions: canned goods, pasta and rice, dairy (which Phase 2 will predict instead)
-and a few non-staple pantry items such as nuts.
+and a few non-staple pantry items such as nuts. Every food is now one line: a food's weight per
+unit (`gramsPer` in the seed catalog) converts tablespoons, slices or pieces into grams, so
+peanut butter 75 g + 1 tbsp becomes 91 g (21 questions). Without a weight the amounts stay side
+by side on one line ("75 gram + 1 tablespoon"); `make check-data` warns about such foods.
 
 **POC 4: chat.** Button handling, the shared checklist, the allowlist, outdated and simultaneous
 presses work and are covered by tests. The demo was run in console mode only: this sandbox can't

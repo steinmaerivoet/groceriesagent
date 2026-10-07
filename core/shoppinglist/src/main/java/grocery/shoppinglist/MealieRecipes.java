@@ -7,7 +7,9 @@ import grocery.contracts.PurchasePolicy;
 import grocery.mealie.MealieClient;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /** Reads planned recipes and their ingredients from Mealie. */
 public final class MealieRecipes {
@@ -32,6 +34,7 @@ public final class MealieRecipes {
                     food.path("label").isObject() ? food.path("label").path("id").asText() : null,
                     food.path("label").isObject() ? food.path("label").path("name").asText() : null,
                     policyOverride(food.path("extras")),
+                    gramsPer(food.path("extras")),
                     quantity.isNumber() && quantity.asDouble() > 0 ? quantity.asDouble() : null,
                     unit.isObject() ? unit.path("id").asText() : null,
                     unit.isObject() ? unit.path("name").asText() : null,
@@ -47,6 +50,13 @@ public final class MealieRecipes {
         JsonNode groceries = GroceriesExtra.parse(extras);
         String policy = groceries.path("purchasePolicy").asText(null);
         return policy == null ? null : PurchasePolicy.valueOf(policy);
+    }
+
+    static Map<String, Double> gramsPer(JsonNode extras) {
+        Map<String, Double> grams = new HashMap<>();
+        GroceriesExtra.parse(extras).path("gramsPer").properties()
+                .forEach(e -> grams.put(e.getKey(), e.getValue().asDouble()));
+        return grams;
     }
 
     private static String firstNonBlank(String... values) {
